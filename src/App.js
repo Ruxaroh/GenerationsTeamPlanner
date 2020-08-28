@@ -12,29 +12,44 @@ import {
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav';
+
 
 // Pages
-import teamPlanner from "./teamPlanner";
+import TeamPlanner from "./TeamPlanner";
+import Home from "./Home";
 
-// Utilities
-//import * as utils from './utilities';
+import * as common from './common';
+
+// navbar
+import NavBar from './NavBar';
 
 // Styling
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
+//Load pages with data
 
+function LoadTeamPlanner() {
+  let { game } = useParams();
+
+  return (
+    <TeamPlanner game={game} />
+  );
+}
 
 // The entire app
 const App = () => (
+  <>
+  <NavBar />
+  <div className="page_break" />
   <Container fluid>
-        <div className="content p-2 pt-4" id="content">
-          <Switch>
-            <Route exact path="/" />} />
-            <Route path="/teamPlanner/:dex" />} />
-          </Switch>
-        </div>
+  <Switch>
+    <Route exact path="/" children={<Home />} />
+    <Route path="/teamPlanner/:game" children={<LoadTeamPlanner />} />
+    <Route children={<common.ErrorPage error="Page not Found" />} />
+  </Switch>
   </Container>
-);
+  </>
+  );
 
 export default App;

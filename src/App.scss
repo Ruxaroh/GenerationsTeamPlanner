@@ -1,45 +1,55 @@
 // ---------------------------BOOTSTRAP OVERRIDES-------------------------------
 // New colours added to bootstrap CSS.  Can be used as variants of bootstrap
 // components, eg 'btn-red'.
-$theme-colors: (
-    bgGrey: #e1e6e2,
-    green: #189418,
-    orange: #b35000,
-    red: #b40000,
-    purple: #7c35ff,
-    navy: #0300bd,
-    turquoise: #0099b4,
-    primary: #404040,
-
-);
-
-
-// Type colours based on https://bulbapedia.bulbagarden.net/wiki/Category:Type_color_templates
-$type-colors: (
-    default: #68A090,
-    bug: #A8B820,
-    dark: #705848,
-    dragon: #7038F8,
-    electric: #F8D030,
-    fairy: #EE99AC,
-    fighting: #C03028,
-    fire: #F08030,
-    flying: #A890F0,
-    ghost: #705898,
-    grass: #78C850,
-    ground: #E0C068,
-    ice: #98D8D8,
-    normal: #A8A878,
-    poison: #A040A0,
-    psychic: #F85888,
-    rock: #B8A038,
-    steel: #B8B8D0,
-    water: #6890F0,
-
-);
 
 // ---------------------APP WIDE CSS-----------------------
 body {
     font-family: Content-font, Roboto, sans-serif;
     background-color: #e1e6e2;
+}
+
+.page_break{
+  margin-top: 25px;
+}
+
+.Errorbox {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.errorImage {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position:absolute;
+    left: 16%;
+    top: 50%;
+    width: 75%;
+  }
+
+.errorMessageTitle {
+    margin-top: 50%;
+    font-size: 17px;
+  }
+
+.errorMessage {
+    color: grey;
+    font-size: 17px;
+  }
+
+a {
+  text-decoration: none;
+  color: #68A090;
+}
+
+a:hover {
+  text-decoration: underline;
 }
