@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from 'react-bootstrap/navbar'
 import Nav from 'react-bootstrap/nav'
 import {Link, useHistory} from "react-router-dom";
+import ScrollContainer from 'react-indiana-drag-scroll';
 
 // Styling
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -32,38 +33,41 @@ class NavBar extends Component {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Generations Team Planner</Navbar.Brand>
-        <div className="gen_box">
-        <Nav className="mr-auto">
-        {this.gameLink("red")}
-        {this.gameLink("blue")}
-        <div className="in_gen_gap" />
-        {this.gameLink("yellow")}
-        </Nav>
-        </div>
+        {/*<Navbar.Brand href="/">Generations Team Planner</Navbar.Brand>*/}
+          <ScrollContainer style={{width:"100%"}} vertical={false}>
+            <div className="gameSelector">
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("red")}
+              {this.gameLink("blue")}
+              <div className="in_gen_gap" />
+              {this.gameLink("yellow")}
+              </Nav>
+              </div>
 
-        <div className="gen_box">
-        <Nav className="mr-auto">
-        {this.gameLink("gold")}
-        {this.gameLink("silver")}
-        <div className="in_gen_gap" />
-        {this.gameLink("crystal")}
-        </Nav>
-        </div>
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("gold")}
+              {this.gameLink("silver")}
+              <div className="in_gen_gap" />
+              {this.gameLink("crystal")}
+              </Nav>
+              </div>
 
-        <div className="gen_box">
-        <Nav className="mr-auto">
-        {this.gameLink("ruby")}
-        {this.gameLink("sapphire")}
-        <div className="in_gen_gap" />
-        {this.gameLink("emerald")}
-        <div className="in_gen_gap" />
-        {this.gameLink("firered")}
-        {this.gameLink("leafgreen")}
-        </Nav>
-        </div>
-
-      </Navbar>
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("ruby")}
+              {this.gameLink("sapphire")}
+              <div className="in_gen_gap" />
+              {this.gameLink("emerald")}
+              <div className="in_gen_gap" />
+              {this.gameLink("firered")}
+              {this.gameLink("leafgreen")}
+              </Nav>
+              </div>
+            </div>
+          </ScrollContainer>
+        </Navbar>
     </div>
   );
 }

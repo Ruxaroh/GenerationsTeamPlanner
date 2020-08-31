@@ -9,6 +9,13 @@
   margin-right: 1%;
 }
 
+.gameSelector{
+  display: flex;
+  width: 100%;
+  cursor: grab;
+  overflow: auto;
+}
+
 .GameIcon {
 background-color: white;
 }

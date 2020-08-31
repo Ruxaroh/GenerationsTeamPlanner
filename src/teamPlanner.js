@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
+import {BrowserView, MobileView} from 'react-device-detect';
 import * as shape from 'react-shapes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSchool, faMapMarkerAlt, faChalkboardTeacher, faCoins, faLaptop } from '@fortawesome/free-solid-svg-icons'
@@ -20,18 +21,56 @@ class GetTypes extends Component {
 
   render(){
   if (this.props.entry[2]){
-    return( <div className="typeDisplay">
-    <img src={`../../typeIcons/${this.props.entry[1].toLowerCase()}.png`} />
-    <img src={`../../typeIcons/${this.props.entry[2].toLowerCase()}.png`} />
-    </div>);
+    return( <div>
+      <BrowserView>
+        <div className="typeDisplayDesktop">
+          <img src={`../../typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`../../typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
+        </div>
+      </BrowserView>
+      <MobileView>
+      <div className="typeDisplayMobile">
+        <img src={`../../typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`../../typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
+      </div>
+      </MobileView>
+    </div>
+    );
   } else if(this.props.entry[1]){
-    return(<div className="typeDisplay">
-    <img src={`../../typeIcons/${this.props.entry[1].toLowerCase()}.png`} />
-    </div>);
+    return(
+      <div>
+      <BrowserView>
+        <div className="typeDisplayDesktop">
+          <img src={`../../typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+        </div>
+      </BrowserView>
+      <MobileView>
+      <div className="typeDisplayMobile">
+        <img src={`../../typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+      </div>
+      </MobileView>
+    </div>
+    );
   } else {
     return (null);
   }
 }
+}
+
+class GetImages extends Component {
+  render(){
+    return(
+    <div className="OptionImages">
+    <BrowserView>
+      <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
+      <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+    </BrowserView>
+    <MobileView>
+      <img className="SelectionChoiceImage" src={`../../pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+    </MobileView>
+    </div>
+  );
+  }
 }
 
 class DrawSelection extends Component {
@@ -45,16 +84,19 @@ class DrawSelection extends Component {
       var text = "???";
     }
       return(
-        <div className="TeamMember">
-          <div className="SelectionText">
-            {text}
-          </div>
-          <div className="OptionImages">
-            <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
-            <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${name}.png`} height="100" width="100"/>
-          </div>
+      <div className="TeamMember">
+        <BrowserView style={{width:"130px"}}>
+              <div className="SelectionText">
+                {text}
+              </div>
+              <GetImages name={name} />
+              <GetTypes entry={this.props.entry} />
+        </BrowserView>
+        <MobileView>
+            <GetImages name={name} />
             <GetTypes entry={this.props.entry} />
-        </div>
+        </MobileView>
+      </div>
       );
     }
   }
@@ -64,17 +106,31 @@ class DrawSelection extends Component {
 class DrawTeamSelection extends Component {
   render() {
     return(
-    <div className="TeamMembers">
-      <Row style={{width: "450px", display: "flex", justifyContent: "center"}}>
+      <div className="TeamMemberWrapper">
+      <BrowserView>
+      <div className="TeamMembers">
+        <Row style={{width: "450px", display: "flex", justifyContent: "center"}}>
+          <DrawSelection entry={selectedTeam[0]} />
+          <DrawSelection entry={selectedTeam[1]} />
+          <DrawSelection entry={selectedTeam[2]} />
+        </Row>
+        <Row>
+          <DrawSelection entry={selectedTeam[3]} />
+          <DrawSelection entry={selectedTeam[4]} />
+          <DrawSelection entry={selectedTeam[5]} />
+        </Row>
+      </div>
+      </BrowserView>
+      <MobileView>
+      <div className="TeamMembers" style={{justifyContent: "space-evenly", marginRight: "20px", height: "40px"}}>
         <DrawSelection entry={selectedTeam[0]} />
         <DrawSelection entry={selectedTeam[1]} />
         <DrawSelection entry={selectedTeam[2]} />
-      </Row>
-      <Row>
         <DrawSelection entry={selectedTeam[3]} />
         <DrawSelection entry={selectedTeam[4]} />
         <DrawSelection entry={selectedTeam[5]} />
-      </Row>
+      </div>
+      </MobileView>
     </div>
     );
   }
@@ -101,7 +157,7 @@ class DrawPokemonOptions extends Component {
 
   render() {
     return (
-      <div style={{transform: "translate(0px, -15px)", display: "flex", flexWrap: "wrap"}}>
+      <div className="optionsBox">
       {this.props.dex.map(entry => (
         <DrawPokemonOption key={entry.id} entry={entry}/>
       ))}
@@ -146,15 +202,14 @@ constructor(props) {
         // Set page title to the current course name
         document.title = "Pokémon " + this.state.gameData.gameName + " Team Planner";
         return(
-        <div>
-          <div className="PartyDisplay">
-            <DrawTeamSelection />
+        <div className="teamPlannerPage">
+          <DrawTeamSelection />
+          <div style={{marginLeft: "5%", marginRight: "5%"}}>
+            Avaliable Options
+            <hr style={{transform: "translate(0px, -15px)"}} />
           </div>
-          <div className="partyOptions">
-            Avaliable Options<hr style={{transform: "translate(0px, -15px)"}} />
             <DrawPokemonOptions dex={this.state.gameData.dex} />
           </div>
-        </div>
           );
         } else if (this.state.fetchError) {
           return (<common.ErrorPage error={this.state.fetchError.message} />)

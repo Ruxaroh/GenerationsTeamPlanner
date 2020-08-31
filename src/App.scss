@@ -3,9 +3,12 @@
 // components, eg 'btn-red'.
 
 // ---------------------APP WIDE CSS-----------------------
+
+
 body {
     font-family: Content-font, Roboto, sans-serif;
-    background-color: #e1e6e2;
+    //background-color: #e1e6e2;
+    background-color: #F5F5F5;
 }
 
 p {
@@ -13,10 +16,34 @@ p {
 }
 
 
-.page_break{
-  margin-top: 25px;
+.pageContainer {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  flex-flow: column;
+  max-height: 100vh;
+  height: 100vh;
 }
 
+.navWrap {
+  margin-bottom: 40px;
+  flex-basis: auto;
+}
+
+.pageWrap {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-bottom: 10px;
+}
+
+.footerWrap {
+  position: sticky;
+  flex-basis: auto;
+  flex-shrink: 0;
+  bottom: 0;
+}
+
+// ERROR PAGE ------------------------------------------------------------------
 .Errorbox {
   margin: auto;
   height: 600px;

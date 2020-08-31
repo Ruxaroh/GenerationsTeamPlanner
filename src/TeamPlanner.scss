@@ -1,28 +1,37 @@
+.teamPlannerPage {
+  font-weight: bold;
+  flex-flow: column;
+  height: 100%;
+}
 
 // PARTY DISPLAY -------------------------------------------------------------
 
-.PartyDisplay {
-  display: inline-block;
-  margin: auto;
-  width: 100%;
-}
+.TeamMemberWrapper{
+  border-bottom: solid 5px black;
+  margin-bottom: 10px;
 
+  background: #F5F5F5;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
 
 .TeamMembers {
   font-size: 20px;
   font-weight: bold;
-  flex: none;
+
+  flex-grow: 1;
   align-self: center;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.TeamMember {
+
+.TeamMember{
   flex: none;
-  width: 130px;
-  max-width: 130px;
   height: 200px;
   display: solid;
   cursor: pointer;
@@ -34,8 +43,10 @@
 
 .SelectionText {
   text-align: center;
+  transform: translateY(-10px);
+  font-size: 18px;
   z-index: 2;
-  font-size: 20px;
+  height: 1.1em;
 }
 
 .OptionImages {
@@ -52,12 +63,10 @@
 
 .SelectionChoiceImage {
   position:  absolute;
-  left: 15px;
-  top: 15px;
   z-index: 1;
 }
 
-.typeDisplay {
+.typeDisplayDesktop {
   position: absolute;
   width: 130px;
   margin-left: auto;
@@ -66,9 +75,17 @@
   margin-top: 100px;
 }
 
-.typeDisplay > img{
+.typeDisplayDesktop > img{
   margin: auto;
+  image-rendering: sharp-edges;
   margin-left: 5px;
+}
+
+.typeDisplayMobile > img{
+  position: relative;
+  top: 15px;
+  left: 6px;
+  margin: auto;
 }
 
 // PARTY OPTIONS -------------------------------------------------------------
@@ -79,16 +96,20 @@
   }
 }
 
-h {
-  font-size: 20px;
-}
+.optionsBox {
+  position: relative;
+  transform: translate(0px, -18px);
+  margin-top: auto;
+  margin-bottom: auto;
 
-.partyOptions {
-    position: fixed;
-    font-weight: bold;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+  flex: 1;
+  flex-grow:1 ;
+  flex-shrink: 1;
+  overflow-y: auto;
+
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .selectionImage {
