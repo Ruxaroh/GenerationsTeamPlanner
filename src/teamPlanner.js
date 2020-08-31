@@ -12,28 +12,69 @@ import * as common from "./common";
 
 import "./TeamPlanner.scss";
 
-var selectedTeam = [["Bulbasaur", "Grass", "Poison"],["Charmander", "Fire", null],["Squirtle", "Water", null],["Pikachu", "Electric", null],[null, null, null],[null, null, null]];
+var selectedTeam = [["Charizard", "Fire", "Flying"],["Pidgeot", "Normal", "Flying"],["Nidoking", "Poison", "Ground"],["Poliwrath", "Water", "Fighting"],["Exeggutor", "Grass", "Psychic"],["Jolteon", "Electric", null]];
+
+
+
+class GetTypes extends Component {
+
+  render(){
+  if (this.props.entry[2]){
+    return( <div className="typeDisplay">
+    <img src={`../../typeIcons/${this.props.entry[1].toLowerCase()}.png`} />
+    <img src={`../../typeIcons/${this.props.entry[2].toLowerCase()}.png`} />
+    </div>);
+  } else if(this.props.entry[1]){
+    return(<div className="typeDisplay">
+    <img src={`../../typeIcons/${this.props.entry[1].toLowerCase()}.png`} />
+    </div>);
+  } else {
+    return (null);
+  }
+}
+}
 
 class DrawSelection extends Component {
+
   render() {
     if (this.props.entry[0]){
+      var name = this.props.entry[0];
+      var text = this.props.entry[0];
+    } else  {
+      var name = "unown";
+      var text = "???";
+    }
       return(
-        <img className="TeamMemberBack" src="../pokeball_icon.png" height="130" width="130" />
-        <img className="TeamMemberImage" src={`../pokemonSprites/art/${this.props.entry[0].toLowerCase()}.png`} height="100" width="100"/>
-        {this.props.entry[0]}
+        <div className="TeamMember">
+          <div className="SelectionText">
+            {text}
+          </div>
+          <div className="OptionImages">
+            <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
+            <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${name}.png`} height="100" width="100"/>
+          </div>
+            <GetTypes entry={this.props.entry} />
+        </div>
       );
     }
-    }
   }
+
 
 
 class DrawTeamSelection extends Component {
   render() {
     return(
-    <div  className="TeamMember">
-      {selectedTeam.map(entry => (
-        <DrawSelection entry={entry} />
-      ))}
+    <div className="TeamMembers">
+      <Row style={{width: "450px", display: "flex", justifyContent: "center"}}>
+        <DrawSelection entry={selectedTeam[0]} />
+        <DrawSelection entry={selectedTeam[1]} />
+        <DrawSelection entry={selectedTeam[2]} />
+      </Row>
+      <Row>
+        <DrawSelection entry={selectedTeam[3]} />
+        <DrawSelection entry={selectedTeam[4]} />
+        <DrawSelection entry={selectedTeam[5]} />
+      </Row>
     </div>
     );
   }
@@ -49,7 +90,7 @@ class DrawPokemonOption extends Component {
     return(
       <a href={`#${this.props.entry.name.english}`}>
       <div className="selectionImage" style={CircleStyle}>
-      <img src={`../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
+      <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
       </div>
       </a>
     );
@@ -60,11 +101,11 @@ class DrawPokemonOptions extends Component {
 
   render() {
     return (
-      <Row style={{transform: "translate(0px, -15px)"}}>
+      <div style={{transform: "translate(0px, -15px)", display: "flex", flexWrap: "wrap"}}>
       {this.props.dex.map(entry => (
         <DrawPokemonOption key={entry.id} entry={entry}/>
       ))}
-      </Row>
+      </div>
     );
   }
 }
@@ -83,7 +124,7 @@ constructor(props) {
 
   componentDidMount() {
 
-    fetch(`../pokemonData/dex-${this.props.game}.json`).then(res => {
+    fetch(`../../pokemonData/dex-${this.props.game}.json`).then(res => {
       return(res.json());
         }).then(json => {
           this.setState({
@@ -96,6 +137,8 @@ constructor(props) {
             fetchError: error
           });
       });
+
+      console.log(this.props.team[0,4])
 }
 
     render() {
@@ -104,18 +147,14 @@ constructor(props) {
         document.title = "Pokémon " + this.state.gameData.gameName + " Team Planner";
         return(
         <div>
-        <h>  Pokémon {this.state.gameData.gameName} </h>
-        <div className="PartySelection"><DrawTeamSelection /></div>
-            <div style={{
-              "marginTop": "5%",
-              "marginLeft": "10%",
-              "marginRight": "10%",
-              "fontWeight": "bold",
-            }}>
-              Avaliable Options<hr style={{transform: "translate(0px, -15px)"}} />
-              <DrawPokemonOptions dex={this.state.gameData.dex} />
-            </div>
-            </div>
+          <div className="PartyDisplay">
+            <DrawTeamSelection />
+          </div>
+          <div className="partyOptions">
+            Avaliable Options<hr style={{transform: "translate(0px, -15px)"}} />
+            <DrawPokemonOptions dex={this.state.gameData.dex} />
+          </div>
+        </div>
           );
         } else if (this.state.fetchError) {
           return (<common.ErrorPage error={this.state.fetchError.message} />)

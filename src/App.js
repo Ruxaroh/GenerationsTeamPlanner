@@ -31,9 +31,15 @@ import './App.scss';
 
 function LoadTeamPlanner() {
   let { game } = useParams();
-
   return (
-    <TeamPlanner game={game} />
+    <TeamPlanner game={game} team={"000000000000000000000000"}/>
+  );
+}
+
+function LoadTeamPlannerCoded() {
+  let { game, teamCode } = useParams();
+  return (
+    <TeamPlanner game={game} team={teamCode}/>
   );
 }
 
@@ -45,6 +51,7 @@ const App = () => (
   <Container fluid>
   <Switch>
     <Route exact path="/" children={<Home />} />
+    <Route path="/teamPlanner/:game/:teamCode" children={<LoadTeamPlannerCoded />} />
     <Route path="/teamPlanner/:game" children={<LoadTeamPlanner />} />
     <Route children={<common.ErrorPage error="Page not Found" />} />
   </Switch>
