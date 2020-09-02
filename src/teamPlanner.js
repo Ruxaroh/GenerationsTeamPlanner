@@ -13,9 +13,8 @@ import * as common from "./common";
 
 import "./TeamPlanner.scss";
 
-var selectedTeam = [["Charizard", "Fire", "Flying"],["Pidgeot", "Normal", "Flying"],["Nidoking", "Poison", "Ground"],["Poliwrath", "Water", "Fighting"],["Exeggutor", "Grass", "Psychic"],["Jolteon", "Electric", null]];
-
-
+var selectedTeam = [];
+var teamIDs = [];
 
 class GetTypes extends Component {
 
@@ -138,18 +137,23 @@ class DrawTeamSelection extends Component {
 
 class DrawPokemonOption extends Component {
   render() {
-    var CircleStyle = {
-      background: common.Type2Color(this.props.entry.type[0]),
-      border: `3px solid ${common.Type2Color(this.props.entry.type[1])}`,
-    };
+    if (!( teamIDs.includes(this.props.entry.id))){
+      var CircleStyle = {
+        background: common.Type2Color(this.props.entry.type[0]),
+        border: `3px solid ${common.Type2Color(this.props.entry.type[1])}`,
+      };
 
-    return(
-      <a href={`#${this.props.entry.name.english}`}>
-      <div className="selectionImage" style={CircleStyle}>
-      <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
-      </div>
-      </a>
-    );
+      return(
+        <a href={`#${this.props.entry.name.english}`}>
+        <div className="selectionImage" style={CircleStyle}>
+        <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
+        </div>
+        </a>
+      );
+    } else {
+      (`Matched: ${this.props.entry.id} in ${teamIDs}`)
+      return(null);
+    }
   }
 }
 
@@ -172,7 +176,10 @@ class TeamPlanner extends Component {
 constructor(props) {
   super(props);
   this.state = {
+    dataLoaded: false,
     isLoaded: false,
+    teamData: {
+    },
     gameData: {
     },
   }
@@ -183,6 +190,30 @@ constructor(props) {
     fetch(`../../pokemonData/dex-${this.props.game}.json`).then(res => {
       return(res.json());
         }).then(json => {
+          var team = [parseInt(this.props.team.slice(0,4)),
+                      parseInt(this.props.team.slice(4,8)),
+                      parseInt(this.props.team.slice(8,12)),
+                      parseInt(this.props.team.slice(12,16)),
+                      parseInt(this.props.team.slice(16,20)),
+                      parseInt(this.props.team.slice(20,24))]
+          for (var code = 0; code < 6; code++){
+            for (var dex=0; dex < json.dex.length; dex++){
+              if (team[code] == json.dex[dex].id) {
+                selectedTeam.push([json.dex[dex].name.english,
+                                   json.dex[dex].type[0],
+                                   json.dex[dex].type[1]]);
+                teamIDs.push(json.dex[dex].id);
+                break;
+              }
+            }
+          }
+
+          for(var i = selectedTeam.length; i < 6; i++){
+            selectedTeam.push([null,null,null]);
+          }
+
+          (selectedTeam)
+
           this.setState({
             isLoaded: true,
             gameData: json
@@ -194,7 +225,7 @@ constructor(props) {
           });
       });
 
-      console.log(this.props.team[0,4])
+
 }
 
     render() {
@@ -203,6 +234,7 @@ constructor(props) {
         document.title = "Pokémon " + this.state.gameData.gameName + " Team Planner";
         return(
         <div className="teamPlannerPage">
+      <div className="titleText">Pokémon {this.state.gameData.gameName}</div>
           <DrawTeamSelection />
           <div style={{marginLeft: "5%", marginRight: "5%"}}>
             Avaliable Options
