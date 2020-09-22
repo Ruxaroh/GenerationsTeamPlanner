@@ -16,6 +16,22 @@ import "./TeamPlanner.scss";
 var selectedTeam = [];
 var teamIDs = [];
 
+function addPokemon(dex, id, state){
+  for (var i = 0; i < 6; i++){
+    if (selectedTeam[i][0] == null) {
+      for (var d=0; d < dex.length; d++){
+        if (id == dex[d].id) {
+          selectedTeam[i] = [dex[d].name.english, dex[d].type[0], dex[d].type[1]]
+        }
+      }
+      break;
+      state.setState({ state: this.state });
+    }
+  }
+  console.log(selectedTeam);
+  return null;
+}
+
 class GetTypes extends Component {
 
   render(){
@@ -59,13 +75,17 @@ class GetTypes extends Component {
 class GetImages extends Component {
   render(){
     return(
-    <div className="OptionImages">
-    <BrowserView>
-      <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+    <div>
+    <BrowserView className="BrowserView">
+      <div className="OptionImages">
+        <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
+        <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      </div>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`../../pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <div className="OptionImages">
+        <img className="SelectionChoiceImage" src={`../../pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      </div>
     </MobileView>
     </div>
   );
@@ -144,14 +164,11 @@ class DrawPokemonOption extends Component {
       };
 
       return(
-        <a href={`#${this.props.entry.name.english}`}>
-        <div className="selectionImage" style={CircleStyle}>
+        <div className="selectionImage" style={CircleStyle} onClick={() => addPokemon(this.props.dex, this.props.entry.id, this.props.state)}>
         <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
         </div>
-        </a>
       );
     } else {
-      (`Matched: ${this.props.entry.id} in ${teamIDs}`)
       return(null);
     }
   }
@@ -163,7 +180,7 @@ class DrawPokemonOptions extends Component {
     return (
       <div className="optionsBox">
       {this.props.dex.map(entry => (
-        <DrawPokemonOption key={entry.id} entry={entry}/>
+        <DrawPokemonOption state={this.props.state} dex={this.props.dex} key={entry.id} entry={entry}/>
       ))}
       </div>
     );
@@ -211,9 +228,6 @@ constructor(props) {
           for(var i = selectedTeam.length; i < 6; i++){
             selectedTeam.push([null,null,null]);
           }
-
-          (selectedTeam)
-
           this.setState({
             isLoaded: true,
             gameData: json
@@ -228,6 +242,10 @@ constructor(props) {
 
 }
 
+handler() {
+  this.setState(this.setState)
+}
+
     render() {
       if (this.state.isLoaded === true && (!this.state.fetchError)){
         // Set page title to the current course name
@@ -240,7 +258,7 @@ constructor(props) {
             Avaliable Options
             <hr style={{transform: "translate(0px, -15px)"}} />
           </div>
-            <DrawPokemonOptions dex={this.state.gameData.dex} />
+            <DrawPokemonOptions state={this.handler} dex={this.state.gameData.dex} />
           </div>
           );
         } else if (this.state.fetchError) {
