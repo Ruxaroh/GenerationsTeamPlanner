@@ -53,9 +53,9 @@ const App = () => (
       <div className="pageWrap">
         <Container fluid>
           <Switch>
-            <Route exact path="/" children={<Home />} />
-            <Route path="/GenerationsTeamBuilder/teamPlanner/:game/:teamCode" children={<LoadTeamPlannerCoded />} />
-            <Route path="/GenerationsTeamBuilder/teamPlanner/:game" children={<LoadTeamPlanner />} />
+            <Route exact path={process.env.PUBLIC_URL} children={<Home />} />
+            <Route path={process.env.PUBLIC_URL + "/teamPlanner/:game/:teamCode"} children={<LoadTeamPlannerCoded />} />
+            <Route path={process.env.PUBLIC_URL + "/teamPlanner/:game"} children={<LoadTeamPlanner />} />
             <Route children={<common.ErrorPage error="Page not Found" />} />
           </Switch>
         </Container>

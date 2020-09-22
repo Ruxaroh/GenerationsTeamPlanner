@@ -16,22 +16,6 @@ import "./TeamPlanner.scss";
 var selectedTeam = [];
 var teamIDs = [];
 
-function addPokemon(dex, id, state){
-  for (var i = 0; i < 6; i++){
-    if (selectedTeam[i][0] == null) {
-      for (var d=0; d < dex.length; d++){
-        if (id == dex[d].id) {
-          selectedTeam[i] = [dex[d].name.english, dex[d].type[0], dex[d].type[1]]
-        }
-      }
-      break;
-      state.setState({ state: this.state });
-    }
-  }
-  console.log(selectedTeam);
-  return null;
-}
-
 class GetTypes extends Component {
 
   render(){
@@ -39,14 +23,14 @@ class GetTypes extends Component {
     return( <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
-          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
+          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
-        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
       </div>
       </MobileView>
     </div>
@@ -56,12 +40,12 @@ class GetTypes extends Component {
       <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
       </div>
       </MobileView>
     </div>
@@ -75,17 +59,13 @@ class GetTypes extends Component {
 class GetImages extends Component {
   render(){
     return(
-    <div>
-    <BrowserView className="BrowserView">
-      <div className="OptionImages">
-        <img className="SelectionBaseImage" src="../../GenerationsTeamBuilder/pokeball_icon.png" height="130" width="130" />
-        <img className="SelectionChoiceImage" src={`../../GenerationsTeamBuilder/pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
-      </div>
+    <div className="OptionImages">
+    <BrowserView>
+      <img className="SelectionBaseImage" src={process.env.PUBLIC_URL + "/pokeball_icon.png"} height="130" width="130" />
+      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
     </BrowserView>
     <MobileView>
-      <div className="OptionImages">
-        <img className="SelectionChoiceImage" src={`../../pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
-      </div>
+      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );
@@ -162,11 +142,12 @@ class DrawPokemonOption extends Component {
         background: common.Type2Color(this.props.entry.type[0]),
         border: `3px solid ${common.Type2Color(this.props.entry.type[1])}`,
       };
-
       return(
-        <div className="selectionImage" style={CircleStyle} onClick={() => addPokemon(this.props.dex, this.props.entry.id, this.props.state)}>
-        <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
+        <a href={`#${this.props.entry.name.english}`}>
+        <div className="selectionImage" style={CircleStyle}>
+        <img src={`${process.env.PUBLIC_URL}/pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
         </div>
+        </a>
       );
     } else {
       return(null);
@@ -180,7 +161,7 @@ class DrawPokemonOptions extends Component {
     return (
       <div className="optionsBox">
       {this.props.dex.map(entry => (
-        <DrawPokemonOption state={this.props.state} dex={this.props.dex} key={entry.id} entry={entry}/>
+        <DrawPokemonOption key={entry.id} entry={entry}/>
       ))}
       </div>
     );
@@ -204,7 +185,7 @@ constructor(props) {
 
   componentDidMount() {
 
-    fetch(`../../GenerationsTeamBuilder/pokemonData/dex-${this.props.game}.json`).then(res => {
+    fetch(`${process.env.PUBLIC_URL}/pokemonData/dex-${this.props.game}.json`).then(res => {
       return(res.json());
         }).then(json => {
           var team = [parseInt(this.props.team.slice(0,4)),
@@ -224,7 +205,6 @@ constructor(props) {
               }
             }
           }
-
           for(var i = selectedTeam.length; i < 6; i++){
             selectedTeam.push([null,null,null]);
           }
@@ -242,10 +222,6 @@ constructor(props) {
 
 }
 
-handler() {
-  this.setState(this.setState)
-}
-
     render() {
       if (this.state.isLoaded === true && (!this.state.fetchError)){
         // Set page title to the current course name
@@ -258,7 +234,7 @@ handler() {
             Avaliable Options
             <hr style={{transform: "translate(0px, -15px)"}} />
           </div>
-            <DrawPokemonOptions state={this.handler} dex={this.state.gameData.dex} />
+            <DrawPokemonOptions dex={this.state.gameData.dex} />
           </div>
           );
         } else if (this.state.fetchError) {

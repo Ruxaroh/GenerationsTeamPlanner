@@ -15,9 +15,9 @@ import './NavBar.scss'
 class NavBar extends Component {
 
   gameLink(game){
-      var source = "/GenerationsTeamBuilder/gameIcons/cover-" + game + ".png";
+      var source = process.env.PUBLIC_URL +"/gameIcons/cover-" + game + ".png";
       return(
-        <a href={"/GenerationsTeamBuilder/teamPlanner/"+game}>
+        <a href={process.env.PUBLIC_URL + "/teamPlanner/"+game}>
         <img className="GameIcon" src={source} width="64px" height="64px" />
         </a>
       );
