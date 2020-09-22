@@ -62,10 +62,10 @@ class GetImages extends Component {
     <div className="OptionImages">
     <BrowserView>
       <img className="SelectionBaseImage" src={process.env.PUBLIC_URL + "/pokeball_icon.png"} height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/art/${this.props.name.toLowerCase()}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/pixel/${this.props.name.toLowerCase()}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );
