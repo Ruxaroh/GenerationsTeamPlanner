@@ -54,8 +54,8 @@ const App = () => (
         <Container fluid>
           <Switch>
             <Route exact path="/" children={<Home />} />
-            <Route path="/teamPlanner/:game/:teamCode" children={<LoadTeamPlannerCoded />} />
-            <Route path="/teamPlanner/:game" children={<LoadTeamPlanner />} />
+            <Route path="/GenerationsTeamBuilder/teamPlanner/:game/:teamCode" children={<LoadTeamPlannerCoded />} />
+            <Route path="/GenerationsTeamBuilder/teamPlanner/:game" children={<LoadTeamPlanner />} />
             <Route children={<common.ErrorPage error="Page not Found" />} />
           </Switch>
         </Container>

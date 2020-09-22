@@ -24,14 +24,14 @@ class GetTypes extends Component {
     return( <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`../../typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
-          <img src={`../../typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
+          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`../../typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
-        <img src={`../../typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
       </div>
       </MobileView>
     </div>
@@ -41,12 +41,12 @@ class GetTypes extends Component {
       <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`../../typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`../../GenerationsTeamBuilder/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`../../typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+        <img src={`../../GenerationsTeamBuilder/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
       </div>
       </MobileView>
     </div>
@@ -62,11 +62,11 @@ class GetImages extends Component {
     return(
     <div className="OptionImages">
     <BrowserView>
-      <img className="SelectionBaseImage" src="../../pokeball_icon.png" height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`../../pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      <img className="SelectionBaseImage" src="../../GenerationsTeamBuilder/pokeball_icon.png" height="130" width="130" />
+      <img className="SelectionChoiceImage" src={`../../GenerationsTeamBuilder/pokemonSprites/art/${this.props.name}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`../../pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img className="SelectionChoiceImage" src={`../../GenerationsTeamBuilder/pokemonSprites/pixel/${this.props.name}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );
@@ -146,7 +146,7 @@ class DrawPokemonOption extends Component {
     return(
       <a href={`#${this.props.entry.name.english}`}>
       <div className="selectionImage" style={CircleStyle}>
-      <img src={`../../pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
+      <img src={`../../GenerationsTeamBuilder/pokemonSprites/pixel/${this.props.entry.name.english.toLowerCase()}.png`} width="40px" height="30px" />
       </div>
       </a>
     );
@@ -180,7 +180,7 @@ constructor(props) {
 
   componentDidMount() {
 
-    fetch(`../../pokemonData/dex-${this.props.game}.json`).then(res => {
+    fetch(`../../GenerationsTeamBuilder/pokemonData/dex-${this.props.game}.json`).then(res => {
       return(res.json());
         }).then(json => {
           this.setState({
