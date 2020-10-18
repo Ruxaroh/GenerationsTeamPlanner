@@ -13,18 +13,9 @@ import './Footer.scss'
 // The navigation bar
 class Footer extends Component {
 
-  gameLink(game){
-      var source = "/gameIcons/cover-" + game + ".png";
-      return(
-        <a href={"/teamPlanner/"+game}>
-        <img className="GameIcon" src={source} width="64px" height="64px" />
-        </a>
-      );
-    }
-
-    constructor(props) {
-        super(props);
-        this.state = { content: "Initialize" }
+  constructor(props) {
+      super(props);
+      this.state = { content: "Initialize" }
 
     }
 

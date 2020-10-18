@@ -1,6 +1,7 @@
 {
   "name": "GenerationsTeamBuilder",
   "version": "0.0.4",
+  "homepage": "http://ruxaroh.github.io/GenerationsTeamPlanner",
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -11,6 +12,8 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
     "gh-pages": "^3.1.0",
+    "history": "^5.0.0",
+    "history.js": "^1.8.0",
     "node-sass": "^4.14.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
