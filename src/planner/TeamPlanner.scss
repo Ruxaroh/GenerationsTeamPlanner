@@ -106,16 +106,14 @@
 .optionsBox {
   position: relative;
   //transform: translate(0px, -18px);
+  margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
 
-  flex: 1;
-  flex-grow:1 ;
-  flex-shrink: 1;
   overflow-y: auto;
 
   display: flex;
-  align-content: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -124,6 +122,7 @@
   border-radius: 50%;
   height: 40px;
   width: 40px;
+  align-self: flex-start;
   cursor: pointer;
 }
 
@@ -138,4 +137,76 @@
 
 .selectionImage:hover > img {
   animation: AnimBob 0.5s steps(1) infinite both
+}
+
+// FILTER OPTIONS -------------------------------------------------------------
+
+.filterOption{
+  margin-top: -4px;
+  margin-right: -5px;
+
+  height: 45px;
+  width: 45px;
+
+  cursor: pointer;
+
+}
+
+.filterOption > h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.filterOption .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.filterOption:hover .tooltiptext {
+  visibility: visible;
+}
+
+.typeOptions {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.typeOption {
+  height: 30px;
+  width: 30px;
+
+  cursor: pointer;
+}
+
+.toggleType{
+  margin-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.toggleType .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.toggleType:hover .tooltiptext {
+  visibility: visible;
 }

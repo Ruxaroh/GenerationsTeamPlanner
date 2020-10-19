@@ -1,3088 +1,4083 @@
 {
-"gameName": "Blue",
-"dex":
-[
-  {
+  "gameName": "Blue",
+  "dex" :
+  [
+    {
       "id": 1,
-      "name": {
-        "english": "Bulbasaur",
-        "japanese": "フシギダネ",
-        "chinese": "妙蛙种子",
-        "french": "Bulbizarre"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 49,
-        "Defense": 49,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
-        "Speed": 45
-      }
+      "name": "Bulbasaur",
+      "japanese_name": "Fushigidaneフシギダネ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Overgrow', 'Chlorophyll']",
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 318,
+      "capture_rate": 45,
+      "classfication": "Seed Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.7,
+      "percentage_male": 88.1,
+      "weight_kg": 6.9,
+      "generation": 1
     },
     {
       "id": 2,
-      "name": {
-        "english": "Ivysaur",
-        "japanese": "フシギソウ",
-        "chinese": "妙蛙草",
-        "french": "Herbizarre"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 62,
-        "Defense": 63,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
-        "Speed": 60
-      }
+      "name": "Ivysaur",
+      "japanese_name": "Fushigisouフシギソウ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Overgrow', 'Chlorophyll']",
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "sp_attack": 80,
+      "sp_defense": 80,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 45,
+      "classfication": "Seed Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1,
+      "percentage_male": 88.1,
+      "weight_kg": 13,
+      "generation": 1
     },
     {
       "id": 3,
-      "name": {
-        "english": "Venusaur",
-        "japanese": "フシギバナ",
-        "chinese": "妙蛙花",
-        "french": "Florizarre"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 82,
-        "Defense": 83,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
-        "Speed": 80
-      }
+      "name": "Venusaur",
+      "japanese_name": "Fushigibanaフシギバナ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Overgrow', 'Chlorophyll']",
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "sp_attack": 122,
+      "sp_defense": 120,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 625,
+      "capture_rate": 45,
+      "classfication": "Seed Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 2,
+      "percentage_male": 88.1,
+      "weight_kg": 100,
+      "generation": 1
     },
     {
       "id": 4,
-      "name": {
-        "english": "Charmander",
-        "japanese": "ヒトカゲ",
-        "chinese": "小火龙",
-        "french": "Salamèche"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 39,
-        "Attack": 52,
-        "Defense": 43,
-        "Sp. Attack": 60,
-        "Sp. Defense": 50,
-        "Speed": 65
-      }
+      "name": "Charmander",
+      "japanese_name": "Hitokageヒトカゲ",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Blaze', 'Solar Power']",
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "sp_attack": 60,
+      "sp_defense": 50,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 309,
+      "capture_rate": 45,
+      "classfication": "Lizard Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.6,
+      "percentage_male": 88.1,
+      "weight_kg": 8.5,
+      "generation": 1
     },
     {
       "id": 5,
-      "name": {
-        "english": "Charmeleon",
-        "japanese": "リザード",
-        "chinese": "火恐龙",
-        "french": "Reptincel"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 58,
-        "Attack": 64,
-        "Defense": 58,
-        "Sp. Attack": 80,
-        "Sp. Defense": 65,
-        "Speed": 80
-      }
+      "name": "Charmeleon",
+      "japanese_name": "Lizardoリザード",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Blaze', 'Solar Power']",
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "sp_attack": 80,
+      "sp_defense": 65,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 45,
+      "classfication": "Flame Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.1,
+      "percentage_male": 88.1,
+      "weight_kg": 19,
+      "generation": 1
     },
     {
       "id": 6,
-      "name": {
-        "english": "Charizard",
-        "japanese": "リザードン",
-        "chinese": "喷火龙",
-        "french": "Dracaufeu"
-      },
-      "type": [
-        "Fire",
-        "Flying"
-      ],
-      "base": {
-        "HP": 78,
-        "Attack": 84,
-        "Defense": 78,
-        "Sp. Attack": 109,
-        "Sp. Defense": 85,
-        "Speed": 100
-      }
+      "name": "Charizard",
+      "japanese_name": "Lizardonリザードン",
+      "type1": "fire",
+      "type2": "flying",
+      "abilities": "['Blaze', 'Solar Power']",
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "sp_attack": 159,
+      "sp_defense": 115,
+      "speed": 100,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 634,
+      "capture_rate": 45,
+      "classfication": "Flame Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.7,
+      "percentage_male": 88.1,
+      "weight_kg": 90.5,
+      "generation": 1
     },
     {
       "id": 7,
-      "name": {
-        "english": "Squirtle",
-        "japanese": "ゼニガメ",
-        "chinese": "杰尼龟",
-        "french": "Carapuce"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 44,
-        "Attack": 48,
-        "Defense": 65,
-        "Sp. Attack": 50,
-        "Sp. Defense": 64,
-        "Speed": 43
-      }
+      "name": "Squirtle",
+      "japanese_name": "Zenigameゼニガメ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Torrent', 'Rain Dish']",
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "sp_attack": 50,
+      "sp_defense": 64,
+      "speed": 43,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 314,
+      "capture_rate": 45,
+      "classfication": "Tiny Turtle Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.5,
+      "percentage_male": 88.1,
+      "weight_kg": 9,
+      "generation": 1
     },
     {
       "id": 8,
-      "name": {
-        "english": "Wartortle",
-        "japanese": "カメール",
-        "chinese": "卡咪龟",
-        "french": "Carabaffe"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 59,
-        "Attack": 63,
-        "Defense": 80,
-        "Sp. Attack": 65,
-        "Sp. Defense": 80,
-        "Speed": 58
-      }
+      "name": "Wartortle",
+      "japanese_name": "Kameilカメール",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Torrent', 'Rain Dish']",
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "sp_attack": 65,
+      "sp_defense": 80,
+      "speed": 58,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 45,
+      "classfication": "Turtle Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1,
+      "percentage_male": 88.1,
+      "weight_kg": 22.5,
+      "generation": 1
     },
     {
       "id": 9,
-      "name": {
-        "english": "Blastoise",
-        "japanese": "カメックス",
-        "chinese": "水箭龟",
-        "french": "Tortank"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 79,
-        "Attack": 83,
-        "Defense": 100,
-        "Sp. Attack": 85,
-        "Sp. Defense": 105,
-        "Speed": 78
-      }
+      "name": "Blastoise",
+      "japanese_name": "Kamexカメックス",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Torrent', 'Rain Dish']",
+      "hp": 79,
+      "attack": 103,
+      "defense": 120,
+      "sp_attack": 135,
+      "sp_defense": 115,
+      "speed": 78,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 630,
+      "capture_rate": 45,
+      "classfication": "Shellfish Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.6,
+      "percentage_male": 88.1,
+      "weight_kg": 85.5,
+      "generation": 1
     },
     {
       "id": 10,
-      "name": {
-        "english": "Caterpie",
-        "japanese": "キャタピー",
-        "chinese": "绿毛虫",
-        "french": "Chenipan"
-      },
-      "type": [
-        "Bug"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 30,
-        "Defense": 35,
-        "Sp. Attack": 20,
-        "Sp. Defense": 20,
-        "Speed": 45
-      }
+      "name": "Caterpie",
+      "japanese_name": "Caterpieキャタピー",
+      "type1": "bug",
+      "type2": "",
+      "abilities": "['Shield Dust', 'Run Away']",
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "sp_attack": 20,
+      "sp_defense": 20,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 195,
+      "capture_rate": 255,
+      "classfication": "Worm Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 2.9,
+      "generation": 1
     },
     {
       "id": 11,
-      "name": {
-        "english": "Metapod",
-        "japanese": "トランセル",
-        "chinese": "铁甲蛹",
-        "french": "Chrysacier"
-      },
-      "type": [
-        "Bug"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 20,
-        "Defense": 55,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
-        "Speed": 30
-      }
+      "name": "Metapod",
+      "japanese_name": "Transelトランセル",
+      "type1": "bug",
+      "type2": "",
+      "abilities": "['Shed Skin']",
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "sp_attack": 25,
+      "sp_defense": 25,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 205,
+      "capture_rate": 120,
+      "classfication": "Cocoon Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.7,
+      "percentage_male": 50,
+      "weight_kg": 9.9,
+      "generation": 1
     },
     {
       "id": 12,
-      "name": {
-        "english": "Butterfree",
-        "japanese": "バタフリー",
-        "chinese": "巴大蝶",
-        "french": "Papilusion"
-      },
-      "type": [
-        "Bug",
-        "Flying"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 45,
-        "Defense": 50,
-        "Sp. Attack": 90,
-        "Sp. Defense": 80,
-        "Speed": 70
-      }
+      "name": "Butterfree",
+      "japanese_name": "Butterfreeバタフリー",
+      "type1": "bug",
+      "type2": "flying",
+      "abilities": "['Compoundeyes', 'Tinted Lens']",
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "sp_attack": 90,
+      "sp_defense": 80,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 395,
+      "capture_rate": 45,
+      "classfication": "Butterfly Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.1,
+      "percentage_male": 50,
+      "weight_kg": 32,
+      "generation": 1
     },
     {
       "id": 13,
-      "name": {
-        "english": "Weedle",
-        "japanese": "ビードル",
-        "chinese": "独角虫",
-        "french": "Aspicot"
-      },
-      "type": [
-        "Bug",
-        "Poison"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 35,
-        "Defense": 30,
-        "Sp. Attack": 20,
-        "Sp. Defense": 20,
-        "Speed": 50
-      }
+      "name": "Weedle",
+      "japanese_name": "Beedleビードル",
+      "type1": "bug",
+      "type2": "poison",
+      "abilities": "['Shield Dust', 'Run Away']",
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "sp_attack": 20,
+      "sp_defense": 20,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 195,
+      "capture_rate": 255,
+      "classfication": "Hairy Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 3.2,
+      "generation": 1
     },
     {
       "id": 14,
-      "name": {
-        "english": "Kakuna",
-        "japanese": "コクーン",
-        "chinese": "铁壳蛹",
-        "french": "Coconfort"
-      },
-      "type": [
-        "Bug",
-        "Poison"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 25,
-        "Defense": 50,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
-        "Speed": 35
-      }
+      "name": "Kakuna",
+      "japanese_name": "Cocoonコクーン",
+      "type1": "bug",
+      "type2": "poison",
+      "abilities": "['Shed Skin']",
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "sp_attack": 25,
+      "sp_defense": 25,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 205,
+      "capture_rate": 120,
+      "classfication": "Cocoon Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.6,
+      "percentage_male": 50,
+      "weight_kg": 10,
+      "generation": 1
     },
     {
       "id": 15,
-      "name": {
-        "english": "Beedrill",
-        "japanese": "スピアー",
-        "chinese": "大针蜂",
-        "french": "Dardargnan"
-      },
-      "type": [
-        "Bug",
-        "Poison"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 90,
-        "Defense": 40,
-        "Sp. Attack": 45,
-        "Sp. Defense": 80,
-        "Speed": 75
-      }
+      "name": "Beedrill",
+      "japanese_name": "Spearスピアー",
+      "type1": "bug",
+      "type2": "poison",
+      "abilities": "['Swarm', 'Sniper']",
+      "hp": 65,
+      "attack": 150,
+      "defense": 40,
+      "sp_attack": 15,
+      "sp_defense": 80,
+      "speed": 145,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 495,
+      "capture_rate": 45,
+      "classfication": "Poison Bee Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 29.5,
+      "generation": 1
     },
     {
       "id": 16,
-      "name": {
-        "english": "Pidgey",
-        "japanese": "ポッポ",
-        "chinese": "波波",
-        "french": "Roucool"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 45,
-        "Defense": 40,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
-        "Speed": 56
-      }
+      "name": "Pidgey",
+      "japanese_name": "Poppoポッポ",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Tangled Feet', 'Big Pecks']",
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "sp_attack": 35,
+      "sp_defense": 35,
+      "speed": 56,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 251,
+      "capture_rate": 255,
+      "classfication": "Tiny Bird Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 1.8,
+      "generation": 1
     },
     {
       "id": 17,
-      "name": {
-        "english": "Pidgeotto",
-        "japanese": "ピジョン",
-        "chinese": "比比鸟",
-        "french": "Roucoups"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 63,
-        "Attack": 60,
-        "Defense": 55,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
-        "Speed": 71
-      }
+      "name": "Pidgeotto",
+      "japanese_name": "Pigeonピジョン",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Tangled Feet', 'Big Pecks']",
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 71,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 349,
+      "capture_rate": 120,
+      "classfication": "Bird Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.1,
+      "percentage_male": 50,
+      "weight_kg": 30,
+      "generation": 1
     },
     {
       "id": 18,
-      "name": {
-        "english": "Pidgeot",
-        "japanese": "ピジョット",
-        "chinese": "大比鸟",
-        "french": "Roucarnage"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 83,
-        "Attack": 80,
-        "Defense": 75,
-        "Sp. Attack": 70,
-        "Sp. Defense": 70,
-        "Speed": 101
-      }
+      "name": "Pidgeot",
+      "japanese_name": "Pigeotピジョット",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Tangled Feet', 'Big Pecks']",
+      "hp": 83,
+      "attack": 80,
+      "defense": 80,
+      "sp_attack": 135,
+      "sp_defense": 80,
+      "speed": 121,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 579,
+      "capture_rate": 45,
+      "classfication": "Bird Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 39.5,
+      "generation": 1
     },
     {
       "id": 19,
-      "name": {
-        "english": "Rattata",
-        "japanese": "コラッタ",
-        "chinese": "小拉达",
-        "french": "Rattata"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 56,
-        "Defense": 35,
-        "Sp. Attack": 25,
-        "Sp. Defense": 35,
-        "Speed": 72
-      }
+      "name": "Rattata",
+      "japanese_name": "Korattaコラッタ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Run Away', 'Guts', 'Hustle', 'Gluttony', 'Hustle', 'Thick Fat']",
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "sp_attack": 25,
+      "sp_defense": 35,
+      "speed": 72,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 253,
+      "capture_rate": 255,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 20,
-      "name": {
-        "english": "Raticate",
-        "japanese": "ラッタ",
-        "chinese": "拉达",
-        "french": "Rattatac"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 81,
-        "Defense": 60,
-        "Sp. Attack": 50,
-        "Sp. Defense": 70,
-        "Speed": 97
-      }
+      "name": "Raticate",
+      "japanese_name": "Rattaラッタ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Run Away', 'Guts', 'Hustle', 'Gluttony', 'Hustle', 'Thick Fat']",
+      "hp": 75,
+      "attack": 71,
+      "defense": 70,
+      "sp_attack": 40,
+      "sp_defense": 80,
+      "speed": 77,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 413,
+      "capture_rate": 127,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 21,
-      "name": {
-        "english": "Spearow",
-        "japanese": "オニスズメ",
-        "chinese": "烈雀",
-        "french": "Piafabec"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 60,
-        "Defense": 30,
-        "Sp. Attack": 31,
-        "Sp. Defense": 31,
-        "Speed": 70
-      }
+      "name": "Spearow",
+      "japanese_name": "Onisuzumeオニスズメ",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Sniper']",
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "sp_attack": 31,
+      "sp_defense": 31,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 262,
+      "capture_rate": 255,
+      "classfication": "Tiny Bird Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 2,
+      "generation": 1
     },
     {
       "id": 22,
-      "name": {
-        "english": "Fearow",
-        "japanese": "オニドリル",
-        "chinese": "大嘴雀",
-        "french": "Rapasdepic"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 90,
-        "Defense": 65,
-        "Sp. Attack": 61,
-        "Sp. Defense": 61,
-        "Speed": 100
-      }
+      "name": "Fearow",
+      "japanese_name": "Onidrillオニドリル",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Sniper']",
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "sp_attack": 61,
+      "sp_defense": 61,
+      "speed": 100,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 442,
+      "capture_rate": 90,
+      "classfication": "Beak Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 38,
+      "generation": 1
     },
     {
       "id": 23,
-      "name": {
-        "english": "Ekans",
-        "japanese": "アーボ",
-        "chinese": "阿柏蛇",
-        "french": "Abo"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 60,
-        "Defense": 44,
-        "Sp. Attack": 40,
-        "Sp. Defense": 54,
-        "Speed": 55
-      }
+      "name": "Ekans",
+      "japanese_name": "Arboアーボ",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Intimidate', 'Shed Skin', 'Unnerve']",
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "sp_attack": 40,
+      "sp_defense": 54,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 288,
+      "capture_rate": 255,
+      "classfication": "Snake Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 2,
+      "percentage_male": 50,
+      "weight_kg": 6.9,
+      "generation": 1
     },
     {
       "id": 24,
-      "name": {
-        "english": "Arbok",
-        "japanese": "アーボック",
-        "chinese": "阿柏怪",
-        "french": "Arbok"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 95,
-        "Defense": 69,
-        "Sp. Attack": 65,
-        "Sp. Defense": 79,
-        "Speed": 80
-      }
+      "name": "Arbok",
+      "japanese_name": "Arbokアーボック",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Intimidate', 'Shed Skin', 'Unnerve']",
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "sp_attack": 65,
+      "sp_defense": 79,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 448,
+      "capture_rate": 90,
+      "classfication": "Cobra Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 3.5,
+      "percentage_male": 50,
+      "weight_kg": 65,
+      "generation": 1
     },
     {
       "id": 25,
-      "name": {
-        "english": "Pikachu",
-        "japanese": "ピカチュウ",
-        "chinese": "皮卡丘",
-        "french": "Pikachu"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 55,
-        "Defense": 40,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
-        "Speed": 90
-      }
+      "name": "Pikachu",
+      "japanese_name": "Pikachuピカチュウ",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Static', 'Lightningrod']",
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 70,
+      "base_total": 320,
+      "capture_rate": 190,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.4,
+      "percentage_male": 50,
+      "weight_kg": 6,
+      "generation": 1
     },
     {
       "id": 26,
-      "name": {
-        "english": "Raichu",
-        "japanese": "ライチュウ",
-        "chinese": "雷丘",
-        "french": "Raichu"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 90,
-        "Defense": 55,
-        "Sp. Attack": 90,
-        "Sp. Defense": 80,
-        "Speed": 110
-      }
+      "name": "Raichu",
+      "japanese_name": "Raichuライチュウ",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Static', 'Lightningrod', 'Surge Surfer']",
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "sp_attack": 95,
+      "sp_defense": 85,
+      "speed": 110,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 70,
+      "base_total": 485,
+      "capture_rate": 75,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 27,
-      "name": {
-        "english": "Sandshrew",
-        "japanese": "サンド",
-        "chinese": "穿山鼠",
-        "french": "Sabelette"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 75,
-        "Defense": 85,
-        "Sp. Attack": 20,
-        "Sp. Defense": 30,
-        "Speed": 40
-      }
+      "name": "Sandshrew",
+      "japanese_name": "Sandサンド",
+      "type1": "ground",
+      "type2": "",
+      "abilities": "['Sand Veil', 'Sand Rush', 'Snow Cloak', 'Slush Rush']",
+      "hp": 50,
+      "attack": 75,
+      "defense": 90,
+      "sp_attack": 10,
+      "sp_defense": 35,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 300,
+      "capture_rate": 255,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 28,
-      "name": {
-        "english": "Sandslash",
-        "japanese": "サンドパン",
-        "chinese": "穿山王",
-        "french": "Sablaireau"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 75,
-        "Attack": 100,
-        "Defense": 110,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
-        "Speed": 65
-      }
+      "name": "Sandslash",
+      "japanese_name": "Sandpanサンドパン",
+      "type1": "ground",
+      "type2": "",
+      "abilities": "['Sand Veil', 'Sand Rush', 'Snow Cloak', 'Slush Rush']",
+      "hp": 75,
+      "attack": 100,
+      "defense": 120,
+      "sp_attack": 25,
+      "sp_defense": 65,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 450,
+      "capture_rate": 90,
+      "classfication": "Mouse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 29,
-      "name": {
-        "english": "Nidoran-f",
-        "japanese": "ニドラン♀",
-        "chinese": "尼多兰",
-        "french": "Nidoran-f"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 47,
-        "Defense": 52,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
-        "Speed": 41
-      }
+      "name": "Nidoran-f",
+      "japanese_name": "Nidoran?ニドラン♀",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Poison Point', 'Rivalry', 'Hustle']",
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "sp_attack": 40,
+      "sp_defense": 40,
+      "speed": 41,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 275,
+      "capture_rate": 235,
+      "classfication": "Poison Pin Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.4,
+      "percentage_male": 0,
+      "weight_kg": 7,
+      "generation": 1
     },
     {
       "id": 30,
-      "name": {
-        "english": "Nidorina",
-        "japanese": "ニドリーナ",
-        "chinese": "尼多娜",
-        "french": "Nidorina"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 62,
-        "Defense": 67,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
-        "Speed": 56
-      }
+      "name": "Nidorina",
+      "japanese_name": "Nidorinaニドリーナ",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Poison Point', 'Rivalry', 'Hustle']",
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "sp_attack": 55,
+      "sp_defense": 55,
+      "speed": 56,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 365,
+      "capture_rate": 120,
+      "classfication": "Poison Pin Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.8,
+      "percentage_male": 0,
+      "weight_kg": 20,
+      "generation": 1
     },
     {
       "id": 31,
-      "name": {
-        "english": "Nidoqueen",
-        "japanese": "ニドクイン",
-        "chinese": "尼多后",
-        "french": "Nidoqueen"
-      },
-      "type": [
-        "Poison",
-        "Ground"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 92,
-        "Defense": 87,
-        "Sp. Attack": 75,
-        "Sp. Defense": 85,
-        "Speed": 76
-      }
+      "name": "Nidoqueen",
+      "japanese_name": "Nidoqueenニドクイン",
+      "type1": "poison",
+      "type2": "ground",
+      "abilities": "['Poison Point', 'Rivalry', 'Sheer Force']",
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "sp_attack": 75,
+      "sp_defense": 85,
+      "speed": 76,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 505,
+      "capture_rate": 45,
+      "classfication": "Drill Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.3,
+      "percentage_male": 0,
+      "weight_kg": 60,
+      "generation": 1
     },
     {
       "id": 32,
-      "name": {
-        "english": "Nidoran-m",
-        "japanese": "ニドラン♂",
-        "chinese": "尼多朗",
-        "french": "Nidoran-m"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 46,
-        "Attack": 57,
-        "Defense": 40,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
-        "Speed": 50
-      }
+      "name": "Nidoran-m",
+      "japanese_name": "Nidoran?ニドラン♂",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Poison Point', 'Rivalry', 'Hustle']",
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "sp_attack": 40,
+      "sp_defense": 40,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 273,
+      "capture_rate": 235,
+      "classfication": "Poison Pin Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.5,
+      "percentage_male": 100,
+      "weight_kg": 9,
+      "generation": 1
     },
     {
       "id": 33,
-      "name": {
-        "english": "Nidorino",
-        "japanese": "ニドリーノ",
-        "chinese": "尼多力诺",
-        "french": "Nidorino"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 61,
-        "Attack": 72,
-        "Defense": 57,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
-        "Speed": 65
-      }
+      "name": "Nidorino",
+      "japanese_name": "Nidorinoニドリーノ",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Poison Point', 'Rivalry', 'Hustle']",
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "sp_attack": 55,
+      "sp_defense": 55,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 365,
+      "capture_rate": 120,
+      "classfication": "Poison Pin Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.9,
+      "percentage_male": 100,
+      "weight_kg": 19.5,
+      "generation": 1
     },
     {
       "id": 34,
-      "name": {
-        "english": "Nidoking",
-        "japanese": "ニドキング",
-        "chinese": "尼多王",
-        "french": "Nidoking"
-      },
-      "type": [
-        "Poison",
-        "Ground"
-      ],
-      "base": {
-        "HP": 81,
-        "Attack": 102,
-        "Defense": 77,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
-        "Speed": 85
-      }
+      "name": "Nidoking",
+      "japanese_name": "Nidokingニドキング",
+      "type1": "poison",
+      "type2": "ground",
+      "abilities": "['Poison Point', 'Rivalry', 'Sheer Force']",
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "sp_attack": 85,
+      "sp_defense": 75,
+      "speed": 85,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 505,
+      "capture_rate": 45,
+      "classfication": "Drill Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.4,
+      "percentage_male": 100,
+      "weight_kg": 62,
+      "generation": 1
     },
     {
       "id": 35,
-      "name": {
-        "english": "Clefairy",
-        "japanese": "ピッピ",
-        "chinese": "皮皮",
-        "french": "Mélofée"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 45,
-        "Defense": 48,
-        "Sp. Attack": 60,
-        "Sp. Defense": 65,
-        "Speed": 35
-      }
+      "name": "Clefairy",
+      "japanese_name": "Pippiピッピ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Cute Charm', 'Magic Guard', 'Friend Guard']",
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "sp_attack": 60,
+      "sp_defense": 65,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 140,
+      "base_total": 323,
+      "capture_rate": 150,
+      "classfication": "Fairy Pokémon",
+      "experience_growth": 800000,
+      "height_m": 0.6,
+      "percentage_male": 24.6,
+      "weight_kg": 7.5,
+      "generation": 1
     },
     {
       "id": 36,
-      "name": {
-        "english": "Clefable",
-        "japanese": "ピクシー",
-        "chinese": "皮可西",
-        "french": "Mélodelfe"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 95,
-        "Attack": 70,
-        "Defense": 73,
-        "Sp. Attack": 95,
-        "Sp. Defense": 90,
-        "Speed": 60
-      }
+      "name": "Clefable",
+      "japanese_name": "Pixyピクシー",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Cute Charm', 'Magic Guard', 'Unaware']",
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "sp_attack": 95,
+      "sp_defense": 90,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 140,
+      "base_total": 483,
+      "capture_rate": 25,
+      "classfication": "Fairy Pokémon",
+      "experience_growth": 800000,
+      "height_m": 1.3,
+      "percentage_male": 24.6,
+      "weight_kg": 40,
+      "generation": 1
     },
     {
       "id": 37,
-      "name": {
-        "english": "Vulpix",
-        "japanese": "ロコン",
-        "chinese": "六尾",
-        "french": "Goupix"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 38,
-        "Attack": 41,
-        "Defense": 40,
-        "Sp. Attack": 50,
-        "Sp. Defense": 65,
-        "Speed": 65
-      }
+      "name": "Vulpix",
+      "japanese_name": "Rokonロコン",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Flash Fire', 'Drought', 'Snow Cloak', 'Snow Warning']",
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "sp_attack": 50,
+      "sp_defense": 65,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 299,
+      "capture_rate": 190,
+      "classfication": "Fox Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 24.6,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 38,
-      "name": {
-        "english": "Ninetales",
-        "japanese": "キュウコン",
-        "chinese": "九尾",
-        "french": "Feunard"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 73,
-        "Attack": 76,
-        "Defense": 75,
-        "Sp. Attack": 81,
-        "Sp. Defense": 100,
-        "Speed": 100
-      }
+      "name": "Ninetales",
+      "japanese_name": "Kyukonキュウコン",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Flash Fire', 'Drought', 'Snow Cloak', 'Snow Warning']",
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "sp_attack": 81,
+      "sp_defense": 100,
+      "speed": 109,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 505,
+      "capture_rate": 75,
+      "classfication": "Fox Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 24.6,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 39,
-      "name": {
-        "english": "Jigglypuff",
-        "japanese": "プリン",
-        "chinese": "胖丁",
-        "french": "Rondoudou"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 115,
-        "Attack": 45,
-        "Defense": 20,
-        "Sp. Attack": 45,
-        "Sp. Defense": 25,
-        "Speed": 20
-      }
+      "name": "Jigglypuff",
+      "japanese_name": "Purinプリン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Cute Charm', 'Competitive', 'Friend Guard']",
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "sp_attack": 45,
+      "sp_defense": 25,
+      "speed": 20,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 70,
+      "base_total": 270,
+      "capture_rate": 170,
+      "classfication": "Balloon Pokémon",
+      "experience_growth": 800000,
+      "height_m": 0.5,
+      "percentage_male": 24.6,
+      "weight_kg": 5.5,
+      "generation": 1
     },
     {
       "id": 40,
-      "name": {
-        "english": "Wigglytuff",
-        "japanese": "プクリン",
-        "chinese": "胖可丁",
-        "french": "Grodoudou"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 140,
-        "Attack": 70,
-        "Defense": 45,
-        "Sp. Attack": 85,
-        "Sp. Defense": 50,
-        "Speed": 45
-      }
+      "name": "Wigglytuff",
+      "japanese_name": "Pukurinプクリン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Cute Charm', 'Competitive', 'Frisk']",
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "sp_attack": 85,
+      "sp_defense": 50,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 2560,
+      "base_happiness": 70,
+      "base_total": 435,
+      "capture_rate": 50,
+      "classfication": "Balloon Pokémon",
+      "experience_growth": 800000,
+      "height_m": 1,
+      "percentage_male": 24.6,
+      "weight_kg": 12,
+      "generation": 1
     },
     {
       "id": 41,
-      "name": {
-        "english": "Zubat",
-        "japanese": "ズバット",
-        "chinese": "超音蝠",
-        "french": "Nosferapti"
-      },
-      "type": [
-        "Poison",
-        "Flying"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 45,
-        "Defense": 35,
-        "Sp. Attack": 30,
-        "Sp. Defense": 40,
-        "Speed": 55
-      }
+      "name": "Zubat",
+      "japanese_name": "Zubatズバット",
+      "type1": "poison",
+      "type2": "flying",
+      "abilities": "['Inner Focus', 'Infiltrator']",
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "sp_attack": 30,
+      "sp_defense": 40,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 245,
+      "capture_rate": 255,
+      "classfication": "Bat Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.8,
+      "percentage_male": 50,
+      "weight_kg": 7.5,
+      "generation": 1
     },
     {
       "id": 42,
-      "name": {
-        "english": "Golbat",
-        "japanese": "ゴルバット",
-        "chinese": "大嘴蝠",
-        "french": "Nosferalto"
-      },
-      "type": [
-        "Poison",
-        "Flying"
-      ],
-      "base": {
-        "HP": 75,
-        "Attack": 80,
-        "Defense": 70,
-        "Sp. Attack": 65,
-        "Sp. Defense": 75,
-        "Speed": 90
-      }
+      "name": "Golbat",
+      "japanese_name": "Golbatゴルバット",
+      "type1": "poison",
+      "type2": "flying",
+      "abilities": "['Inner Focus', 'Infiltrator']",
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "sp_attack": 65,
+      "sp_defense": 75,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 455,
+      "capture_rate": 90,
+      "classfication": "Bat Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.6,
+      "percentage_male": 50,
+      "weight_kg": 55,
+      "generation": 1
     },
     {
       "id": 43,
-      "name": {
-        "english": "Oddish",
-        "japanese": "ナゾノクサ",
-        "chinese": "走路草",
-        "french": "Mystherbe"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 50,
-        "Defense": 55,
-        "Sp. Attack": 75,
-        "Sp. Defense": 65,
-        "Speed": 30
-      }
+      "name": "Oddish",
+      "japanese_name": "Nazonokusaナゾノクサ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Run Away']",
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "sp_attack": 75,
+      "sp_defense": 65,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 320,
+      "capture_rate": 255,
+      "classfication": "Weed Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.5,
+      "percentage_male": 50,
+      "weight_kg": 5.4,
+      "generation": 1
     },
     {
       "id": 44,
-      "name": {
-        "english": "Gloom",
-        "japanese": "クサイハナ",
-        "chinese": "臭臭花",
-        "french": "Ortide"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 65,
-        "Defense": 70,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
-        "Speed": 40
-      }
+      "name": "Gloom",
+      "japanese_name": "Kusaihanaクサイハナ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Stench']",
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "sp_attack": 85,
+      "sp_defense": 75,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 395,
+      "capture_rate": 120,
+      "classfication": "Weed Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.8,
+      "percentage_male": 50,
+      "weight_kg": 8.6,
+      "generation": 1
     },
     {
       "id": 45,
-      "name": {
-        "english": "Vileplume",
-        "japanese": "ラフレシア",
-        "chinese": "霸王花",
-        "french": "Rafflesia"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 75,
-        "Attack": 80,
-        "Defense": 85,
-        "Sp. Attack": 110,
-        "Sp. Defense": 90,
-        "Speed": 50
-      }
+      "name": "Vileplume",
+      "japanese_name": "Ruffresiaラフレシア",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Effect Spore']",
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "sp_attack": 110,
+      "sp_defense": 90,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 45,
+      "classfication": "Flower Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 18.6,
+      "generation": 1
     },
     {
       "id": 46,
-      "name": {
-        "english": "Paras",
-        "japanese": "パラス",
-        "chinese": "派拉斯",
-        "french": "Paras"
-      },
-      "type": [
-        "Bug",
-        "Grass"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 70,
-        "Defense": 55,
-        "Sp. Attack": 45,
-        "Sp. Defense": 55,
-        "Speed": 25
-      }
+      "name": "Paras",
+      "japanese_name": "Parasパラス",
+      "type1": "bug",
+      "type2": "grass",
+      "abilities": "['Effect Spore', 'Dry Skin', 'Damp']",
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "sp_attack": 45,
+      "sp_defense": 55,
+      "speed": 25,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 285,
+      "capture_rate": 190,
+      "classfication": "Mushroom Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 5.4,
+      "generation": 1
     },
     {
       "id": 47,
-      "name": {
-        "english": "Parasect",
-        "japanese": "パラセクト",
-        "chinese": "派拉斯特",
-        "french": "Parasect"
-      },
-      "type": [
-        "Bug",
-        "Grass"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 95,
-        "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 80,
-        "Speed": 30
-      }
+      "name": "Parasect",
+      "japanese_name": "Parasectパラセクト",
+      "type1": "bug",
+      "type2": "grass",
+      "abilities": "['Effect Spore', 'Dry Skin', 'Damp']",
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "sp_attack": 60,
+      "sp_defense": 80,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 75,
+      "classfication": "Mushroom Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 29.5,
+      "generation": 1
     },
     {
       "id": 48,
-      "name": {
-        "english": "Venonat",
-        "japanese": "コンパン",
-        "chinese": "毛球",
-        "french": "Mimitoss"
-      },
-      "type": [
-        "Bug",
-        "Poison"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 55,
-        "Defense": 50,
-        "Sp. Attack": 40,
-        "Sp. Defense": 55,
-        "Speed": 45
-      }
+      "name": "Venonat",
+      "japanese_name": "Kongpangコンパン",
+      "type1": "bug",
+      "type2": "poison",
+      "abilities": "['Compoundeyes', 'Tinted Lens', 'Run Away']",
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "sp_attack": 40,
+      "sp_defense": 55,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 305,
+      "capture_rate": 190,
+      "classfication": "Insect Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 30,
+      "generation": 1
     },
     {
       "id": 49,
-      "name": {
-        "english": "Venomoth",
-        "japanese": "モルフォン",
-        "chinese": "摩鲁蛾",
-        "french": "Aéromite"
-      },
-      "type": [
-        "Bug",
-        "Poison"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 65,
-        "Defense": 60,
-        "Sp. Attack": 90,
-        "Sp. Defense": 75,
-        "Speed": 90
-      }
+      "name": "Venomoth",
+      "japanese_name": "Morphonモルフォン",
+      "type1": "bug",
+      "type2": "poison",
+      "abilities": "['Shield Dust', 'Tinted Lens', 'Wonder Skin ']",
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 90,
+      "sp_defense": 75,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 450,
+      "capture_rate": 75,
+      "classfication": "Poison Moth Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 12.5,
+      "generation": 1
     },
     {
       "id": 50,
-      "name": {
-        "english": "Diglett",
-        "japanese": "ディグダ",
-        "chinese": "地鼠",
-        "french": "Taupiqueur"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 10,
-        "Attack": 55,
-        "Defense": 25,
-        "Sp. Attack": 35,
-        "Sp. Defense": 45,
-        "Speed": 95
-      }
+      "name": "Diglett",
+      "japanese_name": "Digdaディグダ",
+      "type1": "ground",
+      "type2": "",
+      "abilities": "['Sand Veil', 'Arena Trap', 'Sand Force', 'Sand Veil', 'Tangling Hair', 'Sand Force']",
+      "hp": 10,
+      "attack": 55,
+      "defense": 30,
+      "sp_attack": 35,
+      "sp_defense": 45,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 265,
+      "capture_rate": 255,
+      "classfication": "Mole Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 51,
-      "name": {
-        "english": "Dugtrio",
-        "japanese": "ダグトリオ",
-        "chinese": "三地鼠",
-        "french": "Triopikeur"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 100,
-        "Defense": 50,
-        "Sp. Attack": 50,
-        "Sp. Defense": 70,
-        "Speed": 120
-      }
+      "name": "Dugtrio",
+      "japanese_name": "Dugtrioダグトリオ",
+      "type1": "ground",
+      "type2": "",
+      "abilities": "['Sand Veil', 'Arena Trap', 'Sand Force', 'Sand Veil', 'Tangling Hair', 'Sand Force']",
+      "hp": 35,
+      "attack": 100,
+      "defense": 60,
+      "sp_attack": 50,
+      "sp_defense": 70,
+      "speed": 110,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 425,
+      "capture_rate": 50,
+      "classfication": "Mole Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 52,
-      "name": {
-        "english": "Meowth",
-        "japanese": "ニャース",
-        "chinese": "喵喵",
-        "french": "Miaouss"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 45,
-        "Defense": 35,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
-        "Speed": 90
-      }
+      "name": "Meowth",
+      "japanese_name": "Nyarthニャース",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Pickup', 'Technician', 'Unnerve', 'Pickup', 'Technician', 'Rattled']",
+      "hp": 40,
+      "attack": 35,
+      "defense": 35,
+      "sp_attack": 50,
+      "sp_defense": 40,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 290,
+      "capture_rate": 255,
+      "classfication": "Scratch Cat Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 53,
-      "name": {
-        "english": "Persian",
-        "japanese": "ペルシアン",
-        "chinese": "猫老大",
-        "french": "Persian"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 70,
-        "Defense": 60,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
-        "Speed": 115
-      }
+      "name": "Persian",
+      "japanese_name": "Persianペルシアン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Limber', 'Technician', 'Unnerve', 'Fur Coat', 'Technician', 'Rattled']",
+      "hp": 65,
+      "attack": 60,
+      "defense": 60,
+      "sp_attack": 75,
+      "sp_defense": 65,
+      "speed": 115,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 440,
+      "capture_rate": 90,
+      "classfication": "Classy Cat Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 54,
-      "name": {
-        "english": "Psyduck",
-        "japanese": "コダック",
-        "chinese": "可达鸭",
-        "french": "Psykokwak"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 52,
-        "Defense": 48,
-        "Sp. Attack": 65,
-        "Sp. Defense": 50,
-        "Speed": 55
-      }
+      "name": "Psyduck",
+      "japanese_name": "Koduckコダック",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Damp', 'Cloud Nine', 'Swift Swim']",
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "sp_attack": 65,
+      "sp_defense": 50,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 320,
+      "capture_rate": 190,
+      "classfication": "Duck Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.8,
+      "percentage_male": 50,
+      "weight_kg": 19.6,
+      "generation": 1
     },
     {
       "id": 55,
-      "name": {
-        "english": "Golduck",
-        "japanese": "ゴルダック",
-        "chinese": "哥达鸭",
-        "french": "Akwakwak"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 82,
-        "Defense": 78,
-        "Sp. Attack": 95,
-        "Sp. Defense": 80,
-        "Speed": 85
-      }
+      "name": "Golduck",
+      "japanese_name": "Golduckゴルダック",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Damp', 'Cloud Nine', 'Swift Swim']",
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "sp_attack": 95,
+      "sp_defense": 80,
+      "speed": 85,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 500,
+      "capture_rate": 75,
+      "classfication": "Duck Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.7,
+      "percentage_male": 50,
+      "weight_kg": 76.6,
+      "generation": 1
     },
     {
       "id": 56,
-      "name": {
-        "english": "Mankey",
-        "japanese": "マンキー",
-        "chinese": "猴怪",
-        "french": "Férosinge"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 80,
-        "Defense": 35,
-        "Sp. Attack": 35,
-        "Sp. Defense": 45,
-        "Speed": 70
-      }
+      "name": "Mankey",
+      "japanese_name": "Mankeyマンキー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Vital Spirit', 'Anger Point', 'Defiant']",
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "sp_attack": 35,
+      "sp_defense": 45,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 305,
+      "capture_rate": 190,
+      "classfication": "Pig Monkey Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.5,
+      "percentage_male": 50,
+      "weight_kg": 28,
+      "generation": 1
     },
     {
       "id": 57,
-      "name": {
-        "english": "Primeape",
-        "japanese": "オコリザル",
-        "chinese": "火暴猴",
-        "french": "Colossinge"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 105,
-        "Defense": 60,
-        "Sp. Attack": 60,
-        "Sp. Defense": 70,
-        "Speed": 95
-      }
+      "name": "Primeape",
+      "japanese_name": "Okorizaruオコリザル",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Vital Spirit', 'Anger Point', 'Defiant']",
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "sp_attack": 60,
+      "sp_defense": 70,
+      "speed": 95,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 455,
+      "capture_rate": 75,
+      "classfication": "Pig Monkey Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 32,
+      "generation": 1
     },
     {
       "id": 58,
-      "name": {
-        "english": "Growlithe",
-        "japanese": "ガーディ",
-        "chinese": "卡蒂狗",
-        "french": "Caninos"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 70,
-        "Defense": 45,
-        "Sp. Attack": 70,
-        "Sp. Defense": 50,
-        "Speed": 60
-      }
+      "name": "Growlithe",
+      "japanese_name": "Gardieガーディ",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Intimidate', 'Flash Fire', 'Justified']",
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "sp_attack": 70,
+      "sp_defense": 50,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 350,
+      "capture_rate": 190,
+      "classfication": "Puppy Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.7,
+      "percentage_male": 75.4,
+      "weight_kg": 19,
+      "generation": 1
     },
     {
       "id": 59,
-      "name": {
-        "english": "Arcanine",
-        "japanese": "ウインディ",
-        "chinese": "风速狗",
-        "french": "Arcanin"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 110,
-        "Defense": 80,
-        "Sp. Attack": 100,
-        "Sp. Defense": 80,
-        "Speed": 95
-      }
+      "name": "Arcanine",
+      "japanese_name": "Windieウインディ",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Intimidate', 'Flash Fire', 'Justified']",
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "sp_attack": 100,
+      "sp_defense": 80,
+      "speed": 95,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 555,
+      "capture_rate": 75,
+      "classfication": "Legendary Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.9,
+      "percentage_male": 75.4,
+      "weight_kg": 155,
+      "generation": 1
     },
     {
       "id": 60,
-      "name": {
-        "english": "Poliwag",
-        "japanese": "ニョロモ",
-        "chinese": "蚊香蝌蚪",
-        "french": "Ptitard"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 50,
-        "Defense": 40,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
-        "Speed": 90
-      }
+      "name": "Poliwag",
+      "japanese_name": "Nyoromoニョロモ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Water Absorb', 'Damp', 'Swift Swim']",
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "sp_attack": 40,
+      "sp_defense": 40,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 300,
+      "capture_rate": 255,
+      "classfication": "Tadpole Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.6,
+      "percentage_male": 50,
+      "weight_kg": 12.4,
+      "generation": 1
     },
     {
       "id": 61,
-      "name": {
-        "english": "Poliwhirl",
-        "japanese": "ニョロゾ",
-        "chinese": "蚊香君",
-        "french": "Têtarte"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 65,
-        "Defense": 65,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
-        "Speed": 90
-      }
+      "name": "Poliwhirl",
+      "japanese_name": "Nyorozoニョロゾ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Water Absorb', 'Damp', 'Swift Swim']",
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 385,
+      "capture_rate": 120,
+      "classfication": "Tadpole Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 20,
+      "generation": 1
     },
     {
       "id": 62,
-      "name": {
-        "english": "Poliwrath",
-        "japanese": "ニョロボン",
-        "chinese": "蚊香泳士",
-        "french": "Tartard"
-      },
-      "type": [
-        "Water",
-        "Fighting"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 95,
-        "Defense": 95,
-        "Sp. Attack": 70,
-        "Sp. Defense": 90,
-        "Speed": 70
-      }
+      "name": "Poliwrath",
+      "japanese_name": "Nyorobonニョロボン",
+      "type1": "water",
+      "type2": "fighting",
+      "abilities": "['Water Absorb', 'Damp', 'Swift Swim']",
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "sp_attack": 70,
+      "sp_defense": 90,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 510,
+      "capture_rate": 45,
+      "classfication": "Tadpole Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.3,
+      "percentage_male": 50,
+      "weight_kg": 54,
+      "generation": 1
     },
     {
       "id": 63,
-      "name": {
-        "english": "Abra",
-        "japanese": "ケーシィ",
-        "chinese": "凯西",
-        "french": "Abra"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 25,
-        "Attack": 20,
-        "Defense": 15,
-        "Sp. Attack": 105,
-        "Sp. Defense": 55,
-        "Speed": 90
-      }
+      "name": "Abra",
+      "japanese_name": "Caseyケーシィ",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Synchronize', 'Inner Focus', 'Magic Guard']",
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "sp_attack": 105,
+      "sp_defense": 55,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 310,
+      "capture_rate": 200,
+      "classfication": "Psi Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.9,
+      "percentage_male": 75.4,
+      "weight_kg": 19.5,
+      "generation": 1
     },
     {
       "id": 64,
-      "name": {
-        "english": "Kadabra",
-        "japanese": "ユンゲラー",
-        "chinese": "勇基拉",
-        "french": "Kadabra"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 35,
-        "Defense": 30,
-        "Sp. Attack": 120,
-        "Sp. Defense": 70,
-        "Speed": 105
-      }
+      "name": "Kadabra",
+      "japanese_name": "Yungererユンゲラー",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Synchronize', 'Inner Focus', 'Magic Guard']",
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "sp_attack": 120,
+      "sp_defense": 70,
+      "speed": 105,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 400,
+      "capture_rate": 100,
+      "classfication": "Psi Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.3,
+      "percentage_male": 75.4,
+      "weight_kg": 56.5,
+      "generation": 1
     },
     {
       "id": 65,
-      "name": {
-        "english": "Alakazam",
-        "japanese": "フーディン",
-        "chinese": "胡地",
-        "french": "Alakazam"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 50,
-        "Defense": 45,
-        "Sp. Attack": 135,
-        "Sp. Defense": 95,
-        "Speed": 120
-      }
+      "name": "Alakazam",
+      "japanese_name": "Foodinフーディン",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Synchronize', 'Inner Focus', 'Magic Guard']",
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "sp_attack": 175,
+      "sp_defense": 105,
+      "speed": 150,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 600,
+      "capture_rate": 50,
+      "classfication": "Psi Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.5,
+      "percentage_male": 75.4,
+      "weight_kg": 48,
+      "generation": 1
     },
     {
       "id": 66,
-      "name": {
-        "english": "Machop",
-        "japanese": "ワンリキー",
-        "chinese": "腕力",
-        "french": "Machoc"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 80,
-        "Defense": 50,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
-        "Speed": 35
-      }
+      "name": "Machop",
+      "japanese_name": "Wanrikyワンリキー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Guts', 'No Guard', 'Steadfast']",
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "sp_attack": 35,
+      "sp_defense": 35,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 305,
+      "capture_rate": 180,
+      "classfication": "Superpower Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.8,
+      "percentage_male": 75.4,
+      "weight_kg": 19.5,
+      "generation": 1
     },
     {
       "id": 67,
-      "name": {
-        "english": "Machoke",
-        "japanese": "ゴーリキー",
-        "chinese": "豪力",
-        "french": "Machopeur"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 100,
-        "Defense": 70,
-        "Sp. Attack": 50,
-        "Sp. Defense": 60,
-        "Speed": 45
-      }
+      "name": "Machoke",
+      "japanese_name": "Gorikyゴーリキー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Guts', 'No Guard', 'Steadfast']",
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "sp_attack": 50,
+      "sp_defense": 60,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 90,
+      "classfication": "Superpower Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.5,
+      "percentage_male": 75.4,
+      "weight_kg": 70.5,
+      "generation": 1
     },
     {
       "id": 68,
-      "name": {
-        "english": "Machamp",
-        "japanese": "カイリキー",
-        "chinese": "怪力",
-        "french": "Mackogneur"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 130,
-        "Defense": 80,
-        "Sp. Attack": 65,
-        "Sp. Defense": 85,
-        "Speed": 55
-      }
+      "name": "Machamp",
+      "japanese_name": "Kairikyカイリキー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Guts', 'No Guard', 'Steadfast']",
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "sp_attack": 65,
+      "sp_defense": 85,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 505,
+      "capture_rate": 45,
+      "classfication": "Superpower Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.6,
+      "percentage_male": 75.4,
+      "weight_kg": 130,
+      "generation": 1
     },
     {
       "id": 69,
-      "name": {
-        "english": "Bellsprout",
-        "japanese": "マダツボミ",
-        "chinese": "喇叭芽",
-        "french": "Chétiflor"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 75,
-        "Defense": 35,
-        "Sp. Attack": 70,
-        "Sp. Defense": 30,
-        "Speed": 40
-      }
+      "name": "Bellsprout",
+      "japanese_name": "Madatsubomiマダツボミ",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Gluttony']",
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "sp_attack": 70,
+      "sp_defense": 30,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 300,
+      "capture_rate": 255,
+      "classfication": "Flower Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.7,
+      "percentage_male": 50,
+      "weight_kg": 4,
+      "generation": 1
     },
     {
       "id": 70,
-      "name": {
-        "english": "Weepinbell",
-        "japanese": "ウツドン",
-        "chinese": "口呆花",
-        "french": "Boustiflor"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 90,
-        "Defense": 50,
-        "Sp. Attack": 85,
-        "Sp. Defense": 45,
-        "Speed": 55
-      }
+      "name": "Weepinbell",
+      "japanese_name": "Utsudonウツドン",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Gluttony']",
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 390,
+      "capture_rate": 120,
+      "classfication": "Flycatcher Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 6.4,
+      "generation": 1
     },
     {
       "id": 71,
-      "name": {
-        "english": "Victreebel",
-        "japanese": "ウツボット",
-        "chinese": "大食花",
-        "french": "Empiflor"
-      },
-      "type": [
-        "Grass",
-        "Poison"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 105,
-        "Defense": 65,
-        "Sp. Attack": 100,
-        "Sp. Defense": 70,
-        "Speed": 70
-      }
+      "name": "Victreebel",
+      "japanese_name": "Utsubotウツボット",
+      "type1": "grass",
+      "type2": "poison",
+      "abilities": "['Chlorophyll', 'Gluttony']",
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "sp_attack": 100,
+      "sp_defense": 70,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 45,
+      "classfication": "Flycatcher Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.7,
+      "percentage_male": 50,
+      "weight_kg": 15.5,
+      "generation": 1
     },
     {
       "id": 72,
-      "name": {
-        "english": "Tentacool",
-        "japanese": "メノクラゲ",
-        "chinese": "玛瑙水母",
-        "french": "Tentacool"
-      },
-      "type": [
-        "Water",
-        "Poison"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 40,
-        "Defense": 35,
-        "Sp. Attack": 50,
-        "Sp. Defense": 100,
-        "Speed": 70
-      }
+      "name": "Tentacool",
+      "japanese_name": "Menokurageメノクラゲ",
+      "type1": "water",
+      "type2": "poison",
+      "abilities": "['Clear Body', 'Liquid Ooze', 'Rain Dish']",
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "sp_attack": 50,
+      "sp_defense": 100,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 335,
+      "capture_rate": 190,
+      "classfication": "Jellyfish Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.9,
+      "percentage_male": 50,
+      "weight_kg": 45.5,
+      "generation": 1
     },
     {
       "id": 73,
-      "name": {
-        "english": "Tentacruel",
-        "japanese": "ドククラゲ",
-        "chinese": "毒刺水母",
-        "french": "Tentacruel"
-      },
-      "type": [
-        "Water",
-        "Poison"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 70,
-        "Defense": 65,
-        "Sp. Attack": 80,
-        "Sp. Defense": 120,
-        "Speed": 100
-      }
+      "name": "Tentacruel",
+      "japanese_name": "Dokukurageドククラゲ",
+      "type1": "water",
+      "type2": "poison",
+      "abilities": "['Clear Body', 'Liquid Ooze', 'Rain Dish']",
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "sp_attack": 80,
+      "sp_defense": 120,
+      "speed": 100,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 515,
+      "capture_rate": 60,
+      "classfication": "Jellyfish Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.6,
+      "percentage_male": 50,
+      "weight_kg": 55,
+      "generation": 1
     },
     {
       "id": 74,
-      "name": {
-        "english": "Geodude",
-        "japanese": "イシツブテ",
-        "chinese": "小拳石",
-        "french": "Racaillou"
-      },
-      "type": [
-        "Rock",
-        "Ground"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 80,
-        "Defense": 100,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
-        "Speed": 20
-      }
+      "name": "Geodude",
+      "japanese_name": "Isitsubuteイシツブテ",
+      "type1": "rock",
+      "type2": "ground",
+      "abilities": "['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "sp_attack": 30,
+      "sp_defense": 30,
+      "speed": 20,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 300,
+      "capture_rate": 255,
+      "classfication": "Rock Pokémon",
+      "experience_growth": 1059860,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 75,
-      "name": {
-        "english": "Graveler",
-        "japanese": "ゴローン",
-        "chinese": "隆隆石",
-        "french": "Gravalanch"
-      },
-      "type": [
-        "Rock",
-        "Ground"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 95,
-        "Defense": 115,
-        "Sp. Attack": 45,
-        "Sp. Defense": 45,
-        "Speed": 35
-      }
+      "name": "Graveler",
+      "japanese_name": "Goloneゴローン",
+      "type1": "rock",
+      "type2": "ground",
+      "abilities": "['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "sp_attack": 45,
+      "sp_defense": 45,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 390,
+      "capture_rate": 120,
+      "classfication": "Rock Pokémon",
+      "experience_growth": 1059860,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 76,
-      "name": {
-        "english": "Golem",
-        "japanese": "ゴローニャ",
-        "chinese": "隆隆岩",
-        "french": "Grolem"
-      },
-      "type": [
-        "Rock",
-        "Ground"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 120,
-        "Defense": 130,
-        "Sp. Attack": 55,
-        "Sp. Defense": 65,
-        "Speed": 45
-      }
+      "name": "Golem",
+      "japanese_name": "Golonyaゴローニャ",
+      "type1": "rock",
+      "type2": "ground",
+      "abilities": "['Rock Head', 'Sturdy', 'Sand Veil', 'Magnet Pull', 'Sturdy', 'Galvanize']",
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "sp_attack": 55,
+      "sp_defense": 65,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 3840,
+      "base_happiness": 70,
+      "base_total": 495,
+      "capture_rate": 45,
+      "classfication": "Megaton Pokémon",
+      "experience_growth": 1059860,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 77,
-      "name": {
-        "english": "Ponyta",
-        "japanese": "ポニータ",
-        "chinese": "小火马",
-        "french": "Ponyta"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 85,
-        "Defense": 55,
-        "Sp. Attack": 65,
-        "Sp. Defense": 65,
-        "Speed": 90
-      }
+      "name": "Ponyta",
+      "japanese_name": "Ponytaポニータ",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Run Away', 'Flash Fire', 'Flame Body']",
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "sp_attack": 65,
+      "sp_defense": 65,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 410,
+      "capture_rate": 190,
+      "classfication": "Fire Horse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 30,
+      "generation": 1
     },
     {
       "id": 78,
-      "name": {
-        "english": "Rapidash",
-        "japanese": "ギャロップ",
-        "chinese": "烈焰马",
-        "french": "Galopa"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 100,
-        "Defense": 70,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
-        "Speed": 105
-      }
+      "name": "Rapidash",
+      "japanese_name": "Gallopギャロップ",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Run Away', 'Flash Fire', 'Flame Body']",
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "sp_attack": 80,
+      "sp_defense": 80,
+      "speed": 105,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 500,
+      "capture_rate": 60,
+      "classfication": "Fire Horse Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.7,
+      "percentage_male": 50,
+      "weight_kg": 95,
+      "generation": 1
     },
     {
       "id": 79,
-      "name": {
-        "english": "Slowpoke",
-        "japanese": "ヤドン",
-        "chinese": "呆呆兽",
-        "french": "Ramoloss"
-      },
-      "type": [
-        "Water",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 65,
-        "Defense": 65,
-        "Sp. Attack": 40,
-        "Sp. Defense": 40,
-        "Speed": 15
-      }
+      "name": "Slowpoke",
+      "japanese_name": "Yadonヤドン",
+      "type1": "water",
+      "type2": "psychic",
+      "abilities": "['Oblivious', 'Own Tempo', 'Regenerator']",
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "sp_attack": 40,
+      "sp_defense": 40,
+      "speed": 15,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 315,
+      "capture_rate": 190,
+      "classfication": "Dopey Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 36,
+      "generation": 1
     },
     {
       "id": 80,
-      "name": {
-        "english": "Slowbro",
-        "japanese": "ヤドラン",
-        "chinese": "呆壳兽",
-        "french": "Flagadoss"
-      },
-      "type": [
-        "Water",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 95,
-        "Attack": 75,
-        "Defense": 110,
-        "Sp. Attack": 100,
-        "Sp. Defense": 80,
-        "Speed": 30
-      }
+      "name": "Slowbro",
+      "japanese_name": "Yadoranヤドラン",
+      "type1": "water",
+      "type2": "psychic",
+      "abilities": "['Oblivious', 'Own Tempo', 'Regenerator']",
+      "hp": 95,
+      "attack": 75,
+      "defense": 180,
+      "sp_attack": 130,
+      "sp_defense": 80,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 590,
+      "capture_rate": 75,
+      "classfication": "Hermit Crab Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.6,
+      "percentage_male": 50,
+      "weight_kg": 78.5,
+      "generation": 1
     },
     {
       "id": 81,
-      "name": {
-        "english": "Magnemite",
-        "japanese": "コイル",
-        "chinese": "小磁怪",
-        "french": "Magnéti"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 25,
-        "Attack": 35,
-        "Defense": 70,
-        "Sp. Attack": 95,
-        "Sp. Defense": 55,
-        "Speed": 45
-      }
+      "name": "Magnemite",
+      "japanese_name": "Coilコイル",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Magnet Pull', 'Sturdy', 'Analytic']",
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "sp_attack": 95,
+      "sp_defense": 55,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 190,
+      "classfication": "Magnet Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": "",
+      "weight_kg": 6,
+      "generation": 1
     },
     {
       "id": 82,
-      "name": {
-        "english": "Magneton",
-        "japanese": "レアコイル",
-        "chinese": "三合一磁怪",
-        "french": "Magnéton"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 60,
-        "Defense": 95,
-        "Sp. Attack": 120,
-        "Sp. Defense": 70,
-        "Speed": 70
-      }
+      "name": "Magneton",
+      "japanese_name": "Rarecoilレアコイル",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Magnet Pull', 'Sturdy', 'Analytic']",
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "sp_attack": 120,
+      "sp_defense": 70,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 465,
+      "capture_rate": 60,
+      "classfication": "Magnet Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": "",
+      "weight_kg": 60,
+      "generation": 1
     },
     {
       "id": 83,
-      "name": {
-        "english": "Farfetch'd",
-        "japanese": "カモネギ",
-        "chinese": "大葱鸭",
-        "french": "Canarticho"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 52,
-        "Attack": 90,
-        "Defense": 55,
-        "Sp. Attack": 58,
-        "Sp. Defense": 62,
-        "Speed": 60
-      }
+      "name": "Farfetch'd",
+      "japanese_name": "Kamonegiカモネギ",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Keen Eye', 'Inner Focus', 'Defiant']",
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "sp_attack": 58,
+      "sp_defense": 62,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 377,
+      "capture_rate": 45,
+      "classfication": "Wild Duck Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.8,
+      "percentage_male": 50,
+      "weight_kg": 15,
+      "generation": 1
     },
     {
       "id": 84,
-      "name": {
-        "english": "Doduo",
-        "japanese": "ドードー",
-        "chinese": "嘟嘟",
-        "french": "Doduo"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 85,
-        "Defense": 45,
-        "Sp. Attack": 35,
-        "Sp. Defense": 35,
-        "Speed": 75
-      }
+      "name": "Doduo",
+      "japanese_name": "Dodoドードー",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Run Away', 'Early Bird', 'Tangled Feet']",
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "sp_attack": 35,
+      "sp_defense": 35,
+      "speed": 75,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 310,
+      "capture_rate": 190,
+      "classfication": "Twin Bird Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.4,
+      "percentage_male": 50,
+      "weight_kg": 39.2,
+      "generation": 1
     },
     {
       "id": 85,
-      "name": {
-        "english": "Dodrio",
-        "japanese": "ドードリオ",
-        "chinese": "嘟嘟利",
-        "french": "Dodrio"
-      },
-      "type": [
-        "Normal",
-        "Flying"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 110,
-        "Defense": 70,
-        "Sp. Attack": 60,
-        "Sp. Defense": 60,
-        "Speed": 110
-      }
+      "name": "Dodrio",
+      "japanese_name": "Dodorioドードリオ",
+      "type1": "normal",
+      "type2": "flying",
+      "abilities": "['Run Away', 'Early Bird', 'Tangled Feet']",
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "sp_attack": 60,
+      "sp_defense": 60,
+      "speed": 110,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 470,
+      "capture_rate": 45,
+      "classfication": "Triple Bird Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.8,
+      "percentage_male": 50,
+      "weight_kg": 85.2,
+      "generation": 1
     },
     {
       "id": 86,
-      "name": {
-        "english": "Seel",
-        "japanese": "パウワウ",
-        "chinese": "小海狮",
-        "french": "Otaria"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 45,
-        "Defense": 55,
-        "Sp. Attack": 45,
-        "Sp. Defense": 70,
-        "Speed": 45
-      }
+      "name": "Seel",
+      "japanese_name": "Pawouパウワウ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Thick Fat', 'Hydration', 'Ice Body']",
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "sp_attack": 45,
+      "sp_defense": 70,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 190,
+      "classfication": "Sea Lion Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.1,
+      "percentage_male": 50,
+      "weight_kg": 90,
+      "generation": 1
     },
     {
       "id": 87,
-      "name": {
-        "english": "Dewgong",
-        "japanese": "ジュゴン",
-        "chinese": "白海狮",
-        "french": "Lamantine"
-      },
-      "type": [
-        "Water",
-        "Ice"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 70,
-        "Defense": 80,
-        "Sp. Attack": 70,
-        "Sp. Defense": 95,
-        "Speed": 70
-      }
+      "name": "Dewgong",
+      "japanese_name": "Jugonジュゴン",
+      "type1": "water",
+      "type2": "ice",
+      "abilities": "['Thick Fat', 'Hydration', 'Ice Body']",
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "sp_attack": 70,
+      "sp_defense": 95,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 475,
+      "capture_rate": 75,
+      "classfication": "Sea Lion Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.7,
+      "percentage_male": 50,
+      "weight_kg": 120,
+      "generation": 1
     },
     {
       "id": 88,
-      "name": {
-        "english": "Grimer",
-        "japanese": "ベトベター",
-        "chinese": "臭泥",
-        "french": "Tadmorv"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 80,
-        "Defense": 50,
-        "Sp. Attack": 40,
-        "Sp. Defense": 50,
-        "Speed": 25
-      }
+      "name": "Grimer",
+      "japanese_name": "Betbeterベトベター",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Stench', 'Sticky Hold', 'Poison Touch', 'Poison Touch', 'Gluttony', 'Power of Alchemy']",
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "sp_attack": 40,
+      "sp_defense": 50,
+      "speed": 25,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 190,
+      "classfication": "Sludge Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 89,
-      "name": {
-        "english": "Muk",
-        "japanese": "ベトベトン",
-        "chinese": "臭臭泥",
-        "french": "Grotadmorv"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 105,
-        "Attack": 105,
-        "Defense": 75,
-        "Sp. Attack": 65,
-        "Sp. Defense": 100,
-        "Speed": 50
-      }
+      "name": "Muk",
+      "japanese_name": "Betbetonベトベトン",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Stench', 'Sticky Hold', 'Poison Touch', 'Poison Touch', 'Gluttony', 'Power of Alchemy']",
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "sp_attack": 65,
+      "sp_defense": 100,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 500,
+      "capture_rate": 75,
+      "classfication": "Sludge Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 90,
-      "name": {
-        "english": "Shellder",
-        "japanese": "シェルダー",
-        "chinese": "大舌贝",
-        "french": "Kokiyas"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 65,
-        "Defense": 100,
-        "Sp. Attack": 45,
-        "Sp. Defense": 25,
-        "Speed": 40
-      }
+      "name": "Shellder",
+      "japanese_name": "Shellderシェルダー",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Shell Armor', 'Skill Link', 'Overcoat']",
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "sp_attack": 45,
+      "sp_defense": 25,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 305,
+      "capture_rate": 190,
+      "classfication": "Bivalve Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.3,
+      "percentage_male": 50,
+      "weight_kg": 4,
+      "generation": 1
     },
     {
       "id": 91,
-      "name": {
-        "english": "Cloyster",
-        "japanese": "パルシェン",
-        "chinese": "刺甲贝",
-        "french": "Crustabri"
-      },
-      "type": [
-        "Water",
-        "Ice"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 95,
-        "Defense": 180,
-        "Sp. Attack": 85,
-        "Sp. Defense": 45,
-        "Speed": 70
-      }
+      "name": "Cloyster",
+      "japanese_name": "Parshenパルシェン",
+      "type1": "water",
+      "type2": "ice",
+      "abilities": "['Shell Armor', 'Skill Link', 'Overcoat']",
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "sp_attack": 85,
+      "sp_defense": 45,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 525,
+      "capture_rate": 60,
+      "classfication": "Bivalve Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 132.5,
+      "generation": 1
     },
     {
       "id": 92,
-      "name": {
-        "english": "Gastly",
-        "japanese": "ゴース",
-        "chinese": "鬼斯",
-        "french": "Fantominus"
-      },
-      "type": [
-        "Ghost",
-        "Poison"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 35,
-        "Defense": 30,
-        "Sp. Attack": 100,
-        "Sp. Defense": 35,
-        "Speed": 80
-      }
+      "name": "Gastly",
+      "japanese_name": "Ghosゴース",
+      "type1": "ghost",
+      "type2": "poison",
+      "abilities": "['Levitate']",
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "sp_attack": 100,
+      "sp_defense": 35,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 310,
+      "capture_rate": 190,
+      "classfication": "Gas Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.3,
+      "percentage_male": 50,
+      "weight_kg": 0.1,
+      "generation": 1
     },
     {
       "id": 93,
-      "name": {
-        "english": "Haunter",
-        "japanese": "ゴースト",
-        "chinese": "鬼斯通",
-        "french": "Spectrum"
-      },
-      "type": [
-        "Ghost",
-        "Poison"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 50,
-        "Defense": 45,
-        "Sp. Attack": 115,
-        "Sp. Defense": 55,
-        "Speed": 95
-      }
+      "name": "Haunter",
+      "japanese_name": "Ghostゴースト",
+      "type1": "ghost",
+      "type2": "poison",
+      "abilities": "['Levitate']",
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "sp_attack": 115,
+      "sp_defense": 55,
+      "speed": 95,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 405,
+      "capture_rate": 90,
+      "classfication": "Gas Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.6,
+      "percentage_male": 50,
+      "weight_kg": 0.1,
+      "generation": 1
     },
     {
       "id": 94,
-      "name": {
-        "english": "Gengar",
-        "japanese": "ゲンガー",
-        "chinese": "耿鬼",
-        "french": "Ectoplasma"
-      },
-      "type": [
-        "Ghost",
-        "Poison"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 65,
-        "Defense": 60,
-        "Sp. Attack": 130,
-        "Sp. Defense": 75,
-        "Speed": 110
-      }
+      "name": "Gengar",
+      "japanese_name": "Gangarゲンガー",
+      "type1": "ghost",
+      "type2": "poison",
+      "abilities": "['Cursed Body']",
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "sp_attack": 170,
+      "sp_defense": 95,
+      "speed": 130,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 600,
+      "capture_rate": 45,
+      "classfication": "Shadow Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 40.5,
+      "generation": 1
     },
     {
       "id": 95,
-      "name": {
-        "english": "Onix",
-        "japanese": "イワーク",
-        "chinese": "大岩蛇",
-        "french": "Onix"
-      },
-      "type": [
-        "Rock",
-        "Ground"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 45,
-        "Defense": 160,
-        "Sp. Attack": 30,
-        "Sp. Defense": 45,
-        "Speed": 70
-      }
+      "name": "Onix",
+      "japanese_name": "Iwarkイワーク",
+      "type1": "rock",
+      "type2": "ground",
+      "abilities": "['Rock Head', 'Sturdy', 'Weak Armor']",
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "sp_attack": 30,
+      "sp_defense": 45,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 385,
+      "capture_rate": 45,
+      "classfication": "Rock Snake Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 8.8,
+      "percentage_male": 50,
+      "weight_kg": 210,
+      "generation": 1
     },
     {
       "id": 96,
-      "name": {
-        "english": "Drowzee",
-        "japanese": "スリープ",
-        "chinese": "催眠貘",
-        "french": "Soporifik"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 48,
-        "Defense": 45,
-        "Sp. Attack": 43,
-        "Sp. Defense": 90,
-        "Speed": 42
-      }
+      "name": "Drowzee",
+      "japanese_name": "Sleepeスリープ",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Insomnia', 'Forewarn', 'Inner Focus']",
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "sp_attack": 43,
+      "sp_defense": 90,
+      "speed": 42,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 328,
+      "capture_rate": 190,
+      "classfication": "Hypnosis Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 32.4,
+      "generation": 1
     },
     {
       "id": 97,
-      "name": {
-        "english": "Hypno",
-        "japanese": "スリーパー",
-        "chinese": "引梦貘人",
-        "french": "Hypnomade"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 85,
-        "Attack": 73,
-        "Defense": 70,
-        "Sp. Attack": 73,
-        "Sp. Defense": 115,
-        "Speed": 67
-      }
+      "name": "Hypno",
+      "japanese_name": "Sleeperスリーパー",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Insomnia', 'Forewarn', 'Inner Focus']",
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "sp_attack": 73,
+      "sp_defense": 115,
+      "speed": 67,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 483,
+      "capture_rate": 75,
+      "classfication": "Hypnosis Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.6,
+      "percentage_male": 50,
+      "weight_kg": 75.6,
+      "generation": 1
     },
     {
       "id": 98,
-      "name": {
-        "english": "Krabby",
-        "japanese": "クラブ",
-        "chinese": "大钳蟹",
-        "french": "Krabby"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 105,
-        "Defense": 90,
-        "Sp. Attack": 25,
-        "Sp. Defense": 25,
-        "Speed": 50
-      }
+      "name": "Krabby",
+      "japanese_name": "Crabクラブ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Hyper Cutter', 'Shell Armor', 'Sheer Force']",
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "sp_attack": 25,
+      "sp_defense": 25,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 225,
+      "classfication": "River Crab Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.4,
+      "percentage_male": 50,
+      "weight_kg": 6.5,
+      "generation": 1
     },
     {
       "id": 99,
-      "name": {
-        "english": "Kingler",
-        "japanese": "キングラー",
-        "chinese": "巨钳蟹",
-        "french": "Krabboss"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 130,
-        "Defense": 115,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
-        "Speed": 75
-      }
+      "name": "Kingler",
+      "japanese_name": "Kinglerキングラー",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Hyper Cutter', 'Shell Armor', 'Sheer Force']",
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 75,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 475,
+      "capture_rate": 60,
+      "classfication": "Pincer Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.3,
+      "percentage_male": 50,
+      "weight_kg": 60,
+      "generation": 1
     },
     {
       "id": 100,
-      "name": {
-        "english": "Voltorb",
-        "japanese": "ビリリダマ",
-        "chinese": "霹雳电球",
-        "french": "Voltorbe"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 30,
-        "Defense": 50,
-        "Sp. Attack": 55,
-        "Sp. Defense": 55,
-        "Speed": 100
-      }
+      "name": "Voltorb",
+      "japanese_name": "Biriridamaビリリダマ",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Soundproof', 'Static', 'Aftermath']",
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "sp_attack": 55,
+      "sp_defense": 55,
+      "speed": 100,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 330,
+      "capture_rate": 190,
+      "classfication": "Ball Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.5,
+      "percentage_male": "",
+      "weight_kg": 10.4,
+      "generation": 1
     },
     {
       "id": 101,
-      "name": {
-        "english": "Electrode",
-        "japanese": "マルマイン",
-        "chinese": "顽皮雷弹",
-        "french": "Électrode"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 50,
-        "Defense": 70,
-        "Sp. Attack": 80,
-        "Sp. Defense": 80,
-        "Speed": 150
-      }
+      "name": "Electrode",
+      "japanese_name": "Marumineマルマイン",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Soundproof', 'Static', 'Aftermath']",
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "sp_attack": 80,
+      "sp_defense": 80,
+      "speed": 150,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 60,
+      "classfication": "Ball Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": "",
+      "weight_kg": 66.6,
+      "generation": 1
     },
     {
       "id": 102,
-      "name": {
-        "english": "Exeggcute",
-        "japanese": "タマタマ",
-        "chinese": "蛋蛋",
-        "french": "Noeunoeuf"
-      },
-      "type": [
-        "Grass",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 40,
-        "Defense": 80,
-        "Sp. Attack": 60,
-        "Sp. Defense": 45,
-        "Speed": 40
-      }
+      "name": "Exeggcute",
+      "japanese_name": "Tamatamaタマタマ",
+      "type1": "grass",
+      "type2": "psychic",
+      "abilities": "['Chlorophyll', 'Harvest']",
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "sp_attack": 60,
+      "sp_defense": 45,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 90,
+      "classfication": "Egg Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.4,
+      "percentage_male": 50,
+      "weight_kg": 2.5,
+      "generation": 1
     },
     {
       "id": 103,
-      "name": {
-        "english": "Exeggutor",
-        "japanese": "ナッシー",
-        "chinese": "椰蛋树",
-        "french": "Noadkoko"
-      },
-      "type": [
-        "Grass",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 95,
-        "Attack": 95,
-        "Defense": 85,
-        "Sp. Attack": 125,
-        "Sp. Defense": 75,
-        "Speed": 55
-      }
+      "name": "Exeggutor",
+      "japanese_name": "Nassyナッシー",
+      "type1": "grass",
+      "type2": "psychic",
+      "abilities": "['Chlorophyll', 'Harvest', 'Frisk', 'Harvest']",
+      "hp": 95,
+      "attack": 105,
+      "defense": 85,
+      "sp_attack": 125,
+      "sp_defense": 75,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 530,
+      "capture_rate": 45,
+      "classfication": "Coconut Pokémon",
+      "experience_growth": 1250000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 104,
-      "name": {
-        "english": "Cubone",
-        "japanese": "カラカラ",
-        "chinese": "卡拉卡拉",
-        "french": "Osselait"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 50,
-        "Defense": 95,
-        "Sp. Attack": 40,
-        "Sp. Defense": 50,
-        "Speed": 35
-      }
+      "name": "Cubone",
+      "japanese_name": "Karakaraカラカラ",
+      "type1": "ground",
+      "type2": "",
+      "abilities": "['Rock Head', 'Lightningrod', 'Battle Armor']",
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "sp_attack": 40,
+      "sp_defense": 50,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 320,
+      "capture_rate": 190,
+      "classfication": "Lonely Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.4,
+      "percentage_male": 50,
+      "weight_kg": 6.5,
+      "generation": 1
     },
     {
       "id": 105,
-      "name": {
-        "english": "Marowak",
-        "japanese": "ガラガラ",
-        "chinese": "嘎啦嘎啦",
-        "french": "Ossatueur"
-      },
-      "type": [
-        "Ground"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 80,
-        "Defense": 110,
-        "Sp. Attack": 50,
-        "Sp. Defense": 80,
-        "Speed": 45
-      }
+      "name": "Marowak",
+      "japanese_name": "Garagaraガラガラ",
+      "type1": "ground",
+      "type2": "fire",
+      "abilities": "['Rock Head', 'Lightningrod', 'Battle Armor', 'Cursed Body', 'Lightningrod', 'Rock Head']",
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "sp_attack": 50,
+      "sp_defense": 80,
+      "speed": 45,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 425,
+      "capture_rate": 75,
+      "classfication": "Bone Keeper Pokémon",
+      "experience_growth": 1000000,
+      "height_m": "",
+      "percentage_male": 50,
+      "weight_kg": "",
+      "generation": 1
     },
     {
       "id": 106,
-      "name": {
-        "english": "Hitmonlee",
-        "japanese": "サワムラー",
-        "chinese": "飞腿郎",
-        "french": "Kicklee"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 120,
-        "Defense": 53,
-        "Sp. Attack": 35,
-        "Sp. Defense": 110,
-        "Speed": 87
-      }
+      "name": "Hitmonlee",
+      "japanese_name": "Sawamularサワムラー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Limber', 'Reckless', 'Unburden']",
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "sp_attack": 35,
+      "sp_defense": 110,
+      "speed": 87,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 455,
+      "capture_rate": 45,
+      "classfication": "Kicking Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.5,
+      "percentage_male": 100,
+      "weight_kg": 49.8,
+      "generation": 1
     },
     {
       "id": 107,
-      "name": {
-        "english": "Hitmonchan",
-        "japanese": "エビワラー",
-        "chinese": "快拳郎",
-        "french": "Tygnon"
-      },
-      "type": [
-        "Fighting"
-      ],
-      "base": {
-        "HP": 50,
-        "Attack": 105,
-        "Defense": 79,
-        "Sp. Attack": 35,
-        "Sp. Defense": 110,
-        "Speed": 76
-      }
+      "name": "Hitmonchan",
+      "japanese_name": "Ebiwalarエビワラー",
+      "type1": "fighting",
+      "type2": "",
+      "abilities": "['Keen Eye', 'Iron Fist', 'Inner Focus']",
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "sp_attack": 35,
+      "sp_defense": 110,
+      "speed": 76,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 455,
+      "capture_rate": 45,
+      "classfication": "Punching Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.4,
+      "percentage_male": 100,
+      "weight_kg": 50.2,
+      "generation": 1
     },
     {
       "id": 108,
-      "name": {
-        "english": "Lickitung",
-        "japanese": "ベロリンガ",
-        "chinese": "大舌头",
-        "french": "Excelangue"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 55,
-        "Defense": 75,
-        "Sp. Attack": 60,
-        "Sp. Defense": 75,
-        "Speed": 30
-      }
+      "name": "Lickitung",
+      "japanese_name": "Beroringaベロリンガ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Own Tempo', 'Oblivious', 'Cloud Nine']",
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "sp_attack": 60,
+      "sp_defense": 75,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 385,
+      "capture_rate": 45,
+      "classfication": "Licking Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 65.5,
+      "generation": 1
     },
     {
       "id": 109,
-      "name": {
-        "english": "Koffing",
-        "japanese": "ドガース",
-        "chinese": "瓦斯弹",
-        "french": "Smogo"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 65,
-        "Defense": 95,
-        "Sp. Attack": 60,
-        "Sp. Defense": 45,
-        "Speed": 35
-      }
+      "name": "Koffing",
+      "japanese_name": "Dogarsドガース",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Levitate']",
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "sp_attack": 60,
+      "sp_defense": 45,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 340,
+      "capture_rate": 190,
+      "classfication": "Poison Gas Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.6,
+      "percentage_male": 50,
+      "weight_kg": 1,
+      "generation": 1
     },
     {
       "id": 110,
-      "name": {
-        "english": "Weezing",
-        "japanese": "マタドガス",
-        "chinese": "双弹瓦斯",
-        "french": "Smogogo"
-      },
-      "type": [
-        "Poison"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 90,
-        "Defense": 120,
-        "Sp. Attack": 85,
-        "Sp. Defense": 70,
-        "Speed": 60
-      }
+      "name": "Weezing",
+      "japanese_name": "Matadogasマタドガス",
+      "type1": "poison",
+      "type2": "",
+      "abilities": "['Levitate']",
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "sp_attack": 85,
+      "sp_defense": 70,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 60,
+      "classfication": "Poison Gas Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 9.5,
+      "generation": 1
     },
     {
       "id": 111,
-      "name": {
-        "english": "Rhyhorn",
-        "japanese": "サイホーン",
-        "chinese": "独角犀牛",
-        "french": "Rhinocorne"
-      },
-      "type": [
-        "Ground",
-        "Rock"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 85,
-        "Defense": 95,
-        "Sp. Attack": 30,
-        "Sp. Defense": 30,
-        "Speed": 25
-      }
+      "name": "Rhyhorn",
+      "japanese_name": "Sihornサイホーン",
+      "type1": "ground",
+      "type2": "rock",
+      "abilities": "['Lightningrod', 'Rock Head', 'Reckless']",
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "sp_attack": 30,
+      "sp_defense": 30,
+      "speed": 25,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 345,
+      "capture_rate": 120,
+      "classfication": "Spikes Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 115,
+      "generation": 1
     },
     {
       "id": 112,
-      "name": {
-        "english": "Rhydon",
-        "japanese": "サイドン",
-        "chinese": "钻角犀兽",
-        "french": "Rhinoféros"
-      },
-      "type": [
-        "Ground",
-        "Rock"
-      ],
-      "base": {
-        "HP": 105,
-        "Attack": 130,
-        "Defense": 120,
-        "Sp. Attack": 45,
-        "Sp. Defense": 45,
-        "Speed": 40
-      }
+      "name": "Rhydon",
+      "japanese_name": "Sidonサイドン",
+      "type1": "ground",
+      "type2": "rock",
+      "abilities": "['Lightningrod', 'Rock Head', 'Reckless']",
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "sp_attack": 45,
+      "sp_defense": 45,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 485,
+      "capture_rate": 60,
+      "classfication": "Drill Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.9,
+      "percentage_male": 50,
+      "weight_kg": 120,
+      "generation": 1
     },
     {
       "id": 113,
-      "name": {
-        "english": "Chansey",
-        "japanese": "ラッキー",
-        "chinese": "吉利蛋",
-        "french": "Leveinard"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 250,
-        "Attack": 5,
-        "Defense": 5,
-        "Sp. Attack": 35,
-        "Sp. Defense": 105,
-        "Speed": 50
-      }
+      "name": "Chansey",
+      "japanese_name": "Luckyラッキー",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Natural Cure', 'Serene Grace', 'Healer']",
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "sp_attack": 35,
+      "sp_defense": 105,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 140,
+      "base_total": 450,
+      "capture_rate": 30,
+      "classfication": "Egg Pokémon",
+      "experience_growth": 800000,
+      "height_m": 1.1,
+      "percentage_male": 0,
+      "weight_kg": 34.6,
+      "generation": 1
     },
     {
       "id": 114,
-      "name": {
-        "english": "Tangela",
-        "japanese": "モンジャラ",
-        "chinese": "蔓藤怪",
-        "french": "Saquedeneu"
-      },
-      "type": [
-        "Grass"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 55,
-        "Defense": 115,
-        "Sp. Attack": 100,
-        "Sp. Defense": 40,
-        "Speed": 60
-      }
+      "name": "Tangela",
+      "japanese_name": "Monjaraモンジャラ",
+      "type1": "grass",
+      "type2": "",
+      "abilities": "['Chlorophyll', 'Leaf Guard', 'Regenerator']",
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "sp_attack": 100,
+      "sp_defense": 40,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 435,
+      "capture_rate": 45,
+      "classfication": "Vine Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 50,
+      "weight_kg": 35,
+      "generation": 1
     },
     {
       "id": 115,
-      "name": {
-        "english": "Kangaskhan",
-        "japanese": "ガルーラ",
-        "chinese": "袋兽",
-        "french": "Kangourex"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 105,
-        "Attack": 95,
-        "Defense": 80,
-        "Sp. Attack": 40,
-        "Sp. Defense": 80,
-        "Speed": 90
-      }
+      "name": "Kangaskhan",
+      "japanese_name": "Garuraガルーラ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Early Bird', 'Scrappy', 'Inner Focus']",
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "sp_attack": 60,
+      "sp_defense": 100,
+      "speed": 100,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 590,
+      "capture_rate": 45,
+      "classfication": "Parent Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 2.2,
+      "percentage_male": 0,
+      "weight_kg": 80,
+      "generation": 1
     },
     {
       "id": 116,
-      "name": {
-        "english": "Horsea",
-        "japanese": "タッツー",
-        "chinese": "墨海马",
-        "french": "Hypotrempe"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 40,
-        "Defense": 70,
-        "Sp. Attack": 70,
-        "Sp. Defense": 25,
-        "Speed": 60
-      }
+      "name": "Horsea",
+      "japanese_name": "Tattuタッツー",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Swift Swim', 'Sniper', 'Damp']",
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "sp_attack": 70,
+      "sp_defense": 25,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 295,
+      "capture_rate": 225,
+      "classfication": "Dragon Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.4,
+      "percentage_male": 50,
+      "weight_kg": 8,
+      "generation": 1
     },
     {
       "id": 117,
-      "name": {
-        "english": "Seadra",
-        "japanese": "シードラ",
-        "chinese": "海刺龙",
-        "french": "Hypocéan"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 65,
-        "Defense": 95,
-        "Sp. Attack": 95,
-        "Sp. Defense": 45,
-        "Speed": 85
-      }
+      "name": "Seadra",
+      "japanese_name": "Seadraシードラ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Poison Point', 'Sniper', 'Damp']",
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "sp_attack": 95,
+      "sp_defense": 45,
+      "speed": 85,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 440,
+      "capture_rate": 75,
+      "classfication": "Dragon Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.2,
+      "percentage_male": 50,
+      "weight_kg": 25,
+      "generation": 1
     },
     {
       "id": 118,
-      "name": {
-        "english": "Goldeen",
-        "japanese": "トサキント",
-        "chinese": "角金鱼",
-        "french": "Poissirène"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 45,
-        "Attack": 67,
-        "Defense": 60,
-        "Sp. Attack": 35,
-        "Sp. Defense": 50,
-        "Speed": 63
-      }
+      "name": "Goldeen",
+      "japanese_name": "Tosakintoトサキント",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Swift Swim', 'Water Veil', 'Lightningrod']",
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "sp_attack": 35,
+      "sp_defense": 50,
+      "speed": 63,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 320,
+      "capture_rate": 225,
+      "classfication": "Goldfish Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.6,
+      "percentage_male": 50,
+      "weight_kg": 15,
+      "generation": 1
     },
     {
       "id": 119,
-      "name": {
-        "english": "Seaking",
-        "japanese": "アズマオウ",
-        "chinese": "金鱼王",
-        "french": "Poissoroy"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 92,
-        "Defense": 65,
-        "Sp. Attack": 65,
-        "Sp. Defense": 80,
-        "Speed": 68
-      }
+      "name": "Seaking",
+      "japanese_name": "Azumaoアズマオウ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Swift Swim', 'Water Veil', 'Lightningrod']",
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "sp_attack": 65,
+      "sp_defense": 80,
+      "speed": 68,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 450,
+      "capture_rate": 60,
+      "classfication": "Goldfish Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.3,
+      "percentage_male": 50,
+      "weight_kg": 39,
+      "generation": 1
     },
     {
       "id": 120,
-      "name": {
-        "english": "Staryu",
-        "japanese": "ヒトデマン",
-        "chinese": "海星星",
-        "french": "Stari"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 45,
-        "Defense": 55,
-        "Sp. Attack": 70,
-        "Sp. Defense": 55,
-        "Speed": 85
-      }
+      "name": "Staryu",
+      "japanese_name": "Hitodemanヒトデマン",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Illuminate', 'Natural Cure', 'Analytic']",
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "sp_attack": 70,
+      "sp_defense": 55,
+      "speed": 85,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 340,
+      "capture_rate": 225,
+      "classfication": "Starshape Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.8,
+      "percentage_male": "",
+      "weight_kg": 34.5,
+      "generation": 1
     },
     {
       "id": 121,
-      "name": {
-        "english": "Starmie",
-        "japanese": "スターミー",
-        "chinese": "宝石海星",
-        "french": "Staross"
-      },
-      "type": [
-        "Water",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 75,
-        "Defense": 85,
-        "Sp. Attack": 100,
-        "Sp. Defense": 85,
-        "Speed": 115
-      }
+      "name": "Starmie",
+      "japanese_name": "Starmieスターミー",
+      "type1": "water",
+      "type2": "psychic",
+      "abilities": "['Illuminate', 'Natural Cure', 'Analytic']",
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "sp_attack": 100,
+      "sp_defense": 85,
+      "speed": 115,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 520,
+      "capture_rate": 60,
+      "classfication": "Mysterious Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.1,
+      "percentage_male": "",
+      "weight_kg": 80,
+      "generation": 1
     },
     {
       "id": 122,
-      "name": {
-        "english": "Mr.-Mime",
-        "japanese": "バリヤード",
-        "chinese": "魔墙人偶",
-        "french": "M. Mime"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 40,
-        "Attack": 45,
-        "Defense": 65,
-        "Sp. Attack": 100,
-        "Sp. Defense": 120,
-        "Speed": 90
-      }
+      "name": "Mr.-Mime",
+      "japanese_name": "Barrierdバリヤード",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Soundproof', 'Filter', 'Technician']",
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "sp_attack": 100,
+      "sp_defense": 120,
+      "speed": 90,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 460,
+      "capture_rate": 45,
+      "classfication": "Barrier Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.3,
+      "percentage_male": 50,
+      "weight_kg": 54.5,
+      "generation": 1
     },
     {
       "id": 123,
-      "name": {
-        "english": "Scyther",
-        "japanese": "ストライク",
-        "chinese": "飞天螳螂",
-        "french": "Insécateur"
-      },
-      "type": [
-        "Bug",
-        "Flying"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 110,
-        "Defense": 80,
-        "Sp. Attack": 55,
-        "Sp. Defense": 80,
-        "Speed": 105
-      }
+      "name": "Scyther",
+      "japanese_name": "Strikeストライク",
+      "type1": "bug",
+      "type2": "flying",
+      "abilities": "['Swarm', 'Technician', 'Steadfast']",
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "sp_attack": 55,
+      "sp_defense": 80,
+      "speed": 105,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 500,
+      "capture_rate": 45,
+      "classfication": "Mantis Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 56,
+      "generation": 1
     },
     {
       "id": 124,
-      "name": {
-        "english": "Jynx",
-        "japanese": "ルージュラ",
-        "chinese": "迷唇姐",
-        "french": "Lippoutou"
-      },
-      "type": [
-        "Ice",
-        "Psychic"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 50,
-        "Defense": 35,
-        "Sp. Attack": 115,
-        "Sp. Defense": 95,
-        "Speed": 95
-      }
+      "name": "Jynx",
+      "japanese_name": "Rougelaルージュラ",
+      "type1": "ice",
+      "type2": "psychic",
+      "abilities": "['Oblivious', 'Forewarn', 'Dry Skin']",
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "sp_attack": 115,
+      "sp_defense": 95,
+      "speed": 95,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 455,
+      "capture_rate": 45,
+      "classfication": "Humanshape Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.4,
+      "percentage_male": 0,
+      "weight_kg": 40.6,
+      "generation": 1
     },
     {
       "id": 125,
-      "name": {
-        "english": "Electabuzz",
-        "japanese": "エレブー",
-        "chinese": "电击兽",
-        "french": "Élektek"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 83,
-        "Defense": 57,
-        "Sp. Attack": 95,
-        "Sp. Defense": 85,
-        "Speed": 105
-      }
+      "name": "Electabuzz",
+      "japanese_name": "Elebooエレブー",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Static', 'Vital Spirit']",
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "sp_attack": 95,
+      "sp_defense": 85,
+      "speed": 105,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 1,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 45,
+      "classfication": "Electric Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.1,
+      "percentage_male": 75.4,
+      "weight_kg": 30,
+      "generation": 1
     },
     {
       "id": 126,
-      "name": {
-        "english": "Magmar",
-        "japanese": "ブーバー",
-        "chinese": "鸭嘴火兽",
-        "french": "Magmar"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 95,
-        "Defense": 57,
-        "Sp. Attack": 100,
-        "Sp. Defense": 85,
-        "Speed": 93
-      }
+      "name": "Magmar",
+      "japanese_name": "Booberブーバー",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Flame Body', 'Vital Spirit']",
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "sp_attack": 100,
+      "sp_defense": 85,
+      "speed": 93,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 495,
+      "capture_rate": 45,
+      "classfication": "Spitfire Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.3,
+      "percentage_male": 75.4,
+      "weight_kg": 44.5,
+      "generation": 1
     },
     {
       "id": 127,
-      "name": {
-        "english": "Pinsir",
-        "japanese": "カイロス",
-        "chinese": "凯罗斯",
-        "french": "Scarabrute"
-      },
-      "type": [
-        "Bug"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 125,
-        "Defense": 100,
-        "Sp. Attack": 55,
-        "Sp. Defense": 70,
-        "Speed": 85
-      }
+      "name": "Pinsir",
+      "japanese_name": "Kailiosカイロス",
+      "type1": "bug",
+      "type2": "",
+      "abilities": "['Hyper Cutter', 'Mold Breaker', 'Moxie']",
+      "hp": 65,
+      "attack": 155,
+      "defense": 120,
+      "sp_attack": 65,
+      "sp_defense": 90,
+      "speed": 105,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 6400,
+      "base_happiness": 70,
+      "base_total": 600,
+      "capture_rate": 45,
+      "classfication": "Stagbeetle Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.5,
+      "percentage_male": 50,
+      "weight_kg": 55,
+      "generation": 1
     },
     {
       "id": 128,
-      "name": {
-        "english": "Tauros",
-        "japanese": "ケンタロス",
-        "chinese": "肯泰罗",
-        "french": "Tauros"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 75,
-        "Attack": 100,
-        "Defense": 95,
-        "Sp. Attack": 40,
-        "Sp. Defense": 70,
-        "Speed": 110
-      }
+      "name": "Tauros",
+      "japanese_name": "Kentaurosケンタロス",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Intimidate', 'Anger Point', 'Sheer Force']",
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "sp_attack": 40,
+      "sp_defense": 70,
+      "speed": 110,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 490,
+      "capture_rate": 45,
+      "classfication": "Wild Bull Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.4,
+      "percentage_male": 100,
+      "weight_kg": 88.4,
+      "generation": 1
     },
     {
       "id": 129,
-      "name": {
-        "english": "Magikarp",
-        "japanese": "コイキング",
-        "chinese": "鲤鱼王",
-        "french": "Magicarpe"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 20,
-        "Attack": 10,
-        "Defense": 55,
-        "Sp. Attack": 15,
-        "Sp. Defense": 20,
-        "Speed": 80
-      }
+      "name": "Magikarp",
+      "japanese_name": "Koikingコイキング",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Swift Swim', 'Rattled']",
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "sp_attack": 15,
+      "sp_defense": 20,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 1280,
+      "base_happiness": 70,
+      "base_total": 200,
+      "capture_rate": 255,
+      "classfication": "Fish Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 0.9,
+      "percentage_male": 50,
+      "weight_kg": 10,
+      "generation": 1
     },
     {
       "id": 130,
-      "name": {
-        "english": "Gyarados",
-        "japanese": "ギャラドス",
-        "chinese": "暴鲤龙",
-        "french": "Léviator"
-      },
-      "type": [
-        "Water",
-        "Flying"
-      ],
-      "base": {
-        "HP": 95,
-        "Attack": 125,
-        "Defense": 79,
-        "Sp. Attack": 60,
-        "Sp. Defense": 100,
-        "Speed": 81
-      }
+      "name": "Gyarados",
+      "japanese_name": "Gyaradosギャラドス",
+      "type1": "water",
+      "type2": "flying",
+      "abilities": "['Intimidate', 'Moxie']",
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "sp_attack": 70,
+      "sp_defense": 130,
+      "speed": 81,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 1280,
+      "base_happiness": 70,
+      "base_total": 640,
+      "capture_rate": 45,
+      "classfication": "Atrocious Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 6.5,
+      "percentage_male": 50,
+      "weight_kg": 235,
+      "generation": 1
     },
     {
       "id": 131,
-      "name": {
-        "english": "Lapras",
-        "japanese": "ラプラス",
-        "chinese": "拉普拉斯",
-        "french": "Lokhlass"
-      },
-      "type": [
-        "Water",
-        "Ice"
-      ],
-      "base": {
-        "HP": 130,
-        "Attack": 85,
-        "Defense": 80,
-        "Sp. Attack": 85,
-        "Sp. Defense": 95,
-        "Speed": 60
-      }
+      "name": "Lapras",
+      "japanese_name": "Laplaceラプラス",
+      "type1": "water",
+      "type2": "ice",
+      "abilities": "['Water Absorb', 'Shell Armor', 'Hydration']",
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "sp_attack": 85,
+      "sp_defense": 95,
+      "speed": 60,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 70,
+      "base_total": 535,
+      "capture_rate": 45,
+      "classfication": "Transport Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 2.5,
+      "percentage_male": 50,
+      "weight_kg": 220,
+      "generation": 1
     },
     {
       "id": 132,
-      "name": {
-        "english": "Ditto",
-        "japanese": "メタモン",
-        "chinese": "百变怪",
-        "french": "Métamorph"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 48,
-        "Attack": 48,
-        "Defense": 48,
-        "Sp. Attack": 48,
-        "Sp. Defense": 48,
-        "Speed": 48
-      }
+      "name": "Ditto",
+      "japanese_name": "Metamonメタモン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Limber', 'Imposter']",
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "sp_attack": 48,
+      "sp_defense": 48,
+      "speed": 48,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 288,
+      "capture_rate": 35,
+      "classfication": "Transform Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": "",
+      "weight_kg": 4,
+      "generation": 1
     },
     {
       "id": 133,
-      "name": {
-        "english": "Eevee",
-        "japanese": "イーブイ",
-        "chinese": "伊布",
-        "french": "Évoli"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 55,
-        "Attack": 55,
-        "Defense": 50,
-        "Sp. Attack": 45,
-        "Sp. Defense": 65,
-        "Speed": 55
-      }
+      "name": "Eevee",
+      "japanese_name": "Eievuiイーブイ",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Run Away', 'Adaptability', 'Anticipation']",
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "sp_attack": 45,
+      "sp_defense": 65,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 8960,
+      "base_happiness": 70,
+      "base_total": 325,
+      "capture_rate": 45,
+      "classfication": "Evolution Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.3,
+      "percentage_male": 88.1,
+      "weight_kg": 6.5,
+      "generation": 1
     },
     {
       "id": 134,
-      "name": {
-        "english": "Vaporeon",
-        "japanese": "シャワーズ",
-        "chinese": "水伊布",
-        "french": "Aquali"
-      },
-      "type": [
-        "Water"
-      ],
-      "base": {
-        "HP": 130,
-        "Attack": 65,
-        "Defense": 60,
-        "Sp. Attack": 110,
-        "Sp. Defense": 95,
-        "Speed": 65
-      }
+      "name": "Vaporeon",
+      "japanese_name": "Showersシャワーズ",
+      "type1": "water",
+      "type2": "",
+      "abilities": "['Water Absorb', 'Hydration']",
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 110,
+      "sp_defense": 95,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 8960,
+      "base_happiness": 70,
+      "base_total": 525,
+      "capture_rate": 45,
+      "classfication": "Bubble Jet Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 88.1,
+      "weight_kg": 29,
+      "generation": 1
     },
     {
       "id": 135,
-      "name": {
-        "english": "Jolteon",
-        "japanese": "サンダース",
-        "chinese": "雷伊布",
-        "french": "Voltali"
-      },
-      "type": [
-        "Electric"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 65,
-        "Defense": 60,
-        "Sp. Attack": 110,
-        "Sp. Defense": 95,
-        "Speed": 130
-      }
+      "name": "Jolteon",
+      "japanese_name": "Thundersサンダース",
+      "type1": "electric",
+      "type2": "",
+      "abilities": "['Volt Absorb', 'Quick Feet']",
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "sp_attack": 110,
+      "sp_defense": 95,
+      "speed": 130,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 8960,
+      "base_happiness": 70,
+      "base_total": 525,
+      "capture_rate": 45,
+      "classfication": "Lightning Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.8,
+      "percentage_male": 88.1,
+      "weight_kg": 24.5,
+      "generation": 1
     },
     {
       "id": 136,
-      "name": {
-        "english": "Flareon",
-        "japanese": "ブースター",
-        "chinese": "火伊布",
-        "french": "Pyroli"
-      },
-      "type": [
-        "Fire"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 130,
-        "Defense": 60,
-        "Sp. Attack": 95,
-        "Sp. Defense": 110,
-        "Speed": 65
-      }
+      "name": "Flareon",
+      "japanese_name": "Boosterブースター",
+      "type1": "fire",
+      "type2": "",
+      "abilities": "['Flash Fire', 'Guts']",
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "sp_attack": 95,
+      "sp_defense": 110,
+      "speed": 65,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 8960,
+      "base_happiness": 70,
+      "base_total": 525,
+      "capture_rate": 45,
+      "classfication": "Flame Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.9,
+      "percentage_male": 88.1,
+      "weight_kg": 25,
+      "generation": 1
     },
     {
       "id": 137,
-      "name": {
-        "english": "Porygon",
-        "japanese": "ポリゴン",
-        "chinese": "多边兽",
-        "french": "Porygon"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 65,
-        "Attack": 60,
-        "Defense": 70,
-        "Sp. Attack": 85,
-        "Sp. Defense": 75,
-        "Speed": 40
-      }
+      "name": "Porygon",
+      "japanese_name": "Porygonポリゴン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Trace', 'Download', 'Analytic']",
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "sp_attack": 85,
+      "sp_defense": 75,
+      "speed": 40,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 5120,
+      "base_happiness": 70,
+      "base_total": 395,
+      "capture_rate": 45,
+      "classfication": "Virtual Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.8,
+      "percentage_male": "",
+      "weight_kg": 36.5,
+      "generation": 1
     },
     {
       "id": 138,
-      "name": {
-        "english": "Omanyte",
-        "japanese": "オムナイト",
-        "chinese": "菊石兽",
-        "french": "Amonita"
-      },
-      "type": [
-        "Rock",
-        "Water"
-      ],
-      "base": {
-        "HP": 35,
-        "Attack": 40,
-        "Defense": 100,
-        "Sp. Attack": 90,
-        "Sp. Defense": 55,
-        "Speed": 35
-      }
+      "name": "Omanyte",
+      "japanese_name": "Omniteオムナイト",
+      "type1": "rock",
+      "type2": "water",
+      "abilities": "['Swift Swim', 'Shell Armor', 'Weak Armor']",
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "sp_attack": 90,
+      "sp_defense": 55,
+      "speed": 35,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 7680,
+      "base_happiness": 70,
+      "base_total": 355,
+      "capture_rate": 45,
+      "classfication": "Spiral Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.4,
+      "percentage_male": 88.1,
+      "weight_kg": 7.5,
+      "generation": 1
     },
     {
       "id": 139,
-      "name": {
-        "english": "Omastar",
-        "japanese": "オムスター",
-        "chinese": "多刺菊石兽",
-        "french": "Amonistar"
-      },
-      "type": [
-        "Rock",
-        "Water"
-      ],
-      "base": {
-        "HP": 70,
-        "Attack": 60,
-        "Defense": 125,
-        "Sp. Attack": 115,
-        "Sp. Defense": 70,
-        "Speed": 55
-      }
+      "name": "Omastar",
+      "japanese_name": "Omstarオムスター",
+      "type1": "rock",
+      "type2": "water",
+      "abilities": "['Swift Swim', 'Shell Armor', 'Weak Armor']",
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "sp_attack": 115,
+      "sp_defense": 70,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 7680,
+      "base_happiness": 70,
+      "base_total": 495,
+      "capture_rate": 45,
+      "classfication": "Spiral Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1,
+      "percentage_male": 88.1,
+      "weight_kg": 35,
+      "generation": 1
     },
     {
       "id": 140,
-      "name": {
-        "english": "Kabuto",
-        "japanese": "カブト",
-        "chinese": "化石盔",
-        "french": "Kabuto"
-      },
-      "type": [
-        "Rock",
-        "Water"
-      ],
-      "base": {
-        "HP": 30,
-        "Attack": 80,
-        "Defense": 90,
-        "Sp. Attack": 55,
-        "Sp. Defense": 45,
-        "Speed": 55
-      }
+      "name": "Kabuto",
+      "japanese_name": "Kabutoカブト",
+      "type1": "rock",
+      "type2": "water",
+      "abilities": "['Swift Swim', 'Battle Armor', 'Weak Armor']",
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "sp_attack": 55,
+      "sp_defense": 45,
+      "speed": 55,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 7680,
+      "base_happiness": 70,
+      "base_total": 355,
+      "capture_rate": 45,
+      "classfication": "Shellfish Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 0.5,
+      "percentage_male": 88.1,
+      "weight_kg": 11.5,
+      "generation": 1
     },
     {
       "id": 141,
-      "name": {
-        "english": "Kabutops",
-        "japanese": "カブトプス",
-        "chinese": "镰刀盔",
-        "french": "Kabutops"
-      },
-      "type": [
-        "Rock",
-        "Water"
-      ],
-      "base": {
-        "HP": 60,
-        "Attack": 115,
-        "Defense": 105,
-        "Sp. Attack": 65,
-        "Sp. Defense": 70,
-        "Speed": 80
-      }
+      "name": "Kabutops",
+      "japanese_name": "Kabutopsカブトプス",
+      "type1": "rock",
+      "type2": "water",
+      "abilities": "['Swift Swim', 'Battle Armor', 'Weak Armor']",
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "sp_attack": 65,
+      "sp_defense": 70,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 7680,
+      "base_happiness": 70,
+      "base_total": 495,
+      "capture_rate": 45,
+      "classfication": "Shellfish Pokémon",
+      "experience_growth": 1000000,
+      "height_m": 1.3,
+      "percentage_male": 88.1,
+      "weight_kg": 40.5,
+      "generation": 1
     },
     {
       "id": 142,
-      "name": {
-        "english": "Aerodactyl",
-        "japanese": "プテラ",
-        "chinese": "化石翼龙",
-        "french": "Ptéra"
-      },
-      "type": [
-        "Rock",
-        "Flying"
-      ],
-      "base": {
-        "HP": 80,
-        "Attack": 105,
-        "Defense": 65,
-        "Sp. Attack": 60,
-        "Sp. Defense": 75,
-        "Speed": 130
-      }
+      "name": "Aerodactyl",
+      "japanese_name": "Pteraプテラ",
+      "type1": "rock",
+      "type2": "flying",
+      "abilities": "['Rock Head', 'Pressure', 'Unnerve']",
+      "hp": 80,
+      "attack": 135,
+      "defense": 85,
+      "sp_attack": 70,
+      "sp_defense": 95,
+      "speed": 150,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 8960,
+      "base_happiness": 70,
+      "base_total": 615,
+      "capture_rate": 45,
+      "classfication": "Fossil Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.8,
+      "percentage_male": 88.1,
+      "weight_kg": 59,
+      "generation": 1
     },
     {
       "id": 143,
-      "name": {
-        "english": "Snorlax",
-        "japanese": "カビゴン",
-        "chinese": "卡比兽",
-        "french": "Ronflex"
-      },
-      "type": [
-        "Normal"
-      ],
-      "base": {
-        "HP": 160,
-        "Attack": 110,
-        "Defense": 65,
-        "Sp. Attack": 65,
-        "Sp. Defense": 110,
-        "Speed": 30
-      }
+      "name": "Snorlax",
+      "japanese_name": "Kabigonカビゴン",
+      "type1": "normal",
+      "type2": "",
+      "abilities": "['Immunity', 'Thick Fat', 'Gluttony']",
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "sp_attack": 65,
+      "sp_defense": 110,
+      "speed": 30,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 70,
+      "base_total": 540,
+      "capture_rate": 25,
+      "classfication": "Sleeping Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 2.1,
+      "percentage_male": 88.1,
+      "weight_kg": 460,
+      "generation": 1
     },
     {
       "id": 144,
-      "name": {
-        "english": "Articuno",
-        "japanese": "フリーザー",
-        "chinese": "急冻鸟",
-        "french": "Artikodin"
-      },
-      "type": [
-        "Ice",
-        "Flying"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 85,
-        "Defense": 100,
-        "Sp. Attack": 95,
-        "Sp. Defense": 125,
-        "Speed": 85
-      }
+      "name": "Articuno",
+      "japanese_name": "Freezerフリーザー",
+      "type1": "ice",
+      "type2": "flying",
+      "abilities": "['Pressure', 'Snow Cloak']",
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "sp_attack": 95,
+      "sp_defense": 125,
+      "speed": 85,
+      "is_legendary": 1,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 20480,
+      "base_happiness": 35,
+      "base_total": 580,
+      "capture_rate": 3,
+      "classfication": "Freeze Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.7,
+      "percentage_male": "",
+      "weight_kg": 55.4,
+      "generation": 1
     },
     {
       "id": 145,
-      "name": {
-        "english": "Zapdos",
-        "japanese": "サンダー",
-        "chinese": "闪电鸟",
-        "french": "Électhor"
-      },
-      "type": [
-        "Electric",
-        "Flying"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 90,
-        "Defense": 85,
-        "Sp. Attack": 125,
-        "Sp. Defense": 90,
-        "Speed": 100
-      }
+      "name": "Zapdos",
+      "japanese_name": "Thunderサンダー",
+      "type1": "electric",
+      "type2": "flying",
+      "abilities": "['Pressure', 'Static']",
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "sp_attack": 125,
+      "sp_defense": 90,
+      "speed": 100,
+      "is_legendary": 1,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 20480,
+      "base_happiness": 35,
+      "base_total": 580,
+      "capture_rate": 3,
+      "classfication": "Electric Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.6,
+      "percentage_male": "",
+      "weight_kg": 52.6,
+      "generation": 1
     },
     {
       "id": 146,
-      "name": {
-        "english": "Moltres",
-        "japanese": "ファイヤー",
-        "chinese": "火焰鸟",
-        "french": "Sulfura"
-      },
-      "type": [
-        "Fire",
-        "Flying"
-      ],
-      "base": {
-        "HP": 90,
-        "Attack": 100,
-        "Defense": 90,
-        "Sp. Attack": 125,
-        "Sp. Defense": 85,
-        "Speed": 90
-      }
+      "name": "Moltres",
+      "japanese_name": "Fireファイヤー",
+      "type1": "fire",
+      "type2": "flying",
+      "abilities": "['Pressure', 'Flame Body']",
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "sp_attack": 125,
+      "sp_defense": 85,
+      "speed": 90,
+      "is_legendary": 1,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 20480,
+      "base_happiness": 35,
+      "base_total": 580,
+      "capture_rate": 3,
+      "classfication": "Flame Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 2,
+      "percentage_male": "",
+      "weight_kg": 60,
+      "generation": 1
     },
     {
       "id": 147,
-      "name": {
-        "english": "Dratini",
-        "japanese": "ミニリュウ",
-        "chinese": "迷你龙",
-        "french": "Minidraco"
-      },
-      "type": [
-        "Dragon"
-      ],
-      "base": {
-        "HP": 41,
-        "Attack": 64,
-        "Defense": 45,
-        "Sp. Attack": 50,
-        "Sp. Defense": 50,
-        "Speed": 50
-      }
+      "name": "Dratini",
+      "japanese_name": "Miniryuミニリュウ",
+      "type1": "dragon",
+      "type2": "",
+      "abilities": "['Shed Skin', 'Marvel Scale']",
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "sp_attack": 50,
+      "sp_defense": 50,
+      "speed": 50,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 35,
+      "base_total": 300,
+      "capture_rate": 45,
+      "classfication": "Dragon Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 1.8,
+      "percentage_male": 50,
+      "weight_kg": 3.3,
+      "generation": 1
     },
     {
       "id": 148,
-      "name": {
-        "english": "Dragonair",
-        "japanese": "ハクリュー",
-        "chinese": "哈克龙",
-        "french": "Draco"
-      },
-      "type": [
-        "Dragon"
-      ],
-      "base": {
-        "HP": 61,
-        "Attack": 84,
-        "Defense": 65,
-        "Sp. Attack": 70,
-        "Sp. Defense": 70,
-        "Speed": 70
-      }
+      "name": "Dragonair",
+      "japanese_name": "Hakuryuハクリュー",
+      "type1": "dragon",
+      "type2": "",
+      "abilities": "['Shed Skin', 'Marvel Scale']",
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "sp_attack": 70,
+      "sp_defense": 70,
+      "speed": 70,
+      "is_legendary": 0,
+      "is_fullyEvolved": 0,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 35,
+      "base_total": 420,
+      "capture_rate": 45,
+      "classfication": "Dragon Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 4,
+      "percentage_male": 50,
+      "weight_kg": 16.5,
+      "generation": 1
     },
     {
       "id": 149,
-      "name": {
-        "english": "Dragonite",
-        "japanese": "カイリュー",
-        "chinese": "快龙",
-        "french": "Dracolosse"
-      },
-      "type": [
-        "Dragon",
-        "Flying"
-      ],
-      "base": {
-        "HP": 91,
-        "Attack": 134,
-        "Defense": 95,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
-        "Speed": 80
-      }
+      "name": "Dragonite",
+      "japanese_name": "Kairyuカイリュー",
+      "type1": "dragon",
+      "type2": "flying",
+      "abilities": "['Inner Focus', 'Multiscale']",
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "sp_attack": 100,
+      "sp_defense": 100,
+      "speed": 80,
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 10240,
+      "base_happiness": 35,
+      "base_total": 600,
+      "capture_rate": 45,
+      "classfication": "Dragon Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 2.2,
+      "percentage_male": 50,
+      "weight_kg": 210,
+      "generation": 1
     },
     {
       "id": 150,
-      "name": {
-        "english": "Mewtwo",
-        "japanese": "ミュウツー",
-        "chinese": "超梦",
-        "french": "Mewtwo"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 106,
-        "Attack": 110,
-        "Defense": 90,
-        "Sp. Attack": 154,
-        "Sp. Defense": 90,
-        "Speed": 130
-      }
+      "name": "Mewtwo",
+      "japanese_name": "Mewtwoミュウツー",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Pressure', 'Unnerve']",
+      "hp": 106,
+      "attack": 150,
+      "defense": 70,
+      "sp_attack": 194,
+      "sp_defense": 120,
+      "speed": 140,
+      "is_legendary": 1,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 30720,
+      "base_happiness": 0,
+      "base_total": 780,
+      "capture_rate": 3,
+      "classfication": "Genetic Pokémon",
+      "experience_growth": 1250000,
+      "height_m": 2,
+      "percentage_male": "",
+      "weight_kg": 122,
+      "generation": 1
     },
     {
       "id": 151,
-      "name": {
-        "english": "Mew",
-        "japanese": "ミュウ",
-        "chinese": "梦幻",
-        "french": "Mew"
-      },
-      "type": [
-        "Psychic"
-      ],
-      "base": {
-        "HP": 100,
-        "Attack": 100,
-        "Defense": 100,
-        "Sp. Attack": 100,
-        "Sp. Defense": 100,
-        "Speed": 100
-      }
+      "name": "Mew",
+      "japanese_name": "Mewミュウ",
+      "type1": "psychic",
+      "type2": "",
+      "abilities": "['Synchronize']",
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "sp_attack": 100,
+      "sp_defense": 100,
+      "speed": 100,
+      "is_legendary": 1,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "base_egg_steps": 30720,
+      "base_happiness": 100,
+      "base_total": 600,
+      "capture_rate": 45,
+      "classfication": "New Species Pokémon",
+      "experience_growth": 1059860,
+      "height_m": 0.4,
+      "percentage_male": "",
+      "weight_kg": 4,
+      "generation": 1
     }
-]
+  ]
 }

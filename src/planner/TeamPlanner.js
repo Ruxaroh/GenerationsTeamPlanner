@@ -6,19 +6,39 @@ import {BrowserView, MobileView} from 'react-device-detect';
 import * as shape from 'react-shapes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSchool, faMapMarkerAlt, faChalkboardTeacher, faCoins, faLaptop } from '@fortawesome/free-solid-svg-icons'
-import {
-  Link, useHistory, Route} from "react-router-dom";
+import {Link, useHistory, Route} from "react-router-dom";
 
 import * as common from "../control/common";
 import "./TeamPlanner.scss";
 
 // Page Components
 import DrawTeamSelection from './selectedTeam';
-import DrawPokemonOptions from "./teamOptions"
+import DrawPokemonOptions from "./teamOptions";
+import DrawFilters from "./filterOptions";
 
 // TeamID from URL
 var teamID = [];
 
+const types = [
+  "bug",
+  "dark",
+  "dragon",
+  "electric",
+  "fairy",
+  "fighting",
+  "fire",
+  "flying",
+  "ghost",
+  "grass",
+  "ground",
+  "ice",
+  "normal",
+  "poison",
+  "psychic",
+  "rock",
+  "steel",
+  "water",
+];
 
 class TeamPlanner extends Component {
 
@@ -31,17 +51,25 @@ constructor(props) {
     teamData: [],
     gameData: {
     },
+    filters: {
+      evolved: false,
+      versionExclusive: true,
+      legendary: false,
+      dupeType: false,
+      filterType: [],
+    }
   }
 }
+
 
 updateSelectedTeam() {
   var tmpTeamData = [];
     for (var member = 0; member < teamID.length; member++){
       for (var dex = 0; dex < this.state.gameData.dex.length; dex++){
         if (teamID[member] == this.state.gameData.dex[dex].id){
-          tmpTeamData.push([this.state.gameData.dex[dex].name.english,
-                            this.state.gameData.dex[dex].type[0],
-                            this.state.gameData.dex[dex].type[1],
+          tmpTeamData.push([this.state.gameData.dex[dex].name,
+                            this.state.gameData.dex[dex].type1,
+                            this.state.gameData.dex[dex].type2,
                             this.state.gameData.dex[dex].id])
         }
       }
@@ -52,6 +80,52 @@ updateSelectedTeam() {
     }
     this.state.teamData = [... tmpTeamData];
 }
+
+updateFilter = (type) => {
+  if (type == "evolved"){
+    this.state.filters.evolved = !this.state.filters.evolved;
+  }
+  if (type == "versionExclusive"){
+    this.state.filters.versionExclusive = !this.state.filters.versionExclusive;
+  }
+  if (type == "legendary"){
+    this.state.filters.legendary = !this.state.filters.legendary;
+  }
+  if (type == "dupeType"){
+    this.state.filters.dupeType = !this.state.filters.dupeType;
+  }
+
+  this.setState({});
+ }
+
+typeToggle = () => {
+  for (var type = 0; type < types.length; type++){
+    if (! this.state.filters.filterType.includes(types[type])){
+      this.state.filters.filterType.push(types[type])
+    } else {
+      for (var i = 0; i < this.state.filters.filterType.length; i++){
+        if(this.state.filters.filterType[i] == types[type]){
+          this.state.filters.filterType.splice(i, 1);
+        }
+      }
+    }
+  }
+  this.setState({});
+}
+
+ updateTypeFilter = (type) => {
+   if (! this.state.filters.filterType.includes(type)){
+     this.state.filters.filterType.push(type)
+   } else {
+     for (var i = 0; i < this.state.filters.filterType.length; i++){
+       if(this.state.filters.filterType[i] == type){
+         this.state.filters.filterType.splice(i, 1);
+       }
+     }
+   }
+
+   this.setState({});
+ }
 
 addMember = (id) => {
   var newTeam = "";
@@ -127,7 +201,8 @@ removeMember = (id) => {
           Pokémon {this.state.gameData.gameName}
         </div>
         <DrawTeamSelection teamData={this.state.teamData} removeMember={this.removeMember}/>
-        <DrawPokemonOptions dex={this.state.gameData.dex} teamID={teamID} addMember = {this.addMember} />
+        <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
+        <DrawPokemonOptions dex={this.state.gameData.dex} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} />
         </div>
           );
         } else if (this.state.fetchError) {

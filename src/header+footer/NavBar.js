@@ -17,7 +17,7 @@ class NavBar extends Component {
   gameLink(game){
       var source = process.env.PUBLIC_URL +"/gameIcons/cover-" + game + ".png";
       return(
-        <a href={process.env.PUBLIC_URL + "/teamPlanner/"+game}>
+        <a href={process.env.PUBLIC_URL + "/"+game}>
         <img className="GameIcon" src={source} width="64px" height="64px" />
         </a>
       );
@@ -63,6 +63,56 @@ class NavBar extends Component {
               <div className="in_gen_gap" />
               {this.gameLink("firered")}
               {this.gameLink("leafgreen")}
+              </Nav>
+              </div>
+
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("diamond")}
+              {this.gameLink("pearl")}
+              <div className="in_gen_gap" />
+              {this.gameLink("platinum")}
+              <div className="in_gen_gap" />
+              {this.gameLink("heartgold")}
+              {this.gameLink("soulsilver")}
+              </Nav>
+              </div>
+
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("black")}
+              {this.gameLink("white")}
+              <div className="in_gen_gap" />
+              {this.gameLink("black2")}
+              {this.gameLink("white2")}
+              </Nav>
+              </div>
+
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("x")}
+              {this.gameLink("y")}
+              <div className="in_gen_gap" />
+              {this.gameLink("omegaruby")}
+              {this.gameLink("alphasapphire")}
+              </Nav>
+              </div>
+
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("sun")}
+              {this.gameLink("moon")}
+              <div className="in_gen_gap" />
+              {this.gameLink("ultrasun")}
+              {this.gameLink("ultramoon")}
+              </Nav>
+              </div>
+
+              <div className="gen_box">
+              <Nav className="mr-auto">
+              {this.gameLink("sword")}
+              {this.gameLink("shield")}
+
               </Nav>
               </div>
             </div>
