@@ -83,8 +83,8 @@ class NavBar extends Component {
               {this.gameLink("black")}
               {this.gameLink("white")}
               <div className="in_gen_gap" />
-              {this.gameLink("black2")}
-              {this.gameLink("white2")}
+              {this.gameLink("blacktwo")}
+              {this.gameLink("whitetwo")}
               </Nav>
               </div>
 
