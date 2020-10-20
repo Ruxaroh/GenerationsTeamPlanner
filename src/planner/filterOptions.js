@@ -66,7 +66,7 @@ class FilterType extends Component {
 
     return (
       <div className="typeOption" onClick={() => this.props.updateTypeFilter(this.props.type)}>
-        <img style={style} src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.type}.png`} height="30" width="30" />
+        <img style={style} src={`/typeIcons/mobile/${this.props.type}.png`} height="30" width="30" />
       </div>
     );
   }

@@ -44,11 +44,11 @@ export function Type2Color(type){
       document.title = "Team Planner | TestDex";
       return(
         <div class="Errorbox">
-          <img class="errorImage" src={process.env.PUBLIC_URL + "/pokemonSprites/art/rotom.png"} height="250px" width="250px" />
+          <img class="errorImage" src={"/pokemonSprites/art/rotom.png"} height="250px" width="250px" />
           <div class="msg">
             Huh, Something has gone wrong...
             <p>
-            You probably want to go <a href={process.env.PUBLIC_URL}>home</a> and try from there.
+            You probably want to go <a href={"/red"}>home</a> and try from there.
             </p>
             <p class="errorMessageTitle">
               This part is for nerds:{" "}

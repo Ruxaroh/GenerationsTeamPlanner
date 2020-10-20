@@ -18,14 +18,14 @@ class GetTypes extends Component {
     return( <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
-          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
+          <img src={`/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
-        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
+        <img src={`/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
       </div>
       </MobileView>
     </div>
@@ -35,12 +35,12 @@ class GetTypes extends Component {
       <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`${process.env.PUBLIC_URL}/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
+          <img src={`/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`${process.env.PUBLIC_URL}/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+        <img src={`/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
       </div>
       </MobileView>
     </div>
@@ -56,11 +56,11 @@ class GetImages extends Component {
     return(
     <div className="OptionImages">
     <BrowserView>
-      <img className="SelectionBaseImage" src={process.env.PUBLIC_URL + "/pokeball_icon.png"} height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/art/${this.props.name.toLowerCase()}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      <img className="SelectionBaseImage" src={"/pokeball_icon.png"} height="130" width="130" />
+      <img className="SelectionChoiceImage" src={`/pokemonSprites/art/${this.props.name.toLowerCase()}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`${process.env.PUBLIC_URL}/pokemonSprites/pixel/${this.props.name.toLowerCase()}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img className="SelectionChoiceImage" src={`/pokemonSprites/pixel/${this.props.name.toLowerCase()}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );

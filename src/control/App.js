@@ -52,9 +52,9 @@ const App = () => (
       <div className="pageWrap">
         <Container fluid>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"}> <Redirect to={process.env.PUBLIC_URL + "/red/"} /> </Route>
-            <Route path={process.env.PUBLIC_URL + "/:game/:teamCode"} children={<LoadTeamPlanner />} />
-            <Route path={process.env.PUBLIC_URL + "/:game"} children={<LoadLiteTeamPlanner />} />
+            <Route exact path="/"> <Redirect to={"/red/"} /> </Route>
+            <Route path={"/:game/:teamCode"} children={<LoadTeamPlanner />} />
+            <Route path={"/:game"} children={<LoadLiteTeamPlanner />} />
             <Route children={<common.ErrorPage error="Page not Found" />} />
           </Switch>
         </Container>

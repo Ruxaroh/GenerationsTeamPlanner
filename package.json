@@ -1,7 +1,6 @@
 {
   "name": "GenerationsTeamBuilder",
   "version": "0.0.4",
-  "homepage": "http://ruxaroh.github.io/GenerationsTeamPlanner",
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
