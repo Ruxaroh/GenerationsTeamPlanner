@@ -43,10 +43,10 @@ function getTooltipText(type, state){
     return("Hide version exclusives that are not obtainable in this game");
   }
   if (type == "legendary" && state){
-    return("Show Legandary Pokémon");
+    return("Show legendary Pokémon");
   }
   if (type == "legendary" && !state){
-    return("Hide Legandary Pokémon");
+    return("Hide legendary Pokémon");
   }
   if (type == "dupeType" && state){
     return("Show Pokémon that share a type with a Pokémon already on your team");
