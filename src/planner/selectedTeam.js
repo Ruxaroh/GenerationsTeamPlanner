@@ -14,40 +14,41 @@ import * as common from "../control/common";
 class GetTypes extends Component {
 
   render(){
-  if (this.props.entry[2]){
+  if (this.props.entry)  {
+  if (this.props.entry.type2){
     return( <div>
       <BrowserView>
         <div className="typeDisplayDesktop">
-          <img src={`/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
-          <img src={`/typeIcons/desktop/${this.props.entry[2].toLowerCase()}.png`} />
+          <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} />
+          <img src={`/typeIcons/desktop/${this.props.entry.type2.toLowerCase()}.png`} />
         </div>
       </BrowserView>
       <MobileView>
       <div className="typeDisplayMobile">
-        <img src={`/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" />
-        <img src={`/typeIcons/mobile/${this.props.entry[2].toLowerCase()}.png`} height="16" width="16" />
-      </div>
-      </MobileView>
-    </div>
-    );
-  } else if(this.props.entry[1]){
-    return(
-      <div>
-      <BrowserView>
-        <div className="typeDisplayDesktop">
-          <img src={`/typeIcons/desktop/${this.props.entry[1].toLowerCase()}.png`} />
-        </div>
-      </BrowserView>
-      <MobileView>
-      <div className="typeDisplayMobile">
-        <img src={`/typeIcons/mobile/${this.props.entry[1].toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+        <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" />
+        <img src={`/typeIcons/mobile/${this.props.entry.type2.toLowerCase()}.png`} height="16" width="16" />
       </div>
       </MobileView>
     </div>
     );
   } else {
-    return (null);
+    return(
+      <div>
+      <BrowserView>
+        <div className="typeDisplayDesktop">
+          <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} />
+        </div>
+      </BrowserView>
+      <MobileView>
+      <div className="typeDisplayMobile">
+        <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
+      </div>
+      </MobileView>
+    </div>
+    );
   }
+} else {
+  return (null)}
 }
 }
 
@@ -57,10 +58,10 @@ class GetImages extends Component {
     <div className="OptionImages">
     <BrowserView>
       <img className="SelectionBaseImage" src={"/pokeball_icon.png"} height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`/pokemonSprites/art/${this.props.name.toLowerCase().replace(".","").replace("'", "")}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      <img className="SelectionChoiceImage" src={`/pokemonSprites/art/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "")}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img className="SelectionChoiceImage" src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );
@@ -69,24 +70,30 @@ class GetImages extends Component {
 
 class DrawSelection extends Component {
   render() {
-    if (this.props.entry[0]){
-      var name = this.props.entry[0];
-      var text = this.props.entry[0].replace("_"," ");
+    if (this.props.entry){
+      var name = this.props.entry.name;
+      var text = this.props.entry.name.replace("_"," ");
+      if (this.props.entry.form == "0"){
+        var form = "";
+      } else {
+        var form = this.props.entry.form;
+      }
     } else  {
       var name = "unown";
       var text = "???";
+      var form = "";
     }
       return(
-      <div className="TeamMember" onClick={() => this.props.removeMember(this.props.entry[3])}>
+      <div className="TeamMember" onClick={() => this.props.removeMember(this.props.entry.id, this.props.entry.form)}>
         <BrowserView style={{width:"130px"}}>
               <div className="SelectionText">
                 {text}
               </div>
-              <GetImages name={name} />
+              <GetImages name={name} form={form} />
               <GetTypes entry={this.props.entry} />
         </BrowserView>
         <MobileView>
-            <GetImages name={name} />
+            <GetImages name={name} form={form}/>
             <GetTypes entry={this.props.entry} />
         </MobileView>
       </div>

@@ -66,17 +66,14 @@ updateSelectedTeam() {
   var tmpTeamData = [];
     for (var member = 0; member < teamID.length; member++){
       for (var dex = 0; dex < this.state.gameData.dex.length; dex++){
-        if (teamID[member] == this.state.gameData.dex[dex].id){
-          tmpTeamData.push([this.state.gameData.dex[dex].name,
-                            this.state.gameData.dex[dex].type1,
-                            this.state.gameData.dex[dex].type2,
-                            this.state.gameData.dex[dex].id])
+        if (teamID[member][0] == this.state.gameData.dex[dex].id && teamID[member][1] == this.state.gameData.dex[dex].form){
+          tmpTeamData.push(this.state.gameData.dex[dex])
         }
       }
     }
 
     for (var count = tmpTeamData.length; count < 6; count++){
-      tmpTeamData.push([null,null,null,null])
+      tmpTeamData.push(null)
     }
     this.state.teamData = [... tmpTeamData];
 }
@@ -127,29 +124,29 @@ typeToggle = () => {
    this.setState({});
  }
 
-addMember = (id) => {
+addMember = (id, form) => {
   var newTeam = "";
   if (teamID.length <= 5){
-    teamID.push(id);
+    teamID.push([id, form]);
    for (var i = 0; i < teamID.length; i++){
-     newTeam = newTeam + teamID[i].toString().padStart(4, "0");
+     newTeam = newTeam + teamID[i][0].toString().padStart(4, "0")  + teamID[i][1];
    }
 
- window.history.pushState({}, null, process.env.PUBLIC_URL + "/" + this.state.gameData.gameName.toLowerCase() + "/" + newTeam);
+ window.history.pushState({}, null, process.env.PUBLIC_URL + "/" + this.props.game + "/" + newTeam);
  this.setState({});
 }
 }
 
-removeMember = (id) => {
+removeMember = (id, form) => {
   var newTeam = "";
   for (var i = 0; i < teamID.length; i++){
-    if (teamID[i] == id){
+    if (teamID[i][0] == id && teamID[i][1] == form){
       teamID.splice(i,1);
       for (var i = 0; i < teamID.length; i++){
-        newTeam = newTeam + teamID[i].toString().padStart(4, "0");
+        newTeam = newTeam + teamID[i][0].toString().padStart(4, "0") + teamID[i][1];
       }
 
-      window.history.pushState({}, null, process.env.PUBLIC_URL + "/" + this.state.gameData.gameName.toLowerCase() + "/" + newTeam);
+      window.history.pushState({}, null, process.env.PUBLIC_URL + "/" + this.props.game + "/" + newTeam);
       this.setState({});
     }
   }
@@ -163,15 +160,22 @@ removeMember = (id) => {
         }).then(json => {
 
           var team = [parseInt(this.props.team.slice(0,4)),
-                      parseInt(this.props.team.slice(4,8)),
-                      parseInt(this.props.team.slice(8,12)),
-                      parseInt(this.props.team.slice(12,16)),
-                      parseInt(this.props.team.slice(16,20)),
-                      parseInt(this.props.team.slice(20,24))]
+                      parseInt(this.props.team.slice(5,9)),
+                      parseInt(this.props.team.slice(10,14)),
+                      parseInt(this.props.team.slice(15,19)),
+                      parseInt(this.props.team.slice(20,24)),
+                      parseInt(this.props.team.slice(25,29))]
+
+          var teamForms = [this.props.team.slice(4,5),
+                       this.props.team.slice(9,10),
+                       this.props.team.slice(14,15),
+                       this.props.team.slice(19,20),
+                       this.props.team.slice(24,25),
+                       this.props.team.slice(29,30)]
           for (var code = 0; code < 6; code++){
             for (var dex=0; dex < json.dex.length; dex++){
               if (team[code] == json.dex[dex].id) {
-                teamID.push(json.dex[dex].id);
+                teamID.push([json.dex[dex].id, json.dex[dex].form]);
                 break;
               }
             }

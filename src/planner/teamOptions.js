@@ -11,8 +11,11 @@ import { Link, useHistory, Route} from "react-router-dom";
 import * as common from "../control/common";
 
 function shouldRender(entry, teamID, teamData, filters){
-  if(teamID.includes(entry.id)){
-    return(false);
+
+  for (var i = 0; i < teamID.length; i++){
+    if (teamID[i][0] == entry.id && teamID[i][1] == entry.form){
+      return(false);
+    }
   }
   if(filters.evolved && entry.is_fullyEvolved != "1"){
     return(false);
@@ -40,13 +43,19 @@ function shouldRender(entry, teamID, teamData, filters){
 class DrawPokemonOption extends Component {
   render() {
     if (shouldRender(this.props.entry, this.props.teamID, this.props.teamData, this.props.filters)){
+      var form;
+      if (this.props.entry.form == "0"){
+        form = "";
+      } else {
+        form = this.props.entry.form;
+      }
       var CircleStyle = {
         background: common.Type2Color(this.props.entry.type1),
         border: `3px solid ${common.Type2Color(this.props.entry.type2)}`,
       };
       return(
-        <div className="selectionImage" style={CircleStyle} onClick={() => this.props.addMember(this.props.entry.id)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "")}.png`} width="40px" height="30px" />
+        <div className="selectionImage" style={CircleStyle} onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
+        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="40px" height="30px" />
         </div>
       );
     } else {

@@ -9,7 +9,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 4,
@@ -36,7 +39,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 5,
@@ -45,7 +49,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 6,
@@ -54,7 +59,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 7,
@@ -63,7 +69,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 8,
@@ -72,7 +79,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 9,
@@ -81,7 +89,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 10,
@@ -90,7 +99,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 11,
@@ -99,7 +109,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 12,
@@ -108,7 +119,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 13,
@@ -117,7 +129,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 14,
@@ -126,7 +139,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 15,
@@ -135,7 +149,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 16,
@@ -144,7 +159,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 17,
@@ -153,7 +169,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 18,
@@ -162,7 +179,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 19,
@@ -171,7 +189,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 20,
@@ -180,7 +199,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 21,
@@ -189,7 +209,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 22,
@@ -198,7 +219,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 23,
@@ -207,7 +229,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 24,
@@ -216,7 +239,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 25,
@@ -225,7 +249,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 26,
@@ -234,7 +259,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 27,
@@ -243,7 +269,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 28,
@@ -252,7 +279,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 29,
@@ -261,7 +289,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 30,
@@ -270,7 +299,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 31,
@@ -279,7 +309,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 32,
@@ -288,7 +319,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 33,
@@ -297,7 +329,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 34,
@@ -306,7 +339,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 35,
@@ -315,7 +349,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 36,
@@ -324,7 +359,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 37,
@@ -333,7 +369,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 38,
@@ -342,7 +379,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 39,
@@ -351,7 +389,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 40,
@@ -360,7 +399,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 41,
@@ -369,7 +409,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 42,
@@ -378,7 +419,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 43,
@@ -387,7 +429,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 44,
@@ -396,7 +439,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 45,
@@ -405,7 +449,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 46,
@@ -414,7 +459,8 @@
       "type2": "grass",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 47,
@@ -423,7 +469,8 @@
       "type2": "grass",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 48,
@@ -432,7 +479,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 49,
@@ -441,7 +489,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 50,
@@ -450,7 +499,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 51,
@@ -459,7 +509,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 52,
@@ -468,7 +519,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 53,
@@ -477,7 +529,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 54,
@@ -486,7 +539,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 55,
@@ -495,7 +549,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 56,
@@ -504,7 +559,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 57,
@@ -513,7 +569,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 58,
@@ -522,7 +579,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 59,
@@ -531,7 +589,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 60,
@@ -540,7 +599,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 61,
@@ -549,7 +609,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 62,
@@ -558,7 +619,8 @@
       "type2": "fighting",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 63,
@@ -567,7 +629,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 64,
@@ -576,7 +639,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 65,
@@ -585,7 +649,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 66,
@@ -594,7 +659,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 67,
@@ -603,7 +669,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 68,
@@ -612,7 +679,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 69,
@@ -621,7 +689,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 70,
@@ -630,7 +699,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 71,
@@ -639,7 +709,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 72,
@@ -648,7 +719,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 73,
@@ -657,7 +729,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 74,
@@ -666,7 +739,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 75,
@@ -675,7 +749,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 76,
@@ -684,7 +759,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 77,
@@ -693,7 +769,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 78,
@@ -702,7 +779,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 79,
@@ -711,7 +789,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 80,
@@ -720,7 +799,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 81,
@@ -729,7 +809,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 82,
@@ -738,7 +819,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 83,
@@ -747,7 +829,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 84,
@@ -756,7 +839,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 85,
@@ -765,7 +849,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 86,
@@ -774,7 +859,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 87,
@@ -783,7 +869,8 @@
       "type2": "ice",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 88,
@@ -792,7 +879,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 89,
@@ -801,7 +889,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 90,
@@ -810,7 +899,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 91,
@@ -819,7 +909,8 @@
       "type2": "ice",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 92,
@@ -828,7 +919,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 93,
@@ -837,7 +929,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 94,
@@ -846,7 +939,8 @@
       "type2": "poison",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 95,
@@ -855,7 +949,8 @@
       "type2": "ground",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 96,
@@ -864,7 +959,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 97,
@@ -873,7 +969,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 98,
@@ -882,7 +979,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 99,
@@ -891,7 +989,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 100,
@@ -900,7 +999,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 101,
@@ -909,7 +1009,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 102,
@@ -918,7 +1019,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 103,
@@ -927,7 +1029,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 104,
@@ -936,7 +1039,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 105,
@@ -945,7 +1049,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 106,
@@ -954,7 +1059,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 107,
@@ -963,7 +1069,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 108,
@@ -972,7 +1079,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 109,
@@ -981,7 +1089,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 110,
@@ -990,7 +1099,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 111,
@@ -999,7 +1109,8 @@
       "type2": "rock",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 112,
@@ -1008,7 +1119,8 @@
       "type2": "rock",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 113,
@@ -1017,7 +1129,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 114,
@@ -1026,7 +1139,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 115,
@@ -1035,7 +1149,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 116,
@@ -1044,7 +1159,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 117,
@@ -1053,7 +1169,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 118,
@@ -1062,7 +1179,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 119,
@@ -1071,7 +1189,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 120,
@@ -1080,7 +1199,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 121,
@@ -1089,7 +1209,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 122,
@@ -1098,7 +1219,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 123,
@@ -1107,7 +1229,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 124,
@@ -1116,7 +1239,8 @@
       "type2": "psychic",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 125,
@@ -1125,7 +1249,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 1
+      "is_exclusiveLocked": 1,
+      "form": 0
     },
     {
       "id": 126,
@@ -1134,7 +1259,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 127,
@@ -1143,7 +1269,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 128,
@@ -1152,7 +1279,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 129,
@@ -1161,7 +1289,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 130,
@@ -1170,7 +1299,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 131,
@@ -1179,7 +1309,8 @@
       "type2": "ice",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 132,
@@ -1188,7 +1319,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 133,
@@ -1197,7 +1329,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 134,
@@ -1206,7 +1339,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 135,
@@ -1215,7 +1349,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 136,
@@ -1224,7 +1359,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 137,
@@ -1233,7 +1369,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 138,
@@ -1242,7 +1379,8 @@
       "type2": "water",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 139,
@@ -1251,7 +1389,8 @@
       "type2": "water",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 140,
@@ -1260,7 +1399,8 @@
       "type2": "water",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 141,
@@ -1269,7 +1409,8 @@
       "type2": "water",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 142,
@@ -1278,7 +1419,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 143,
@@ -1287,7 +1429,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 144,
@@ -1296,7 +1439,8 @@
       "type2": "flying",
       "is_legendary": 1,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 145,
@@ -1305,7 +1449,8 @@
       "type2": "flying",
       "is_legendary": 1,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 146,
@@ -1314,7 +1459,8 @@
       "type2": "flying",
       "is_legendary": 1,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 147,
@@ -1323,7 +1469,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 148,
@@ -1332,7 +1479,8 @@
       "type2": "",
       "is_legendary": 0,
       "is_fullyEvolved": 0,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 149,
@@ -1341,7 +1489,8 @@
       "type2": "flying",
       "is_legendary": 0,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 150,
@@ -1350,7 +1499,8 @@
       "type2": "",
       "is_legendary": 1,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     },
     {
       "id": 151,
@@ -1359,7 +1509,8 @@
       "type2": "",
       "is_legendary": 1,
       "is_fullyEvolved": 1,
-      "is_exclusiveLocked": 0
+      "is_exclusiveLocked": 0,
+      "form": 0
     }
   ]
 }
