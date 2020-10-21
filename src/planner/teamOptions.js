@@ -28,11 +28,13 @@ function shouldRender(entry, teamID, teamData, filters){
   }
   if(filters.dupeType){
     for (var i = 0; i < teamData.length; i++){
-      if (entry.type1 == teamData[i][1] || entry.type1 == teamData[i][2] ||
-         ( entry.type2 != "" && (entry.type2 == teamData[i][1] || entry.type2 == teamData[i][2]))){
+      if (teamData[i]){
+      if (entry.type1 == teamData[i].type1 || entry.type1 == teamData[i].type2 ||
+         ( entry.type2 != "" && (entry.type2 == teamData[i].type1 || entry.type2 == teamData[i].type2))){
             return(false);
       }
     }
+  }
   }
   if (filters.filterType.includes(entry.type1) && (entry.type2 == "" || filters.filterType.includes(entry.type2))){
     return(false);
