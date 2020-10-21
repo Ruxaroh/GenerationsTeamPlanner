@@ -71,7 +71,7 @@ class DrawSelection extends Component {
   render() {
     if (this.props.entry[0]){
       var name = this.props.entry[0];
-      var text = this.props.entry[0].replace("-"," ");
+      var text = this.props.entry[0].replace("_"," ");
     } else  {
       var name = "unown";
       var text = "???";
