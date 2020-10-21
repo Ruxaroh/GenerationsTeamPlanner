@@ -46,7 +46,7 @@ class DrawPokemonOption extends Component {
       };
       return(
         <div className="selectionImage" style={CircleStyle} onClick={() => this.props.addMember(this.props.entry.id)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase()}.png`} width="40px" height="30px" />
+        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "")}.png`} width="40px" height="30px" />
         </div>
       );
     } else {
