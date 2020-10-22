@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from 'react-bootstrap/navbar'
 import Nav from 'react-bootstrap/nav'
+import Row from 'react-bootstrap/Row';
 import {Link, useHistory} from "react-router-dom";
 
 // Styling
@@ -21,10 +22,10 @@ class Footer extends Component {
 
   render() {
   return (
-    <div>
-      <Navbar bg="dark" variant="dark" className="footer">
-      </Navbar>
-    </div>
+    <footer className="footer">
+      <div className="legal">Pokémon is © of Nintendo, 1995 - 2020</div>
+      <div className="legal">A webapp by <a href="https://twitter.com/Ruxaroh">Ruxaroh</a> || This app would not of been possible without <a href="https://bulbapedia.bulbagarden.net"> baulbapeida </a> ❤️</div>
+    </footer>
   );
 }
 }

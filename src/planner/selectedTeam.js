@@ -18,13 +18,11 @@ class GetTypes extends Component {
   if (this.props.entry.type2){
     return( <div>
       <BrowserView>
-        <div className="typeDisplayDesktop">
-          <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} />
-          <img src={`/typeIcons/desktop/${this.props.entry.type2.toLowerCase()}.png`} />
-        </div>
+          <div className="TypeImage"> <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} /> </div>
+          <div className="TypeImage"> <img src={`/typeIcons/desktop/${this.props.entry.type2.toLowerCase()}.png`} /> </div>
       </BrowserView>
       <MobileView>
-      <div className="typeDisplayMobile">
+      <div className="TypeImage">
         <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" />
         <img src={`/typeIcons/mobile/${this.props.entry.type2.toLowerCase()}.png`} height="16" width="16" />
       </div>
@@ -35,14 +33,10 @@ class GetTypes extends Component {
     return(
       <div>
       <BrowserView>
-        <div className="typeDisplayDesktop">
-          <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} />
-        </div>
+        <div className="TypeImage"> <img src={`/typeIcons/desktop/${this.props.entry.type1.toLowerCase()}.png`} /> </div>
       </BrowserView>
       <MobileView>
-      <div className="typeDisplayMobile">
-        <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} />
-      </div>
+      <div className="TypeImage"> <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}} /> </div>
       </MobileView>
     </div>
     );
@@ -55,13 +49,12 @@ class GetTypes extends Component {
 class GetImages extends Component {
   render(){
     return(
-    <div className="OptionImages">
+    <div className="memberArt">
     <BrowserView>
-      <img className="SelectionBaseImage" src={"/pokeball_icon.png"} height="130" width="130" />
-      <img className="SelectionChoiceImage" src={`/pokemonSprites/art/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} height="100" width="100" style={{left: "15px", top: "15px"}}/>
+      <img src={`/pokemonSprites/art/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} height="100" width="100"/>
     </BrowserView>
     <MobileView>
-      <img className="SelectionChoiceImage" src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
     </MobileView>
     </div>
   );
@@ -71,66 +64,59 @@ class GetImages extends Component {
 class DrawSelection extends Component {
   render() {
     if (this.props.entry){
-      var name = this.props.entry.name;
-      var text = this.props.entry.name.replace("_"," ");
+      var form;
       if (this.props.entry.form == "0"){
-        var form = "";
+        form = "";
       } else {
-        var form = this.props.entry.form;
+        form = this.props.entry.form;
       }
-    } else  {
-      var name = "unown";
-      var text = "???";
-      var form = "";
-    }
+
       return(
       <div className="TeamMember" onClick={() => this.props.removeMember(this.props.entry.id, this.props.entry.form)}>
-        <BrowserView style={{width:"130px"}}>
-              <div className="SelectionText">
-                {text}
-              </div>
-              <GetImages name={name} form={form} />
-              <GetTypes entry={this.props.entry} />
-        </BrowserView>
-        <MobileView>
-            <GetImages name={name} form={form}/>
-            <GetTypes entry={this.props.entry} />
-        </MobileView>
+        <BrowserView> {this.props.entry.name.replace("_"," ")} </BrowserView>
+        <GetImages name={this.props.entry.name} form={form}/>
+        <GetTypes entry={this.props.entry} />
       </div>
       );
+    } else {
+      return(null);
     }
   }
+}
 
 class DrawTeamSelection extends Component {
   render() {
+    var height = "200px";
+    if (window.mobileCheck()){
+      height = "120px";
+    }
+    if (! this.props.teamData[0]){
+      return(
+        <div className="TeamMembersWrapper" style={{height: "130px"}}>
+          <div className="emptyTeam">
+            <GetImages name={"trubbish"} form={""}/>
+            Your team is empty. Select an option from below and it will show up here!
+          </div>
+        </div>
+      );
+    } else {
     return(
-      <div className="TeamMemberWrapper">
-      <BrowserView>
+      <div className="TeamMembersWrapper" style={{height:height}}>
       <div className="TeamMembers">
-        <Row style={{width: "450px", display: "flex", justifyContent: "center"}}>
+        <Row className="MemberGroup">
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[0]} />
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[1]} />
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[2]} />
         </Row>
-        <Row>
+        <Row className="MemberGroup">
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[3]} />
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[4]} />
           <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[5]} />
         </Row>
       </div>
-      </BrowserView>
-      <MobileView>
-      <div className="TeamMembers" style={{justifyContent: "space-evenly", marginRight: "20px", height: "40px"}}>
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[0]} />
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[1]} />
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[2]} />
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[3]} />
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[4]} />
-        <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[5]} />
-      </div>
-      </MobileView>
     </div>
     );
+  }
   }
 }
 

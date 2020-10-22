@@ -200,10 +200,10 @@ removeMember = (id, form) => {
         // Set page title to the current course name
         document.title = "Pokémon " + this.state.gameData.gameName + " Team Planner";
         return(
-        <div className="teamPlannerPage">
-        <div className="titleText">
+        <div className="teamPlanner">
+        <h1 className="titleText">
           Pokémon {this.state.gameData.gameName}
-        </div>
+        </h1>
         <DrawTeamSelection teamData={this.state.teamData} removeMember={this.removeMember}/>
         <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
         <DrawPokemonOptions dex={this.state.gameData.dex} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} />

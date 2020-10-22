@@ -1,98 +1,60 @@
-.teamPlannerPage {
-  font-weight: bold;
-  flex-flow: column;
-  height: 100%;
+.teamPlanner{
+  position: relative;
 }
 
 .titleText {
-  text-align: center;
-  font-size: 23px;
-  margin-top: -35px;
-  margin-bottom: 35px;
+  margin-top: 5px;
+  font-size: 20px;
 }
 
 // PARTY DISPLAY -------------------------------------------------------------
 
-.TeamMemberWrapper{
-  border-bottom: solid 5px black;
-  margin-bottom: 10px;
-
-  background: #F5F5F5;
-  z-index: 1;
+.TeamMembersWrapper{
   position: sticky;
   top: 0;
+  background-color: #F5F5F5;
+  position: sticky;
+  z-index: 1;
+
+  align-content: center;
+  border-bottom: solid 4px black;
+  margin-bottom: 5px;
+}
+
+.emptyTeam{
+  //position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .TeamMembers {
-  font-size: 20px;
-  font-weight: bold;
-
-  flex-grow: 1;
-  align-self: center;
-
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
+.MemberGroup {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
 
-.TeamMember{
-  flex: none;
-  height: 200px;
-  display: solid;
+.TeamMember {
+  margin: 4px;
+  top: 0;
   cursor: pointer;
-}
-
-.OptionImages > .SelectionBaseImage{
-  transform: rotate(37deg);
-}
-
-.SelectionText {
+  align-self: top;
   text-align: center;
-  transform: translateY(-10px);
-  font-size: 18px;
-  z-index: 2;
-  height: 1.1em;
 }
 
-.OptionImages {
-  z-index: -1;
-  position: relative;
-  top: -30px;
-}
-
-.SelectionBaseImage {
-  position: absolute;
-  z-index: -1;
-}
-
-
-.SelectionChoiceImage {
-  position:  absolute;
-  z-index: 1;
-}
-
-.typeDisplayDesktop {
-  position: absolute;
-  width: 130px;
-  margin-left: auto;
-  margin-right: auto;
-  image-rendering: pixel;
-  margin-top: 100px;
-}
-
-.typeDisplayDesktop > img{
-  margin: auto;
-  image-rendering: sharp-edges;
-  margin-left: 5px;
-}
-
-.typeDisplayMobile > img{
-  position: relative;
-  top: 15px;
-  left: 6px;
-  margin: auto;
+.TypeImage > img {
+  margin-top: 3px;
 }
 
 // PARTY OPTIONS -------------------------------------------------------------
@@ -104,34 +66,20 @@
 }
 
 .optionsBox {
-  position: relative;
-  //transform: translate(0px, -18px);
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-
-  overflow-y: auto;
-
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .selectionImage {
-  margin: 4px;
-  border-radius: 50%;
   height: 40px;
   width: 40px;
   align-self: flex-start;
   cursor: pointer;
 }
 
-.selectionImage:hover > div{
-  transform: scale(1.2);
-}
 
 .selectionImage > img {
-  transform: translate(-4px, 3px);
   image-rendering: crisp-edges;
 }
 
@@ -147,9 +95,7 @@
 
   height: 45px;
   width: 45px;
-
   cursor: pointer;
-
 }
 
 .filterOption > h1{

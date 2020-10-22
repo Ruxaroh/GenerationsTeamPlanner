@@ -4,10 +4,14 @@
 
 // ---------------------APP WIDE CSS-----------------------
 
+html, body {
+  overflow-x: hidden;
+}
 
 body {
+    position: relative;
     font-family: Content-font, Roboto, sans-serif;
-    //background-color: #e1e6e2;
+    max-width: 100%;
     background-color: #F5F5F5;
 }
 
@@ -15,32 +19,13 @@ p {
   margin: auto;
 }
 
-
 .pageContainer {
-  display: flex;
-  flex: 0 0 auto;
-  justify-content: space-between;
-  flex-flow: column;
-  max-height: 100vh;
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
 }
 
-.navWrap {
-  margin-bottom: 40px;
-  flex-basis: auto;
-}
-
-.pageWrap {
-  flex-grow: 1;
-  flex-shrink: 1;
-  margin-bottom: 10px;
-}
-
-.footerWrap {
-  position: sticky;
-  flex-basis: auto;
-  flex-shrink: 0;
-  bottom: 0;
+.contentContainer {
+  padding-bottom: 40px;
 }
 
 // ERROR PAGE ------------------------------------------------------------------

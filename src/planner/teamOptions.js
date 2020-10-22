@@ -51,12 +51,8 @@ class DrawPokemonOption extends Component {
       } else {
         form = this.props.entry.form;
       }
-      var CircleStyle = {
-        background: common.Type2Color(this.props.entry.type1),
-        border: `3px solid ${common.Type2Color(this.props.entry.type2)}`,
-      };
       return(
-        <div className="selectionImage" style={CircleStyle} onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
+        <div title={this.props.entry.name} className="selectionImage" onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
         <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="40px" height="30px" />
         </div>
       );
