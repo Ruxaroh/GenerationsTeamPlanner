@@ -53,7 +53,7 @@ class DrawPokemonOption extends Component {
       }
       return(
         <div title={this.props.entry.name} className="selectionImage" onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="40px" height="30px" />
+        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="52px" height="39px" />
         </div>
       );
     } else {

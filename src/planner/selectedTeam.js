@@ -88,7 +88,7 @@ class DrawTeamSelection extends Component {
   render() {
     var height = "200px";
     if (window.mobileCheck()){
-      height = "120px";
+      height = "70px";
     }
     if (! this.props.teamData[0]){
       return(
