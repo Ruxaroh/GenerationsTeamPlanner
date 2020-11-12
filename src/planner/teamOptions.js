@@ -53,7 +53,7 @@ class DrawPokemonOption extends Component {
       }
       return(
         <div title={this.props.entry.name} className="selectionImage" onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="52px" height="39px" />
+        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="52px" height="39px" onLoad={this.props.imagesLoaded()} />
         </div>
       );
     } else {
@@ -68,7 +68,7 @@ class DrawPokemonOptions extends Component {
     return (
       <div className="optionsBox">
       {this.props.dex.map(entry => (
-        <DrawPokemonOption teamData={this.props.teamData} filters={this.props.filters} teamID={this.props.teamID} entry={entry} addMember={this.props.addMember}/>
+        <DrawPokemonOption teamData={this.props.teamData} filters={this.props.filters} teamID={this.props.teamID} entry={entry} addMember={this.props.addMember} imagesLoaded = {this.props.imagesLoaded} />
       ))}
       </div>
     );

@@ -19,6 +19,9 @@ import DrawFilters from "./filterOptions";
 // TeamID from URL
 var teamID = [];
 
+// Image Load count
+var imageLoadCount = 0;
+
 const types = [
   "bug",
   "dark",
@@ -46,6 +49,7 @@ constructor(props) {
   super(props);
 
   this.state = {
+    imagesLoaded: false,
     dataLoaded: false,
     isLoaded: false,
     teamData: [],
@@ -61,7 +65,6 @@ constructor(props) {
   }
 }
 
-
 updateSelectedTeam() {
   var tmpTeamData = [];
     for (var member = 0; member < teamID.length; member++){
@@ -76,6 +79,15 @@ updateSelectedTeam() {
       tmpTeamData.push(null)
     }
     this.state.teamData = [... tmpTeamData];
+}
+
+imagesLoaded = () => {
+  imageLoadCount = imageLoadCount + 1;
+
+  if (imageLoadCount == this.state.gameData.dex.length){
+    this.setState({imagesLoaded: true});
+  }
+  return;
 }
 
 updateFilter = (type) => {
@@ -199,14 +211,28 @@ removeMember = (id, form) => {
       if (this.state.isLoaded === true && (!this.state.fetchError)){
         // Set page title to the current course name
         document.title = "Pokémon " + this.state.gameData.gameName + " Team Planner";
+        var hideLoader = {display: "none"};
+        var hidePlanner = {display: "none"};
+        if (this.state.imagesLoaded === true){
+          hidePlanner = {};
+        } else {
+          hideLoader = {};
+        }
         return(
-        <div className="teamPlanner">
-        <h1 className="titleText">
-          Pokémon {this.state.gameData.gameName}
-        </h1>
-        <DrawTeamSelection teamData={this.state.teamData} removeMember={this.removeMember}/>
-        <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
-        <DrawPokemonOptions dex={this.state.gameData.dex} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} />
+        <div>
+          <div style={hideLoader}>
+            <common.PageLoad loadingPokemon={this.state.gameData.dex[Math.floor(Math.random() * this.state.gameData.dex.length - 1)].name.toLowerCase()} />
+          </div>
+
+          <div className="teamPlanner" style={hidePlanner} >
+          <h1 className="titleText">
+            Pokémon {this.state.gameData.gameName}
+          </h1>
+          <DrawTeamSelection teamData={this.state.teamData} removeMember={this.removeMember}/>
+          <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
+          <DrawPokemonOptions dex={this.state.gameData.dex} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} imagesLoaded = {this.imagesLoaded} />
+          </div>
+
         </div>
           );
         } else if (this.state.fetchError) {

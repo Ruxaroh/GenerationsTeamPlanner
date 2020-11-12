@@ -36,12 +36,25 @@ export function Type2Color(type){
     return(typeDict[type.toLowerCase()])
 }
 
+  export class PageLoad extends Component {
+
+    render() {
+      return(
+        <div class="Errorbox">
+          <img class="errorImage" src={`/pokemonSprites/art/${this.props.loadingPokemon}.png`} height="250px" width="250px" />
+          <div class="msg">
+            Loading, please wait!
+          </div>
+        </div>
+      );
+    }
+  }
+
   export class ErrorPage extends Component {
 
     render() {
-      console.log(this.props)
       // Set page title to the current course name
-      document.title = "Team Planner | TestDex";
+      document.title = "Something went wrong...";
       return(
         <div class="Errorbox">
           <img class="errorImage" src={"/pokemonSprites/art/rotom.png"} height="250px" width="250px" />
