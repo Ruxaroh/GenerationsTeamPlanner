@@ -57,6 +57,7 @@ class DrawPokemonOption extends Component {
         </div>
       );
     } else {
+      this.props.imagesLoaded();
       return(null);
     }
   }

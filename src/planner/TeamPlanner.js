@@ -81,7 +81,7 @@ updateSelectedTeam() {
     this.state.teamData = [... tmpTeamData];
 }
 
-imagesLoaded = () => {
+imagesLoaded = (expected) => {
   imageLoadCount = imageLoadCount + 1;
 
   if (imageLoadCount == this.state.gameData.dex.length){
