@@ -63,7 +63,7 @@ export function Type2Color(type){
       document.title = "Something went wrong...";
       return(
         <div class="Errorbox">
-          <img class="errorImage" src={"/pokemonSprites/art/rotom.png"} height="250px" width="250px" />
+          <img class="errorImage" src={"/pokemonSprites/art/new/rotom.png"} height="250px" width="250px" />
           <div class="msg">
             Huh, Something has gone wrong...
             <p>

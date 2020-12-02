@@ -51,7 +51,7 @@ class GetImages extends Component {
     return(
     <div className="memberArt">
     <BrowserView>
-      <img src={`/pokemonSprites/art/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} height="100" width="100"/>
+      <img src={`/pokemonSprites/art/${this.props.album}/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} height="100" width="100"/>
     </BrowserView>
     <MobileView>
       <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "") + this.props.form}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
@@ -74,7 +74,7 @@ class DrawSelection extends Component {
       return(
       <div className="TeamMember" onClick={() => this.props.removeMember(this.props.entry.id, this.props.entry.form)}>
         <BrowserView> {this.props.entry.name.replace("_"," ")} </BrowserView>
-        <GetImages name={this.props.entry.name} form={form}/>
+        <GetImages name={this.props.entry.name} album={this.props.album} form={form}/>
         <GetTypes entry={this.props.entry} />
       </div>
       );
@@ -94,7 +94,7 @@ class DrawTeamSelection extends Component {
       return(
         <div className="TeamMembersWrapper" style={{height: "130px"}}>
           <div className="emptyTeam">
-            <GetImages name={"trubbish"} form={""}/>
+            <GetImages name={"trubbish"} album={'new'} form={""}/>
             Your team is empty. Select an option from below and it will show up here!
           </div>
         </div>
@@ -104,14 +104,14 @@ class DrawTeamSelection extends Component {
       <div className="TeamMembersWrapper" style={{height:height}}>
       <div className="TeamMembers">
         <Row className="MemberGroup">
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[0]} />
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[1]} />
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[2]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[0]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[1]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[2]} />
         </Row>
         <Row className="MemberGroup">
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[3]} />
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[4]} />
-          <DrawSelection removeMember = {this.props.removeMember} entry={this.props.teamData[5]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[3]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[4]} />
+          <DrawSelection album={this.props.album} removeMember = {this.props.removeMember} entry={this.props.teamData[5]} />
         </Row>
       </div>
     </div>

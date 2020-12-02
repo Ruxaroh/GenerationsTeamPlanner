@@ -65,9 +65,9 @@ constructor(props) {
 updateSelectedTeam() {
   var tmpTeamData = [];
     for (var member = 0; member < teamID.length; member++){
-      for (var dex = 0; dex < this.state.gameData.dex.length; dex++){
-        if (teamID[member][0] == this.state.gameData.dex[dex].id && teamID[member][1] == this.state.gameData.dex[dex].form){
-          tmpTeamData.push(this.state.gameData.dex[dex])
+      for (var dex = 0; dex < this.state.gameData.dexs['regional'].length; dex++){
+        if (teamID[member][0] == this.state.gameData.dexs['regional'][dex].id && teamID[member][1] == this.state.gameData.dexs['regional'][dex].form){
+          tmpTeamData.push(this.state.gameData.dexs['regional'][dex])
         }
       }
     }
@@ -177,10 +177,11 @@ removeMember = (id, form) => {
                        this.props.team.slice(19,20),
                        this.props.team.slice(24,25),
                        this.props.team.slice(29,30)]
+          var jsondex = json.dexs['regional']
           for (var code = 0; code < 6; code++){
-            for (var dex=0; dex < json.dex.length; dex++){
-              if (team[code] == json.dex[dex].id) {
-                teamID.push([json.dex[dex].id, json.dex[dex].form]);
+            for (var dex=0; dex < jsondex.length; dex++){
+              if (team[code] == jsondex[dex].id) {
+                teamID.push([jsondex[dex].id, jsondex[dex].form]);
                 break;
               }
             }
@@ -209,9 +210,9 @@ removeMember = (id, form) => {
           <h1 className="titleText">
             Pokémon {this.state.gameData.gameName}
           </h1>
-          <DrawTeamSelection teamData={this.state.teamData} removeMember={this.removeMember}/>
+          <DrawTeamSelection teamData={this.state.teamData} album={this.state.gameData.album} removeMember={this.removeMember}/>
           <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
-          <DrawPokemonOptions dex={this.state.gameData.dex} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} imagesLoaded = {this.imagesLoaded} />
+          <DrawPokemonOptions dex={this.state.gameData.dexs['regional']} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} imagesLoaded = {this.imagesLoaded} />
           </div>
           );
         } else if (this.state.fetchError) {
