@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSchool, faMapMarkerAlt, faChalkboardTeacher, faCoins, faLaptop } from '@fortawesome/free-solid-svg-icons'
@@ -39,11 +40,16 @@ export function Type2Color(type){
   export class PageLoad extends Component {
 
     render() {
+      var form = ""
+      if (this.props.form != "0"){
+        form = this.props.form;
+      }
       return(
         <div class="Errorbox">
-          <img class="errorImage" src={`/pokemonSprites/art/${this.props.loadingPokemon}.png`} height="250px" width="250px" />
+          <img class="errorImage" src={`/pokemonSprites/art/${this.props.loadingPokemon.toLowerCase().replace(".","").replace("'", "") + form}.png`} height="250px" width="250px" />
           <div class="msg">
             Loading, please wait!
+            <ProgressBar max={this.props.max} min={0} now={this.props.now} />
           </div>
         </div>
       );
