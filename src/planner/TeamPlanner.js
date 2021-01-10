@@ -64,10 +64,18 @@ constructor(props) {
 
 updateSelectedTeam() {
   var tmpTeamData = [];
-    for (var member = 0; member < teamID.length; member++){
-      for (var dex = 0; dex < this.state.gameData.dexs['regional'].length; dex++){
-        if (teamID[member][0] == this.state.gameData.dexs['regional'][dex].id && teamID[member][1] == this.state.gameData.dexs['regional'][dex].form){
-          tmpTeamData.push(this.state.gameData.dexs['regional'][dex])
+  var found = false;
+
+  for (var member = 0; member < teamID.length; member++){
+    found = false;
+    for (const [section, dex] of Object.entries(this.state.gameData.dexs)){
+        for (var entry = 0; entry < dex.length; entry++){
+          if (teamID[member][0] == dex[entry].id && teamID[member][1] == dex[entry].form){
+            tmpTeamData.push(dex[entry])
+            found = true;
+            break;
+          }
+          if (found) {break;}
         }
       }
     }
@@ -76,11 +84,6 @@ updateSelectedTeam() {
       tmpTeamData.push(null)
     }
     this.state.teamData = [... tmpTeamData];
-}
-
-imagesLoaded = () => {
-  //this.setState({imageLoadCount: this.state.imageLoadCount + 1});
-  return;
 }
 
 updateFilter = (type) => {
@@ -177,15 +180,22 @@ removeMember = (id, form) => {
                        this.props.team.slice(19,20),
                        this.props.team.slice(24,25),
                        this.props.team.slice(29,30)]
-          var jsondex = json.dexs['regional']
+
+          var found = false;
           for (var code = 0; code < 6; code++){
-            for (var dex=0; dex < jsondex.length; dex++){
-              if (team[code] == jsondex[dex].id) {
-                teamID.push([jsondex[dex].id, jsondex[dex].form]);
-                break;
+            found = false;
+            for (const [section, dex] of Object.entries(json.dexs)){
+              for (var entry=0; entry < dex.length; entry++)
+                if (team[code] == dex[entry].id && teamForms[code] == dex[entry].form) {
+                  teamID.push([dex[entry].id, dex[entry].form]);
+                  found = true;
+                  break;
+                }
+                if (found) {
+                  break;
+                }
               }
             }
-          }
           this.setState({
             isLoaded: true,
             gameData: json,
@@ -212,7 +222,7 @@ removeMember = (id, form) => {
           </h1>
           <DrawTeamSelection teamData={this.state.teamData} album={this.state.gameData.album} removeMember={this.removeMember}/>
           <DrawFilters status={this.state.filters} updateFilter={this.updateFilter} updateTypeFilter={this.updateTypeFilter} typeToggle={this.typeToggle}/>
-          <DrawPokemonOptions dex={this.state.gameData.dexs['regional']} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} imagesLoaded = {this.imagesLoaded} />
+          <DrawPokemonOptions dex={this.state.gameData.dexs} teamData={this.state.teamData} teamID={teamID} filters={this.state.filters} addMember = {this.addMember} />
           </div>
           );
         } else if (this.state.fetchError) {

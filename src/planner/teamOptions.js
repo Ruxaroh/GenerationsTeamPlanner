@@ -53,7 +53,7 @@ class DrawPokemonOption extends Component {
       }
       return(
         <div title={this.props.entry.name} className="selectionImage" onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "") + form}.png`} width="52px" height="39px" onLoad={this.props.imagesLoaded()} />
+        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + form}.png`}/>
         </div>
       );
     } else {
@@ -62,14 +62,36 @@ class DrawPokemonOption extends Component {
   }
 }
 
+class DrawDex extends Component {
+
+  render() {
+    console.log(this.props.dex)
+    return(
+      <div className="dexName">
+      {this.props.name.charAt(0).toUpperCase() + this.props.name.slice(1)}
+      <div className="optionsBox">
+      {this.props.dex.map(entry => (
+        <DrawPokemonOption teamData={this.props.teamData} filters={this.props.filters} teamID={this.props.teamID} entry={entry} addMember={this.props.addMember} />
+      ))}
+      </div>
+      </div>
+    )
+  }
+}
+
 class DrawPokemonOptions extends Component {
 
   render() {
+    var dexs = []
+    for (const [section, dex] of Object.entries(this.props.dex)){
+      dexs.push([section, dex])
+    }
     return (
-      <div className="optionsBox">
-      {this.props.dex.map(entry => (
-        <DrawPokemonOption teamData={this.props.teamData} filters={this.props.filters} teamID={this.props.teamID} entry={entry} addMember={this.props.addMember} imagesLoaded = {this.props.imagesLoaded} />
-      ))}
+      <div>
+        {dexs.map(Currdex => (
+          <DrawDex name={Currdex[0]} dex={Currdex[1]} teamData={this.props.teamData} filters={this.props.filters} teamID={this.props.teamID} addMember={this.props.addMember}/>
+        ))
+      }
       </div>
     );
   }

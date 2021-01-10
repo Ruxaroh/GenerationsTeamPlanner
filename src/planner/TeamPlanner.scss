@@ -12,6 +12,7 @@
 .TeamMembersWrapper{
   position: sticky;
   top: 0;
+  width: 101%;
   background-color: #F5F5F5;
   position: sticky;
   z-index: 1;
@@ -46,8 +47,6 @@
 }
 
 .TeamMember {
-  margin: 4px;
-  top: 0;
   cursor: pointer;
   align-self: top;
   text-align: center;
@@ -64,16 +63,23 @@
     transform: translate(-0px, -4px);
   }
 }
+.dexName {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+}
 
 .optionsBox {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 18px;
+  margin-top: -15px;
 }
 
 .selectionImage {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   align-self: flex-start;
   cursor: pointer;
 }

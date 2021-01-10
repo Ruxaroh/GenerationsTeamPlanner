@@ -18,7 +18,7 @@ class NavBar extends Component {
       var source = "/gameIcons/cover-" + game + ".png";
       return(
         <a href={"/"+game}>
-        <img className="GameIcon" src={source} width="64px" height="64px" />
+        <img className="GameIcon" src={source} height="64px" />
         </a>
       );
     }
