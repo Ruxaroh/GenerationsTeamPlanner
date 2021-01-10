@@ -1,0 +1,164 @@
+.teamPlanner{
+//height: 100vh;
+}
+
+.titleText {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+// PARTY DISPLAY -------------------------------------------------------------
+
+.TeamMembersWrapper{
+  position: sticky;
+  top: 0;
+  width: 101%;
+  background-color: #F5F5F5;
+  position: sticky;
+  z-index: 1;
+
+  align-content: center;
+  border-bottom: solid 4px black;
+  margin-bottom: 5px;
+}
+
+.emptyTeam{
+  //position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.TeamMembers {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.MemberGroup {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.TeamMember {
+  cursor: pointer;
+  align-self: top;
+  text-align: center;
+}
+
+.TypeImage > img {
+  margin-top: 3px;
+}
+
+// PARTY OPTIONS -------------------------------------------------------------
+
+@keyframes AnimBob {
+  50% {
+    transform: translate(-0px, -4px);
+  }
+}
+.dexName {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.optionsBox {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  margin-top: -15px;
+}
+
+.selectionImage {
+  height: 45px;
+  width: 45px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+
+.selectionImage > img {
+  image-rendering: crisp-edges;
+}
+
+.selectionImage:hover > img {
+  animation: AnimBob 0.5s steps(1) infinite both
+}
+
+// FILTER OPTIONS -------------------------------------------------------------
+
+.filterOption{
+  margin-top: -4px;
+  margin-right: -5px;
+
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.filterOption > h1{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.filterOption .tooltiptext {
+  visibility: hidden;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.filterOption:hover .tooltiptext {
+  visibility: visible;
+}
+
+.typeOptions {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.typeOption {
+  height: 30px;
+  width: 30px;
+
+  cursor: pointer;
+}
+
+.toggleType{
+  margin-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.toggleType .tooltiptext {
+  visibility: hidden;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.toggleType:hover .tooltiptext {
+  visibility: visible;
+}
