@@ -23,8 +23,8 @@ class GetTypes extends Component {
       </BrowserView>
       <MobileView>
       <div className="TypeImage">
-        <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`}/>
-        <img src={`/typeIcons/mobile/${this.props.entry.type2.toLowerCase()}.png`}/>
+        <img src={`/typeIcons/mobile/${this.props.entry.type1.toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}}/>
+        <img src={`/typeIcons/mobile/${this.props.entry.type2.toLowerCase()}.png`} height="16" width="16" style={{  left: "12px"}}/>
       </div>
       </MobileView>
     </div>
@@ -54,7 +54,7 @@ class GetImages extends Component {
       <img src={`/pokemonSprites/art/${this.props.album}/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} height="100" width="100"/>
     </BrowserView>
     <MobileView>
-      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} style={{imageRendering: "pixel", marginTop: "30px"}}/>
+      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} width={"60px"} style={{imageRendering: "pixel"}}/>
     </MobileView>
     </div>
   );
@@ -91,7 +91,7 @@ class DrawTeamSelection extends Component {
       height = "400px";
     }
     if (window.mobileCheck()){
-      height = "70px";
+      height = "80px";
     }
     if (! this.props.teamData[0]){
       return(
