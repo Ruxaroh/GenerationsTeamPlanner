@@ -54,7 +54,7 @@ class GetImages extends Component {
       <img src={`/pokemonSprites/art/${this.props.album}/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} height="100" width="100"/>
     </BrowserView>
     <MobileView>
-      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} width={"60px"} style={{imageRendering: "pixel"}}/>
+      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} width="55px" style={{imageRendering: "pixel"}}/>
     </MobileView>
     </div>
   );

@@ -50,7 +50,6 @@
   cursor: pointer;
   align-self: top;
   text-align: center;
-  border: black 1px solid;
 }
 
 .TypeImage > img {
@@ -79,8 +78,6 @@
 }
 
 .selectionImage {
-  height: 45px;
-  width: 45px;
   align-self: flex-start;
   cursor: pointer;
 }
