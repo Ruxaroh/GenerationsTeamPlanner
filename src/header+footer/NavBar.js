@@ -38,9 +38,9 @@ class NavBar extends Component {
             <div className="gameSelector">
               <div className="gen_box">
               <Nav className="mr-auto">
+              1
               {this.gameLink("red")}
               {this.gameLink("blue")}
-              <div className="in_gen_gap" />
               {this.gameLink("yellow")}
               </Nav>
               </div>
