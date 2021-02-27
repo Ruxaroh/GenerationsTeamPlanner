@@ -5724,7 +5724,7 @@
         "type1": "normal",
         "type2": "fairy",
         "is_legendary": 0,
-        "is_fullyEvolved": 1,
+        "is_fullyEvolved": 0,
         "is_exclusiveLocked": 0,
         "form": 0
       },

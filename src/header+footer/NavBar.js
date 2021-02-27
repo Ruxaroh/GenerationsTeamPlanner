@@ -112,7 +112,9 @@ class NavBar extends Component {
               <Nav className="mr-auto">
               {this.gameLink("sword")}
               {this.gameLink("shield")}
-
+              <div className="in_gen_gap" />
+              {this.gameLink("brilliantdiamond")}
+              {this.gameLink("shiningpearl")}
               </Nav>
               </div>
             </div>
