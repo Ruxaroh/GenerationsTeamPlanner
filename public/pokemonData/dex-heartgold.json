@@ -2307,6 +2307,43 @@
       "is_fullyEvolved": 1,
       "is_exclusiveLocked": 0,
       "form": 0
+    }],
+    "Post Game Obtainable Evolutions": [{
+      "id": 468,
+      "name": "Togekiss",
+      "type1": "Normal",
+      "type2": "Flying",
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "form": 0
+    },{
+      "id": 474,
+      "name": "Porygon-Z",
+      "type1": "Normal",
+      "type2": "",
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "form": 0
+    },{
+      "id": 466,
+      "name": "Electivire",
+      "type1": "Electric",
+      "type2": "",
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "form": 0
+    },{
+      "id": 467,
+      "name": "Magmortar",
+      "type1": "Fire",
+      "type2": "",
+      "is_legendary": 0,
+      "is_fullyEvolved": 1,
+      "is_exclusiveLocked": 0,
+      "form": 0
     }]
   }
 }
