@@ -46,6 +46,10 @@
   margin: 0px;
 }
 
+.memberArt {
+  mix-blend-mode: multiply;
+}
+
 .TeamMember {
   cursor: pointer;
   align-self: top;
@@ -71,20 +75,25 @@
 
 .optionsBox {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  align-content: center;
   flex-wrap: wrap;
+  width: 98%;
+  margin-left: 1%;
   margin-bottom: 18px;
   margin-top: -15px;
 }
 
 .selectionImage {
-  align-self: flex-start;
+  width: 64px;
   cursor: pointer;
 }
 
 
 .selectionImage > img {
   image-rendering: crisp-edges;
+  object-fit: scale-down;
+  width: 64px;
 }
 
 .selectionImage:hover > img {

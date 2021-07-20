@@ -6708,7 +6708,7 @@
         "form": "m"
       },
       {
-        "id": 801,
+        "id": 800,
         "name": "Necrozma",
         "type1": "psychic",
         "type2": "ghost",
@@ -6716,6 +6716,16 @@
         "is_fullyEvolved": 1,
         "is_exclusiveLocked": 0,
         "form": "w"
+      },
+      {
+        "id": 800,
+        "name": "Necrozma",
+        "type1": "psychic",
+        "type2": "dragon",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "u"
       },
       {
         "id": 801,
@@ -6726,16 +6736,6 @@
         "is_fullyEvolved": 1,
         "is_exclusiveLocked": 0,
         "form": 0
-      },
-      {
-        "id": 802,
-        "name": "Necrozma",
-        "type1": "psychic",
-        "type2": "dragon",
-        "is_legendary": 1,
-        "is_fullyEvolved": 1,
-        "is_exclusiveLocked": 0,
-        "form": "u"
       },
       {
         "id": 802,

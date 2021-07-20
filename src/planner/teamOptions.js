@@ -10,6 +10,8 @@ import { Link, useHistory, Route} from "react-router-dom";
 
 import * as common from "../control/common";
 
+
+
 function shouldRender(entry, teamID, teamData, filters){
 
   for (var i = 0; i < teamID.length; i++){
@@ -53,7 +55,7 @@ class DrawPokemonOption extends Component {
       }
       return(
         <div title={this.props.entry.name} className="selectionImage" onClick={() => this.props.addMember(this.props.entry.id,this.props.entry.form)}>
-        <img src={`/pokemonSprites/pixel/${this.props.entry.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + form}.png`}/>
+        <img src={`https://img.pokemondb.net/sprites/sword-shield/icon/${common.spriteNameTranslater(this.props.entry.name,this.props.entry.form)}.png`} />
         </div>
       );
     } else {
@@ -65,7 +67,6 @@ class DrawPokemonOption extends Component {
 class DrawDex extends Component {
 
   render() {
-    console.log(this.props.dex)
     return(
       <div className="dexName">
       {this.props.name.charAt(0).toUpperCase() + this.props.name.slice(1)}

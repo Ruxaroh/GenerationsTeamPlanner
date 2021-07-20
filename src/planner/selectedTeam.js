@@ -51,10 +51,10 @@ class GetImages extends Component {
     return(
     <div className="memberArt">
     <BrowserView>
-      <img src={`/pokemonSprites/art/${this.props.album}/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} height="100" width="100"/>
+      <img src={`https://img.pokemondb.net/sprites/${this.props.album}/normal/${common.spriteNameTranslater(this.props.name, this.props.form)}.png`} height="100" width="100"/>
     </BrowserView>
     <MobileView>
-      <img src={`/pokemonSprites/pixel/${this.props.name.toLowerCase().replace(".","").replace("'", "").replace(':','') + this.props.form}.png`} width="55px" style={{imageRendering: "pixel"}}/>
+      <img src = {`https://img.pokemondb.net/sprites/sword-shield/icon/${common.spriteNameTranslater(this.props.name, this.props.form)}.png`} width="55px" style={{imageRendering: "pixel"}}/>
     </MobileView>
     </div>
   );
@@ -97,7 +97,7 @@ class DrawTeamSelection extends Component {
       return(
         <div className="TeamMembersWrapper" style={{height: "130px"}}>
           <div className="emptyTeam">
-            <GetImages name={"trubbish"} album={'new'} form={""}/>
+            <GetImages name={"trubbish"} album={'black-white'} form={""}/>
             Your team is empty. Select an option from below and it will show up here!
           </div>
         </div>
