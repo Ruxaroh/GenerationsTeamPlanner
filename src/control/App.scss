@@ -52,6 +52,24 @@ p {
   background: White;
 }
 
+// HOME PAGE -------------------------------------------------------------------
+.homeTitle {
+font-size: 20px;
+font-weight: bolder;
+}
+
+.gen_box{
+}
+
+.gameSelector{
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.GameIcon {
+background-color: white;
+}
 
 // ERROR PAGE ------------------------------------------------------------------
 .Errorbox {

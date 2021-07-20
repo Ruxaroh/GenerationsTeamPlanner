@@ -17,12 +17,14 @@ import Col from 'react-bootstrap/Col';
 import * as common from '../control/common'
 
 // navbar & Footer
-import NavBar from '../header+footer/NavBar';
 import Footer from '../header+footer/Footer';
 
 // Styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../control/App.scss';
+
+//Lod Home Page
+import Home from '../control/home'
 
 //Load Team Planner
 import TeamPlanner from '../planner/TeamPlanner'
@@ -57,16 +59,8 @@ const App = () => (
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
     <div className="contentContainer">
-    <NavBar />
-      <Container fluid>
-          <Switch>
-            <Route exact path="/"> <Redirect to={"/red/"} /> </Route>
-            <Route path={"/:game/:teamCode"} children={<LoadTeamPlanner />} />
-            <Route path={"/:game"} children={<LoadLiteTeamPlanner />} />
-            <Route children={<common.ErrorPage error="Page not Found" />} />
-          </Switch>
-      </Container>
-      </div>
+      <Home />
+    </div>
       <Footer />
     </div>
   );

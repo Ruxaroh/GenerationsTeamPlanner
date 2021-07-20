@@ -205,13 +205,7 @@ export function Type2Color(type){
           <div class="msg">
             Huh, Something has gone wrong...
             <p>
-            You probably want to go <a href={"/red"}>home</a> and try from there.
-            </p>
-            <p class="errorMessageTitle">
-              This part is for nerds:{" "}
-            </p>
-            <p class="errorMessage">
-              {this.props.error}
+            You probably want to go <a href={"/"}>home</a> and try from there.
             </p>
           </div>
         </div>
