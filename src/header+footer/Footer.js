@@ -6,7 +6,7 @@ import {Link, useHistory} from "react-router-dom";
 
 // Styling
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.scss'
+import './HeaderFooter.scss'
 
 // Game Icon Render
 

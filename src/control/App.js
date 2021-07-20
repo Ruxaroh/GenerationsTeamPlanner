@@ -16,7 +16,8 @@ import Col from 'react-bootstrap/Col';
 // Common
 import * as common from '../control/common'
 
-// navbar & Footer
+// Header & Footer
+import Header from '../header+footer/Header';
 import Footer from '../header+footer/Footer';
 
 // Styling
@@ -26,10 +27,6 @@ import '../control/App.scss';
 //Lod Home Page
 import Home from '../control/home'
 
-//Load Team Planner
-import TeamPlanner from '../planner/TeamPlanner'
-
-
 // Mobile check function
 window.mobileCheck = function() {
   let check = false;
@@ -37,7 +34,7 @@ window.mobileCheck = function() {
   return check;
 };
 
-
+/*
 function LoadLiteTeamPlanner() {
   let { game } = useParams();
   let teamCode = [];
@@ -52,12 +49,17 @@ function LoadTeamPlanner() {
     <TeamPlanner game={game} team={teamCode}/>
   );
 }
+*/
+
 
 // The entire app
 const App = () => (
   <div className="pageContainer">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
+    <div>
+    <Header />
+    </div>
     <div className="contentContainer">
       <Home />
     </div>

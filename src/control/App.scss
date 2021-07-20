@@ -56,20 +56,101 @@ p {
 .homeTitle {
 font-size: 20px;
 font-weight: bolder;
+margin-left: 1%;
 }
 
-.gen_box{
+.menuSection {
+  margin-top: 15px;
 }
+
 
 .gameSelector{
   display: flex;
-  width: 100%;
-  overflow: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.GameIcon {
-background-color: white;
+.gen_box{
+  display: flex;
+  background-color: #343A40;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  padding: 5px;
 }
+
+.generationText{
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  margin-left: 3px;
+}
+
+.generationGames {
+  display: flex;
+  margin-left: 10px;
+}
+
+.gameCoverImageContainer{
+  margin-right: 10px;
+  height: 70px;
+
+}
+
+
+.gameCoverImage{
+  max-height: 70px;
+  height: auto;
+  width: auto;
+  filter: grayscale(20%);
+}
+
+.gameCoverImage:hover{
+  filter: grayscale(0%);
+}
+
+.gameCoverImageContainer:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.gameCoverImageContainer:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 // ERROR PAGE ------------------------------------------------------------------
 .Errorbox {
