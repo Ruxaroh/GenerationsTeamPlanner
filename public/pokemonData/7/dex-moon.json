@@ -1,0 +1,6323 @@
+{
+  "gameName": "Moon",
+  "album": "home",
+  "structure": [],
+  "dexs": {
+    "Melemele": [{
+        "id": 722,
+        "name": "Rowlet",
+        "type1": "grass",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 723,
+        "name": "Dartrix",
+        "type1": "grass",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 724,
+        "name": "Decidueye",
+        "type1": "grass",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 725,
+        "name": "Litten",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 726,
+        "name": "Torracat",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 727,
+        "name": "Incineroar",
+        "type1": "fire",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 728,
+        "name": "Popplio",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 729,
+        "name": "Brionne",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 730,
+        "name": "Primarina",
+        "type1": "water",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 731,
+        "name": "Pikipek",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 732,
+        "name": "Trumbeak",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 733,
+        "name": "Toucannon",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 734,
+        "name": "Yungoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 10,
+        "name": "Caterpie",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 11,
+        "name": "Metapod",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 12,
+        "name": "Butterfree",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 165,
+        "name": "Ledyba",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 166,
+        "name": "Ledian",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 167,
+        "name": "Spinarak",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 168,
+        "name": "Ariados",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 172,
+        "name": "Pichu",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 25,
+        "name": "Pikachu",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 26,
+        "name": "Raichu",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 26,
+        "name": "Raichu",
+        "type1": "electric",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 736,
+        "name": "Grubbin",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 737,
+        "name": "Charjabug",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 738,
+        "name": "Vikavolt",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 438,
+        "name": "Bonsly",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 185,
+        "name": "Sudowoodo",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 113,
+        "name": "Chansey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 242,
+        "name": "Blissey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 446,
+        "name": "Munchlax",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 143,
+        "name": "Snorlax",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 79,
+        "name": "Slowpoke",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 80,
+        "name": "Slowbro",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 199,
+        "name": "Slowking",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 278,
+        "name": "Wingull",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 279,
+        "name": "Pelipper",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 63,
+        "name": "Abra",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 64,
+        "name": "Kadabra",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 65,
+        "name": "Alakazam",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 81,
+        "name": "Magnemite",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 82,
+        "name": "Magneton",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 462,
+        "name": "Magnezone",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 88,
+        "name": "Grimer",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 88,
+        "name": "Grimer",
+        "type1": "poison",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "type1": "poison",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 58,
+        "name": "Growlithe",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 59,
+        "name": "Arcanine",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 96,
+        "name": "Drowzee",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 97,
+        "name": "Hypno",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 296,
+        "name": "Makuhita",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 297,
+        "name": "Hariyama",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 235,
+        "name": "Smeargle",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 739,
+        "name": "Crabrawler",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 740,
+        "name": "Crabominable",
+        "type1": "fighting",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 92,
+        "name": "Gastly",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 93,
+        "name": "Haunter",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 94,
+        "name": "Gengar",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 425,
+        "name": "Drifloon",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 426,
+        "name": "Drifblim",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 200,
+        "name": "Misdreavus",
+        "type1": "ghost",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 429,
+        "name": "Mismagius",
+        "type1": "ghost",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 41,
+        "name": "Zubat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 169,
+        "name": "Crobat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 22,
+        "name": "Fearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 627,
+        "name": "Rufflet",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 628,
+        "name": "Braviary",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 629,
+        "name": "Vullaby",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 630,
+        "name": "Mandibuzz",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 56,
+        "name": "Mankey",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 57,
+        "name": "Primeape",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 225,
+        "name": "Delibird",
+        "type1": "ice",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "f"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "electric",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "e"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "psychic",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "p"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "g"
+      },
+      {
+        "id": 742,
+        "name": "Cutiefly",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 743,
+        "name": "Ribombee",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 548,
+        "name": "Petilil",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 549,
+        "name": "Lilligant",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 546,
+        "name": "Cottonee",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 547,
+        "name": "Whimsicott",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 339,
+        "name": "Barboach",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 340,
+        "name": "Whiscash",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 66,
+        "name": "Machop",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 67,
+        "name": "Machoke",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 68,
+        "name": "Machamp",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 524,
+        "name": "Roggenrola",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 525,
+        "name": "Boldore",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 526,
+        "name": "Gigalith",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 703,
+        "name": "Carbink",
+        "type1": "rock",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 302,
+        "name": "Sableye",
+        "type1": "dark",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 744,
+        "name": "Rockruff",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "m"
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "n"
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "d"
+      },
+      {
+        "id": 327,
+        "name": "Spinda",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 456,
+        "name": "Finneon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 457,
+        "name": "Lumineon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 746,
+        "name": "Wishiwashi",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 370,
+        "name": "Luvdisc",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 222,
+        "name": "Corsola",
+        "type1": "water",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 747,
+        "name": "Mareanie",
+        "type1": "poison",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 748,
+        "name": "Toxapex",
+        "type1": "poison",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 90,
+        "name": "Shellder",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 91,
+        "name": "Cloyster",
+        "type1": "water",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 371,
+        "name": "Bagon",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 372,
+        "name": "Shelgon",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 373,
+        "name": "Salamence",
+        "type1": "dragon",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 785,
+        "name": "Tapu_Koko",
+        "type1": "electric",
+        "type2": "fairy",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ],
+    "Akala": [{
+        "id": 731,
+        "name": "Pikipek",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 732,
+        "name": "Trumbeak",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 733,
+        "name": "Toucannon",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 734,
+        "name": "Yungoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 10,
+        "name": "Caterpie",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 11,
+        "name": "Metapod",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 12,
+        "name": "Butterfree",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 736,
+        "name": "Grubbin",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 737,
+        "name": "Charjabug",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 738,
+        "name": "Vikavolt",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 438,
+        "name": "Bonsly",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 185,
+        "name": "Sudowoodo",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 113,
+        "name": "Chansey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 242,
+        "name": "Blissey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 278,
+        "name": "Wingull",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 279,
+        "name": "Pelipper",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 739,
+        "name": "Crabrawler",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 740,
+        "name": "Crabominable",
+        "type1": "fighting",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 92,
+        "name": "Gastly",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 93,
+        "name": "Haunter",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 94,
+        "name": "Gengar",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 41,
+        "name": "Zubat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 169,
+        "name": "Crobat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "f"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "electric",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "e"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "psychic",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "p"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "g"
+      },
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 339,
+        "name": "Barboach",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 340,
+        "name": "Whiscash",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 456,
+        "name": "Finneon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 457,
+        "name": "Lumineon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 746,
+        "name": "Wishiwashi",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 370,
+        "name": "Luvdisc",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 222,
+        "name": "Corsola",
+        "type1": "water",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 747,
+        "name": "Mareanie",
+        "type1": "poison",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 748,
+        "name": "Toxapex",
+        "type1": "poison",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 506,
+        "name": "Lillipup",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 507,
+        "name": "Herdier",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 508,
+        "name": "Stoutland",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 133,
+        "name": "Eevee",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 134,
+        "name": "Vaporeon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 135,
+        "name": "Jolteon",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 136,
+        "name": "Flareon",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 196,
+        "name": "Espeon",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 197,
+        "name": "Umbreon",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 470,
+        "name": "Leafeon",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 471,
+        "name": "Glaceon",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 700,
+        "name": "Sylveon",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 749,
+        "name": "Mudbray",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 750,
+        "name": "Mudsdale",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 174,
+        "name": "Igglybuff",
+        "type1": "normal",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 39,
+        "name": "Jigglypuff",
+        "type1": "normal",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 40,
+        "name": "Wigglytuff",
+        "type1": "normal",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 128,
+        "name": "Tauros",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 241,
+        "name": "Miltank",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 283,
+        "name": "Surskit",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 284,
+        "name": "Masquerain",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 751,
+        "name": "Dewpider",
+        "type1": "water",
+        "type2": "bug",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 752,
+        "name": "Araquanid",
+        "type1": "water",
+        "type2": "bug",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 753,
+        "name": "Fomantis",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 754,
+        "name": "Lurantis",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 755,
+        "name": "Morelull",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 756,
+        "name": "Shiinotic",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 46,
+        "name": "Paras",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 47,
+        "name": "Parasect",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 60,
+        "name": "Poliwag",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 61,
+        "name": "Poliwhirl",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 62,
+        "name": "Poliwrath",
+        "type1": "water",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 186,
+        "name": "Politoed",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 118,
+        "name": "Goldeen",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 119,
+        "name": "Seaking",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 349,
+        "name": "Feebas",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 350,
+        "name": "Milotic",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 594,
+        "name": "Alomomola",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 661,
+        "name": "Fletchling",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 662,
+        "name": "Fletchinder",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 663,
+        "name": "Talonflame",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 757,
+        "name": "Salandit",
+        "type1": "poison",
+        "type2": "fire",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 758,
+        "name": "Salazzle",
+        "type1": "poison",
+        "type2": "fire",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 104,
+        "name": "Cubone",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 105,
+        "name": "Marowak",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 105,
+        "name": "Marowak",
+        "type1": "fire",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 115,
+        "name": "Kangaskhan",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 240,
+        "name": "Magby",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 126,
+        "name": "Magmar",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 467,
+        "name": "Magmortar",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 759,
+        "name": "Stufful",
+        "type1": "normal",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 760,
+        "name": "Bewear",
+        "type1": "normal",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 761,
+        "name": "Bounsweet",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 762,
+        "name": "Steenee",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 763,
+        "name": "Tsareena",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 764,
+        "name": "Comfey",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 127,
+        "name": "Pinsir",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 765,
+        "name": "Oranguru",
+        "type1": "normal",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 766,
+        "name": "Passimian",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 704,
+        "name": "Goomy",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 705,
+        "name": "Sliggoo",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 706,
+        "name": "Goodra",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 351,
+        "name": "Castform",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 767,
+        "name": "Wimpod",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 768,
+        "name": "Golisopod",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 120,
+        "name": "Staryu",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 121,
+        "name": "Starmie",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 769,
+        "name": "Sandygast",
+        "type1": "ghost",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 770,
+        "name": "Palossand",
+        "type1": "ghost",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 408,
+        "name": "Cranidos",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 409,
+        "name": "Rampardos",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 410,
+        "name": "Shieldon",
+        "type1": "rock",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 411,
+        "name": "Bastiodon",
+        "type1": "rock",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 566,
+        "name": "Archen",
+        "type1": "rock",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 567,
+        "name": "Archeops",
+        "type1": "rock",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 564,
+        "name": "Tirtouga",
+        "type1": "water",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 565,
+        "name": "Carracosta",
+        "type1": "water",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 708,
+        "name": "Phantump",
+        "type1": "ghost",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 709,
+        "name": "Trevenant",
+        "type1": "ghost",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 299,
+        "name": "Nosepass",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 476,
+        "name": "Probopass",
+        "type1": "rock",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 771,
+        "name": "Pyukumuku",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 170,
+        "name": "Chinchou",
+        "type1": "water",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 171,
+        "name": "Lanturn",
+        "type1": "water",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 786,
+        "name": "Tapu_Lele",
+        "type1": "psychic",
+        "type2": "fairy",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ],
+    "Ula'ula": [{
+        "id": 731,
+        "name": "Pikipek",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 732,
+        "name": "Trumbeak",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 733,
+        "name": "Toucannon",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 734,
+        "name": "Yungoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 165,
+        "name": "Ledyba",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 166,
+        "name": "Ledian",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 167,
+        "name": "Spinarak",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 168,
+        "name": "Ariados",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 736,
+        "name": "Grubbin",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 737,
+        "name": "Charjabug",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 738,
+        "name": "Vikavolt",
+        "type1": "bug",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 113,
+        "name": "Chansey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 242,
+        "name": "Blissey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 79,
+        "name": "Slowpoke",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 80,
+        "name": "Slowbro",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 199,
+        "name": "Slowking",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 278,
+        "name": "Wingull",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 279,
+        "name": "Pelipper",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 52,
+        "name": "Meowth",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 53,
+        "name": "Persian",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 81,
+        "name": "Magnemite",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 82,
+        "name": "Magneton",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 462,
+        "name": "Magnezone",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 88,
+        "name": "Grimer",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 88,
+        "name": "Grimer",
+        "type1": "poison",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 89,
+        "name": "Muk",
+        "type1": "poison",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 739,
+        "name": "Crabrawler",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 740,
+        "name": "Crabominable",
+        "type1": "fighting",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 92,
+        "name": "Gastly",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 93,
+        "name": "Haunter",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 94,
+        "name": "Gengar",
+        "type1": "ghost",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 41,
+        "name": "Zubat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 169,
+        "name": "Crobat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 22,
+        "name": "Fearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "f"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "electric",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "e"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "psychic",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "p"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "g"
+      },
+      {
+        "id": 742,
+        "name": "Cutiefly",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 743,
+        "name": "Ribombee",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 548,
+        "name": "Petilil",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 549,
+        "name": "Lilligant",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 546,
+        "name": "Cottonee",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 547,
+        "name": "Whimsicott",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 456,
+        "name": "Finneon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 457,
+        "name": "Lumineon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 746,
+        "name": "Wishiwashi",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 749,
+        "name": "Mudbray",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 750,
+        "name": "Mudsdale",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 283,
+        "name": "Surskit",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 284,
+        "name": "Masquerain",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 751,
+        "name": "Dewpider",
+        "type1": "water",
+        "type2": "bug",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 752,
+        "name": "Araquanid",
+        "type1": "water",
+        "type2": "bug",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 755,
+        "name": "Morelull",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 756,
+        "name": "Shiinotic",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 46,
+        "name": "Paras",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 47,
+        "name": "Parasect",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 60,
+        "name": "Poliwag",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 61,
+        "name": "Poliwhirl",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 62,
+        "name": "Poliwrath",
+        "type1": "water",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 186,
+        "name": "Politoed",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 118,
+        "name": "Goldeen",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 119,
+        "name": "Seaking",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 704,
+        "name": "Goomy",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 705,
+        "name": "Sliggoo",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 706,
+        "name": "Goodra",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 351,
+        "name": "Castform",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 568,
+        "name": "Trubbish",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 569,
+        "name": "Garbodor",
+        "type1": "poison",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 227,
+        "name": "Skarmory",
+        "type1": "steel",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 132,
+        "name": "Ditto",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 173,
+        "name": "Cleffa",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 35,
+        "name": "Clefairy",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 36,
+        "name": "Clefable",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 774,
+        "name": "Minior",
+        "type1": "rock",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 374,
+        "name": "Beldum",
+        "type1": "steel",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 375,
+        "name": "Metang",
+        "type1": "steel",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 376,
+        "name": "Metagross",
+        "type1": "steel",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 137,
+        "name": "Porygon",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 233,
+        "name": "Porygon2",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 474,
+        "name": "Porygon-Z",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 674,
+        "name": "Pancham",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 675,
+        "name": "Pangoro",
+        "type1": "fighting",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 775,
+        "name": "Komala",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 324,
+        "name": "Torkoal",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 776,
+        "name": "Turtonator",
+        "type1": "fire",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 777,
+        "name": "Togedemaru",
+        "type1": "electric",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 239,
+        "name": "Elekid",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 125,
+        "name": "Electabuzz",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 466,
+        "name": "Electivire",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 74,
+        "name": "Geodude",
+        "type1": "rock",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 74,
+        "name": "Geodude",
+        "type1": "rock",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 75,
+        "name": "Graveler",
+        "type1": "rock",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 75,
+        "name": "Graveler",
+        "type1": "rock",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 76,
+        "name": "Golem",
+        "type1": "rock",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 76,
+        "name": "Golem",
+        "type1": "rock",
+        "type2": "electric",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 551,
+        "name": "Sandile",
+        "type1": "ground",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 552,
+        "name": "Krokorok",
+        "type1": "ground",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 553,
+        "name": "Krookodile",
+        "type1": "ground",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 328,
+        "name": "Trapinch",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 329,
+        "name": "Vibrava",
+        "type1": "ground",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 330,
+        "name": "Flygon",
+        "type1": "ground",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 443,
+        "name": "Gible",
+        "type1": "dragon",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 444,
+        "name": "Gabite",
+        "type1": "dragon",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 445,
+        "name": "Garchomp",
+        "type1": "dragon",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 707,
+        "name": "Klefki",
+        "type1": "steel",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 778,
+        "name": "Mimikyu",
+        "type1": "ghost",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 779,
+        "name": "Bruxish",
+        "type1": "water",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 780,
+        "name": "Drampa",
+        "type1": "normal",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 359,
+        "name": "Absol",
+        "type1": "dark",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 361,
+        "name": "Snorunt",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 362,
+        "name": "Glalie",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 478,
+        "name": "Froslass",
+        "type1": "ice",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 215,
+        "name": "Sneasel",
+        "type1": "dark",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 461,
+        "name": "Weavile",
+        "type1": "dark",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 27,
+        "name": "Sandshrew",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 27,
+        "name": "Sandshrew",
+        "type1": "ice",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 28,
+        "name": "Sandslash",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 28,
+        "name": "Sandslash",
+        "type1": "ice",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 37,
+        "name": "Vulpix",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 37,
+        "name": "Vulpix",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": "a"
+      },
+      {
+        "id": 38,
+        "name": "Ninetales",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 38,
+        "name": "Ninetales",
+        "type1": "ice",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": "a"
+      },
+      {
+        "id": 582,
+        "name": "Vanillite",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 583,
+        "name": "Vanillish",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 584,
+        "name": "Vanilluxe",
+        "type1": "ice",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 787,
+        "name": "Tapu_Bulu",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ],
+    "Poni": [{
+        "id": 731,
+        "name": "Pikipek",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 732,
+        "name": "Trumbeak",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 733,
+        "name": "Toucannon",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 734,
+        "name": "Yungoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 735,
+        "name": "Gumshoos",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 19,
+        "name": "Rattata",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 20,
+        "name": "Raticate",
+        "type1": "dark",
+        "type2": "normal",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 440,
+        "name": "Happiny",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 113,
+        "name": "Chansey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 242,
+        "name": "Blissey",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 278,
+        "name": "Wingull",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 279,
+        "name": "Pelipper",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 96,
+        "name": "Drowzee",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 97,
+        "name": "Hypno",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 296,
+        "name": "Makuhita",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 297,
+        "name": "Hariyama",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 739,
+        "name": "Crabrawler",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 740,
+        "name": "Crabominable",
+        "type1": "fighting",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 41,
+        "name": "Zubat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 42,
+        "name": "Golbat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 169,
+        "name": "Crobat",
+        "type1": "poison",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 50,
+        "name": "Diglett",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 51,
+        "name": "Dugtrio",
+        "type1": "ground",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 21,
+        "name": "Spearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 22,
+        "name": "Fearow",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 627,
+        "name": "Rufflet",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 628,
+        "name": "Braviary",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 629,
+        "name": "Vullaby",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 630,
+        "name": "Mandibuzz",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 56,
+        "name": "Mankey",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 57,
+        "name": "Primeape",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "fire",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "f"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "electric",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "e"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "psychic",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "p"
+      },
+      {
+        "id": 741,
+        "name": "Oricorio",
+        "type1": "ghost",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "g"
+      },
+      {
+        "id": 742,
+        "name": "Cutiefly",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 743,
+        "name": "Ribombee",
+        "type1": "bug",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 548,
+        "name": "Petilil",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 549,
+        "name": "Lilligant",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 546,
+        "name": "Cottonee",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 547,
+        "name": "Whimsicott",
+        "type1": "grass",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 54,
+        "name": "Psyduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 55,
+        "name": "Golduck",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 129,
+        "name": "Magikarp",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 130,
+        "name": "Gyarados",
+        "type1": "water",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 339,
+        "name": "Barboach",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 340,
+        "name": "Whiscash",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 66,
+        "name": "Machop",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 67,
+        "name": "Machoke",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 68,
+        "name": "Machamp",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 524,
+        "name": "Roggenrola",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 525,
+        "name": "Boldore",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 526,
+        "name": "Gigalith",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 703,
+        "name": "Carbink",
+        "type1": "rock",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 302,
+        "name": "Sableye",
+        "type1": "dark",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 744,
+        "name": "Rockruff",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "m"
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "n"
+      },
+      {
+        "id": 745,
+        "name": "Lycanroc",
+        "type1": "rock",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "d"
+      },
+      {
+        "id": 72,
+        "name": "Tentacool",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 73,
+        "name": "Tentacruel",
+        "type1": "water",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 456,
+        "name": "Finneon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 457,
+        "name": "Lumineon",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 749,
+        "name": "Mudbray",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 750,
+        "name": "Mudsdale",
+        "type1": "ground",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 128,
+        "name": "Tauros",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 241,
+        "name": "Miltank",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 759,
+        "name": "Stufful",
+        "type1": "normal",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 760,
+        "name": "Bewear",
+        "type1": "normal",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 127,
+        "name": "Pinsir",
+        "type1": "bug",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 704,
+        "name": "Goomy",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 705,
+        "name": "Sliggoo",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 706,
+        "name": "Goodra",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 351,
+        "name": "Castform",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 767,
+        "name": "Wimpod",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 768,
+        "name": "Golisopod",
+        "type1": "bug",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 227,
+        "name": "Skarmory",
+        "type1": "steel",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 209,
+        "name": "Snubbull",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 210,
+        "name": "Granbull",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 422,
+        "name": "Shellos",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 423,
+        "name": "Gastrodon",
+        "type1": "water",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 369,
+        "name": "Relicanth",
+        "type1": "water",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 781,
+        "name": "Dhelmise",
+        "type1": "ghost",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 318,
+        "name": "Carvanha",
+        "type1": "water",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 319,
+        "name": "Sharpedo",
+        "type1": "water",
+        "type2": "dark",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 320,
+        "name": "Wailmer",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 321,
+        "name": "Wailord",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 131,
+        "name": "Lapras",
+        "type1": "water",
+        "type2": "ice",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 102,
+        "name": "Exeggcute",
+        "type1": "grass",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 103,
+        "name": "Exeggutor",
+        "type1": "grass",
+        "type2": "psychic",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 103,
+        "name": "Exeggutor",
+        "type1": "grass",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": "a"
+      },
+      {
+        "id": 782,
+        "name": "Jangmo-o",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 783,
+        "name": "Hakamo-o",
+        "type1": "dragon",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 784,
+        "name": "Kommo-o",
+        "type1": "dragon",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 587,
+        "name": "Emolga",
+        "type1": "electric",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 123,
+        "name": "Scyther",
+        "type1": "bug",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 212,
+        "name": "Scizor",
+        "type1": "bug",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 198,
+        "name": "Murkrow",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 430,
+        "name": "Honchkrow",
+        "type1": "dark",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 447,
+        "name": "Riolu",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 448,
+        "name": "Lucario",
+        "type1": "fighting",
+        "type2": "steel",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 147,
+        "name": "Dratini",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 148,
+        "name": "Dragonair",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 149,
+        "name": "Dragonite",
+        "type1": "dragon",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 142,
+        "name": "Aerodactyl",
+        "type1": "rock",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 788,
+        "name": "Tapu_Fini",
+        "type1": "water",
+        "type2": "fairy",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ],
+    "Regional Only": [{
+        "id": 772,
+        "name": "Type:_Null",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 773,
+        "name": "Silvally",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 718,
+        "name": "Zygarde",
+        "type1": "dragon",
+        "type2": "ground",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 789,
+        "name": "Cosmog",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 1,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 790,
+        "name": "Cosmoem",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 1,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 791,
+        "name": "Solgaleo",
+        "type1": "psychic",
+        "type2": "steel",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 792,
+        "name": "Lunala",
+        "type1": "psychic",
+        "type2": "ghost",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 793,
+        "name": "Nihilego",
+        "type1": "rock",
+        "type2": "poison",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 794,
+        "name": "Buzzwole",
+        "type1": "bug",
+        "type2": "fighting",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 795,
+        "name": "Pheromosa",
+        "type1": "bug",
+        "type2": "fighting",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 796,
+        "name": "Xurkitree",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 797,
+        "name": "Celesteela",
+        "type1": "steel",
+        "type2": "flying",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 798,
+        "name": "Kartana",
+        "type1": "grass",
+        "type2": "steel",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 1,
+        "form": 0
+      },
+      {
+        "id": 799,
+        "name": "Guzzlord",
+        "type1": "dark",
+        "type2": "dragon",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 800,
+        "name": "Necrozma",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 801,
+        "name": "Magearna",
+        "type1": "steel",
+        "type2": "fairy",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 802,
+        "name": "Marshadow",
+        "type1": "fighting",
+        "type2": "ghost",
+        "is_legendary": 1,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ],
+    "Island Scan": [{
+        "id": 116,
+        "name": "Horsea",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 117,
+        "name": "Seadra",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 230,
+        "name": "Kingdra",
+        "type1": "water",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 152,
+        "name": "Chikorita",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 153,
+        "name": "Bayleef",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 154,
+        "name": "Meganium",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 155,
+        "name": "Cyndaquil",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 156,
+        "name": "Quilava",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 157,
+        "name": "Typhlosion",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 158,
+        "name": "Totodile",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 159,
+        "name": "Croconaw",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 160,
+        "name": "Feraligatr",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 599,
+        "name": "Klink",
+        "type1": "steel",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 600,
+        "name": "Klang",
+        "type1": "steel",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 601,
+        "name": "Klinklang",
+        "type1": "steel",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 607,
+        "name": "Litwick",
+        "type1": "ghost",
+        "type2": "fire",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 608,
+        "name": "Lampent",
+        "type1": "ghost",
+        "type2": "fire",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 609,
+        "name": "Chandelure",
+        "type1": "ghost",
+        "type2": "fire",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 633,
+        "name": "Deino",
+        "type1": "dark",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 634,
+        "name": "Zweilous",
+        "type1": "dark",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 635,
+        "name": "Hydreigon",
+        "type1": "dark",
+        "type2": "dragon",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 69,
+        "name": "Bellsprout",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 70,
+        "name": "Weepinbell",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 71,
+        "name": "Victreebel",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 298,
+        "name": "Azurill",
+        "type1": "normal",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 183,
+        "name": "Marill",
+        "type1": "water",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 184,
+        "name": "Azumarill",
+        "type1": "water",
+        "type2": "fairy",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 363,
+        "name": "Spheal",
+        "type1": "ice",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 364,
+        "name": "Sealeo",
+        "type1": "ice",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 365,
+        "name": "Walrein",
+        "type1": "ice",
+        "type2": "water",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 403,
+        "name": "Shinx",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 404,
+        "name": "Luxio",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 405,
+        "name": "Luxray",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 543,
+        "name": "Venipede",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 544,
+        "name": "Whirlipede",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 545,
+        "name": "Scolipede",
+        "type1": "bug",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 574,
+        "name": "Gothita",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 575,
+        "name": "Gothorita",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 576,
+        "name": "Gothitelle",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 679,
+        "name": "Honedge",
+        "type1": "steel",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 680,
+        "name": "Doublade",
+        "type1": "steel",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 681,
+        "name": "Aegislash",
+        "type1": "steel",
+        "type2": "ghost",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 111,
+        "name": "Rhyhorn",
+        "type1": "ground",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 112,
+        "name": "Rhydon",
+        "type1": "ground",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 464,
+        "name": "Rhyperior",
+        "type1": "ground",
+        "type2": "rock",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 220,
+        "name": "Swinub",
+        "type1": "ice",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 221,
+        "name": "Piloswine",
+        "type1": "ice",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 473,
+        "name": "Mamoswine",
+        "type1": "ice",
+        "type2": "ground",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 287,
+        "name": "Slakoth",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 288,
+        "name": "Vigoroth",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 289,
+        "name": "Slaking",
+        "type1": "normal",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 406,
+        "name": "Budew",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 315,
+        "name": "Roselia",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 407,
+        "name": "Roserade",
+        "type1": "grass",
+        "type2": "poison",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 396,
+        "name": "Starly",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 397,
+        "name": "Staravia",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 398,
+        "name": "Staraptor",
+        "type1": "normal",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 577,
+        "name": "Solosis",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 578,
+        "name": "Duosion",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 579,
+        "name": "Reuniclus",
+        "type1": "psychic",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 610,
+        "name": "Axew",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 611,
+        "name": "Fraxure",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 612,
+        "name": "Haxorus",
+        "type1": "dragon",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 175,
+        "name": "Togepi",
+        "type1": "fairy",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 176,
+        "name": "Togetic",
+        "type1": "fairy",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 468,
+        "name": "Togekiss",
+        "type1": "fairy",
+        "type2": "flying",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 495,
+        "name": "Snivy",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 496,
+        "name": "Servine",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 497,
+        "name": "Serperior",
+        "type1": "grass",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 498,
+        "name": "Tepig",
+        "type1": "fire",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 499,
+        "name": "Pignite",
+        "type1": "fire",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 500,
+        "name": "Emboar",
+        "type1": "fire",
+        "type2": "fighting",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 501,
+        "name": "Oshawott",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 502,
+        "name": "Dewott",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 503,
+        "name": "Samurott",
+        "type1": "water",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 532,
+        "name": "Timburr",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 533,
+        "name": "Gurdurr",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 534,
+        "name": "Conkeldurr",
+        "type1": "fighting",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 540,
+        "name": "Sewaddle",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 541,
+        "name": "Swadloon",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 542,
+        "name": "Leavanny",
+        "type1": "bug",
+        "type2": "grass",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 602,
+        "name": "Tynamo",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 603,
+        "name": "Eelektrik",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 0,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      },
+      {
+        "id": 604,
+        "name": "Eelektross",
+        "type1": "electric",
+        "type2": "",
+        "is_legendary": 0,
+        "is_fullyEvolved": 1,
+        "is_exclusiveLocked": 0,
+        "form": 0
+      }
+    ]
+  }
+}
